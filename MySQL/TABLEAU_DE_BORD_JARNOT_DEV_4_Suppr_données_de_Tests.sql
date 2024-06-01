@@ -1,0 +1,16 @@
+-- A exécuter dans la console :
+-- cat TABLEAU_DE_BORD_JARNOT_DEV_3_Ajout_données_de_Tests.sql | mysql -u DEV -ppw@DEV
+
+USE TABLEAU_DE_BORD_JARNOT_DEV;
+
+SELECT * FROM T_OPERATIONS;
+DELETE FROM T_PROJETS WHERE id = 1;
+DELETE FROM T_PROJETS WHERE id = 2;
+DELETE FROM T_PROJETS WHERE id = 3;
+
+SELECT * FROM T_OPERATIONS;
+SELECT 'PROJETS DE TESTS SUPPRIMES (avec leurs PAQUETS, ETAPES et OPERATIONS par cascade)' AS ''; # Affiche u commentaire
+
+
+
+
