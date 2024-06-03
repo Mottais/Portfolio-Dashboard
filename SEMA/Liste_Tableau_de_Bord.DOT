@@ -1,0 +1,4860 @@
+﻿DOKSTART 
+  VERSION  2 
+  LK 1 
+  EZL 0 
+  KNOTENSTART 
+    TISTART 
+      TITL "" 
+      BSTART 
+        BEDSTART EN N FID 0 REL 1 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN N FID 93 GRPENDE 
+        GRPSTART EN N FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 4 GRPENDE 
+        GRPSTART EN N FID 36 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "Pièces individuelles 01" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "PAK" BRE 186 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL N 
+      STSUMSTART 
+        BSUM FID 6 EN N ESUM 
+        BSUM FID 37 EN N ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN N ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL J 
+      PATL N 
+      AFID 0 
+      AGES N 
+      ADIR J 
+      ATFN "" 
+      ATAN 3 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      EXCEL N 
+      SHEET "" 
+      CELL "" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ "Projet_ref|@BV-FELD2$TB@" 
+      "Projet_Adresse|@BV-FELD3$TB@" 
+      "Projet_CP_Ville|@BV-FELD5$TB@ @BV-FELD4$TB@" 
+      "Projet_Suivi_Par|@BV-FELD8$TB@" 
+      "Projet_Conducteur|@BV-FELD14$TB@" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      "|" 
+      STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD N 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+    KINDSTART 
+      KNOTENSTART 
+        TISTART 
+          TITL "LISTE PAQUETS" 
+          BSTART 
+            BEDSTART EN J FID 36 REL 1 VAL "mbaDECKUNG;mbaMATERIAL;mbaHOELZER" BEDENDE 
+            BEDSTART EN N FID 4 REL 0 VAL ";" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BENDE 
+          INVERS N 
+          GSTART2 
+            GRP J 
+            GRPSTART EN N FID 93 GRPENDE 
+            GRPSTART EN N FID 92 GRPENDE 
+            GRPSTART EN N FID 32 GRPENDE 
+            GRPSTART EN N FID 34 GRPENDE 
+            GRPSTART EN N FID 33 GRPENDE 
+            GRPSTART EN N FID 35 GRPENDE 
+            GRPSTART EN N FID 52 GRPENDE 
+            GRPSTART EN J FID 4 GRPENDE 
+            GRPSTART EN N FID 36 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 98 GRPENDE 
+          GENDE 
+          SSTART2 
+            SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SENDE 
+          MASK "Pièces individuelles 01" 
+          NSTART 
+            ENNUM N 
+            CBSTRT 0 
+            NBEG 1 
+            BSTF 0 
+            CBNUM 0 
+            KFLD 34 
+            SFLD 34 
+            NSTF 0 
+          NENDE 
+          GESP J 
+          MSKSTART 
+            VERSION 1 
+            ANF NAME "PAK" BRE 186 END 
+          MSKENDE 
+          WSTART 
+            AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+          WENDE 
+          PSTART 
+            MVT N 
+            MNT N 
+          PENDE 
+          SUMTL J 
+          STSUMSTART 
+            BSUM FID 6 EN N ESUM 
+            BSUM FID 37 EN N ESUM 
+            BSUM FID 71 EN N ESUM 
+            BSUM FID 38 EN N ESUM 
+            BSUM FID 39 EN N ESUM 
+            BSUM FID 40 EN N ESUM 
+            BSUM FID 41 EN N ESUM 
+            BSUM FID 42 EN N ESUM 
+            BSUM FID 69 EN N ESUM 
+            BSUM FID 43 EN N ESUM 
+            BSUM FID 44 EN N ESUM 
+            BSUM FID 45 EN N ESUM 
+            BSUM FID 47 EN N ESUM 
+            BSUM FID 48 EN N ESUM 
+            BSUM FID 49 EN N ESUM 
+            BSUM FID 72 EN N ESUM 
+            BSUM FID 95 EN N ESUM 
+            BSUM FID 157 EN J ESUM 
+          STSUMENDE 
+          ATL N 
+          MATL J 
+          PATL N 
+          AFID 0 
+          AGES N 
+          ADIR J 
+          ATFN "" 
+          ATAN 3 
+          PLAN N 
+          PLANTL N 
+          PLANTLWERT "" 
+          PLANTLGES "" 
+          EXCEL J 
+          SHEET "ETAPES CHANTIER" 
+          CELL "LISTE_SEMA" 
+          INSLINE 0 
+          EXCELTLAUTO N 
+          EXCELZUSATZ "Projet_ref|@BV-FELD2$TB@" 
+          "Projet_Adresse|@BV-FELD3$TB@" 
+          "Projet_CP|@BV-FELD5$TB@" 
+          "Projet_Ville|@BV-FELD4$TB@" 
+          "Projet_Suivi_Par|@BV-FELD8$TB@" 
+          "Projet_Conducteur|@BV-FELD14$TB@" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          "|" 
+          STRINGSENDE 
+          EXCELTITEL N 
+          PRN N 
+          ASC N 
+          SD J 
+          KL N 
+          KT N 
+          KTD N 
+          KD N 
+        TIENDE 
+      KINDENDE 
+    KNOTENENDE 
+    KNOTENSTART 
+      TISTART 
+        TITL "PREPA" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*manuel*;*Prépa*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 1 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP N 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 76 GRPENDE 
+          GRPSTART EN J FID 25 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "HERSTELLER" BRE 84 END 
+          ANF NAME "GROESSE" BRE 90 END 
+          ANF NAME "STUECK" BRE 36 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL N 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL J 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        EXCEL N 
+        SHEET "QUINCAILLERIE" 
+        CELL "QUINCAILLERIE_TOTAL" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD N 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+      KINDSTART 
+        KNOTENSTART 
+          TISTART 
+            TITL "Unité" 
+            BSTART 
+              BEDSTART EN J FID 75 REL 0 VAL "*ml*" BEDENDE 
+              BEDSTART EN J FID 75 REL 0 VAL "*m2*" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BENDE 
+            INVERS N 
+            GSTART2 
+              GRP J 
+              GRPSTART EN J FID 93 GRPENDE 
+              GRPSTART EN J FID 92 GRPENDE 
+              GRPSTART EN N FID 32 GRPENDE 
+              GRPSTART EN N FID 34 GRPENDE 
+              GRPSTART EN N FID 33 GRPENDE 
+              GRPSTART EN N FID 35 GRPENDE 
+              GRPSTART EN N FID 52 GRPENDE 
+              GRPSTART EN J FID 7 GRPENDE 
+              GRPSTART EN J FID 64 GRPENDE 
+              GRPSTART EN J FID 27 GRPENDE 
+              GRPSTART EN J FID 28 GRPENDE 
+              GRPSTART EN J FID 94 GRPENDE 
+              GRPSTART EN J FID 16 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN J FID 2 GRPENDE 
+              GRPSTART EN N FID 98 GRPENDE 
+            GENDE 
+            SSTART2 
+              SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SENDE 
+            MASK "Pièces 01" 
+            NSTART 
+              ENNUM N 
+              CBSTRT 0 
+              NBEG 1 
+              BSTF 0 
+              CBNUM 0 
+              KFLD 34 
+              SFLD 34 
+              NSTF 0 
+            NENDE 
+            GESP J 
+            MSKSTART 
+              VERSION 1 
+              ANF NAME "BEZEICH" BRE 173 END 
+              ANF NAME "MATNR" BRE 36 END 
+              ANF NAME "MAT" BRE 182 END 
+              ANF NAME "FREI1" BRE 90 END 
+              ANF NAME "FREI2" BRE 90 END 
+              ANF NAME "DIMENSION" BRE 90 END 
+              ANF NAME "LAENGE" BRE 60 END 
+              ANF NAME "STUECK" BRE 36 END 
+            MSKENDE 
+            WSTART 
+              AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+            WENDE 
+            PSTART 
+              MVT N 
+              MNT N 
+            PENDE 
+            SUMTL J 
+            STSUMSTART 
+              BSUM FID 6 EN J ESUM 
+              BSUM FID 37 EN J ESUM 
+              BSUM FID 71 EN N ESUM 
+              BSUM FID 38 EN N ESUM 
+              BSUM FID 39 EN N ESUM 
+              BSUM FID 40 EN N ESUM 
+              BSUM FID 41 EN N ESUM 
+              BSUM FID 42 EN J ESUM 
+              BSUM FID 69 EN N ESUM 
+              BSUM FID 43 EN N ESUM 
+              BSUM FID 44 EN N ESUM 
+              BSUM FID 45 EN N ESUM 
+              BSUM FID 47 EN N ESUM 
+              BSUM FID 48 EN N ESUM 
+              BSUM FID 49 EN N ESUM 
+              BSUM FID 72 EN N ESUM 
+              BSUM FID 95 EN N ESUM 
+              BSUM FID 157 EN J ESUM 
+            STSUMENDE 
+            ATL N 
+            MATL J 
+            PATL N 
+            AFID 0 
+            AGES J 
+            ADIR J 
+            ATFN "" 
+            ATAN 4 
+            PLAN N 
+            PLANTL N 
+            PLANTLWERT "" 
+            PLANTLGES "" 
+            EXCEL J 
+            SHEET "PREPA" 
+            CELL "T_PREPA_Goblal_u" 
+            INSLINE 2 
+            EXCELTLAUTO N 
+            EXCELZUSATZ STRINGSENDE 
+            EXCELTITEL N 
+            PRN N 
+            ASC N 
+            SD J 
+            KL N 
+            KT N 
+            KTD N 
+            KD N 
+          TIENDE 
+          KINDSTART 
+            KNOTENSTART 
+              TISTART 
+                TITL "Paquets Atelier" 
+                BSTART 
+                  BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                  BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BENDE 
+                INVERS N 
+                GSTART2 
+                  GRP J 
+                  GRPSTART EN J FID 93 GRPENDE 
+                  GRPSTART EN J FID 92 GRPENDE 
+                  GRPSTART EN N FID 32 GRPENDE 
+                  GRPSTART EN N FID 34 GRPENDE 
+                  GRPSTART EN N FID 33 GRPENDE 
+                  GRPSTART EN N FID 35 GRPENDE 
+                  GRPSTART EN N FID 52 GRPENDE 
+                  GRPSTART EN J FID 7 GRPENDE 
+                  GRPSTART EN J FID 64 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN J FID 4 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN N FID 0 GRPENDE 
+                  GRPSTART EN N FID 98 GRPENDE 
+                GENDE 
+                SSTART2 
+                  SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                  SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SENDE 
+                MASK "PREPA u" 
+                NSTART 
+                  ENNUM N 
+                  CBSTRT 0 
+                  NBEG 1 
+                  BSTF 0 
+                  CBNUM 0 
+                  KFLD 34 
+                  SFLD 34 
+                  NSTF 0 
+                NENDE 
+                GESP J 
+                MSKSTART 
+                  VERSION 1 
+                  ANF NAME "PAK" BRE 36 END 
+                  ANF NAME "BEZEICH" BRE 173 END 
+                  ANF NAME "MATNR" BRE 36 END 
+                  ANF NAME "MAT" BRE 182 END 
+                  ANF NAME "FREI1" BRE 90 END 
+                  ANF NAME "FREI2" BRE 90 END 
+                  ANF NAME "DIMENSION" BRE 90 END 
+                  ANF NAME "LAENGE" BRE 60 END 
+                  ANF NAME "STUECK" BRE 36 END 
+                MSKENDE 
+                WSTART 
+                  AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+                WENDE 
+                PSTART 
+                  MVT N 
+                  MNT N 
+                PENDE 
+                SUMTL J 
+                STSUMSTART 
+                  BSUM FID 6 EN J ESUM 
+                  BSUM FID 37 EN J ESUM 
+                  BSUM FID 71 EN N ESUM 
+                  BSUM FID 38 EN N ESUM 
+                  BSUM FID 39 EN N ESUM 
+                  BSUM FID 40 EN N ESUM 
+                  BSUM FID 41 EN N ESUM 
+                  BSUM FID 42 EN J ESUM 
+                  BSUM FID 69 EN N ESUM 
+                  BSUM FID 43 EN N ESUM 
+                  BSUM FID 44 EN N ESUM 
+                  BSUM FID 45 EN N ESUM 
+                  BSUM FID 47 EN N ESUM 
+                  BSUM FID 48 EN N ESUM 
+                  BSUM FID 49 EN N ESUM 
+                  BSUM FID 72 EN N ESUM 
+                  BSUM FID 95 EN N ESUM 
+                  BSUM FID 157 EN J ESUM 
+                STSUMENDE 
+                ATL N 
+                MATL N 
+                PATL N 
+                AFID 0 
+                AGES J 
+                ADIR J 
+                ATFN "" 
+                ATAN 4 
+                PLAN N 
+                PLANTL N 
+                PLANTLWERT "" 
+                PLANTLGES "" 
+                PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+                EXCEL J 
+                SHEET "PREPA" 
+                CELL "T_PREPA_Paquet_Atelier_u" 
+                INSLINE 2 
+                EXCELTLAUTO N 
+                EXCELZUSATZ STRINGSENDE 
+                EXCELTITEL N 
+                PRN N 
+                ASC N 
+                SD J 
+                KL N 
+                KT N 
+                KTD N 
+                KD N 
+              TIENDE 
+            KINDENDE 
+          KNOTENENDE 
+          KNOTENSTART 
+            TISTART 
+              TITL "Paquets Chantier" 
+              BSTART 
+                BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+                BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BENDE 
+              INVERS N 
+              GSTART2 
+                GRP J 
+                GRPSTART EN J FID 93 GRPENDE 
+                GRPSTART EN J FID 92 GRPENDE 
+                GRPSTART EN N FID 32 GRPENDE 
+                GRPSTART EN N FID 34 GRPENDE 
+                GRPSTART EN N FID 33 GRPENDE 
+                GRPSTART EN N FID 35 GRPENDE 
+                GRPSTART EN N FID 52 GRPENDE 
+                GRPSTART EN J FID 7 GRPENDE 
+                GRPSTART EN J FID 64 GRPENDE 
+                GRPSTART EN J FID 27 GRPENDE 
+                GRPSTART EN J FID 28 GRPENDE 
+                GRPSTART EN J FID 94 GRPENDE 
+                GRPSTART EN J FID 16 GRPENDE 
+                GRPSTART EN N FID 0 GRPENDE 
+                GRPSTART EN J FID 2 GRPENDE 
+                GRPSTART EN N FID 0 GRPENDE 
+                GRPSTART EN J FID 4 GRPENDE 
+                GRPSTART EN N FID 98 GRPENDE 
+              GENDE 
+              SSTART2 
+                SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+                SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SENDE 
+              MASK "PREPA u" 
+              NSTART 
+                ENNUM N 
+                CBSTRT 0 
+                NBEG 1 
+                BSTF 0 
+                CBNUM 0 
+                KFLD 34 
+                SFLD 34 
+                NSTF 0 
+              NENDE 
+              GESP J 
+              MSKSTART 
+                VERSION 1 
+                ANF NAME "PAK" BRE 36 END 
+                ANF NAME "BEZEICH" BRE 173 END 
+                ANF NAME "MATNR" BRE 36 END 
+                ANF NAME "MAT" BRE 182 END 
+                ANF NAME "FREI1" BRE 90 END 
+                ANF NAME "FREI2" BRE 90 END 
+                ANF NAME "DIMENSION" BRE 90 END 
+                ANF NAME "LAENGE" BRE 60 END 
+                ANF NAME "STUECK" BRE 36 END 
+              MSKENDE 
+              WSTART 
+                AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+              WENDE 
+              PSTART 
+                MVT N 
+                MNT N 
+              PENDE 
+              SUMTL J 
+              STSUMSTART 
+                BSUM FID 6 EN J ESUM 
+                BSUM FID 37 EN J ESUM 
+                BSUM FID 71 EN N ESUM 
+                BSUM FID 38 EN N ESUM 
+                BSUM FID 39 EN N ESUM 
+                BSUM FID 40 EN N ESUM 
+                BSUM FID 41 EN N ESUM 
+                BSUM FID 42 EN J ESUM 
+                BSUM FID 69 EN N ESUM 
+                BSUM FID 43 EN N ESUM 
+                BSUM FID 44 EN N ESUM 
+                BSUM FID 45 EN N ESUM 
+                BSUM FID 47 EN N ESUM 
+                BSUM FID 48 EN N ESUM 
+                BSUM FID 49 EN N ESUM 
+                BSUM FID 72 EN N ESUM 
+                BSUM FID 95 EN N ESUM 
+                BSUM FID 157 EN J ESUM 
+              STSUMENDE 
+              ATL N 
+              MATL N 
+              PATL N 
+              AFID 0 
+              AGES J 
+              ADIR J 
+              ATFN "" 
+              ATAN 4 
+              PLAN N 
+              PLANTL N 
+              PLANTLWERT "" 
+              PLANTLGES "" 
+              PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+              EXCEL J 
+              SHEET "PREPA" 
+              CELL "T_PREPA_Paquet_Chantier_u" 
+              INSLINE 2 
+              EXCELTLAUTO N 
+              EXCELZUSATZ STRINGSENDE 
+              EXCELTITEL N 
+              PRN N 
+              ASC N 
+              SD J 
+              KL N 
+              KT N 
+              KTD N 
+              KD N 
+            TIENDE 
+          KINDENDE 
+        KNOTENENDE 
+      KINDENDE 
+    KNOTENENDE 
+    KNOTENSTART 
+      TISTART 
+        TITL "ml" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*ml*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN J FID 27 GRPENDE 
+          GRPSTART EN J FID 28 GRPENDE 
+          GRPSTART EN J FID 94 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "PREPA u" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "BEZEICH" BRE 175 END 
+          ANF NAME "STOCKWERK" BRE 4 END 
+          ANF NAME "MAT" BRE 182 END 
+          ANF NAME "FREI1" BRE 90 END 
+          ANF NAME "FREI2" BRE 90 END 
+          ANF NAME "DIMENSION" BRE 90 END 
+          ANF NAME "SCHNITTKL" BRE 2 END 
+          ANF NAME "LAUFLAENGE" BRE 60 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL J 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        EXCEL J 
+        SHEET "PREPA" 
+        CELL "T_PREPA_Goblal_ml" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+      KINDSTART 
+        KNOTENSTART 
+          TISTART 
+            TITL "Paquets Atelier" 
+            BSTART 
+              BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BENDE 
+            INVERS N 
+            GSTART2 
+              GRP J 
+              GRPSTART EN J FID 93 GRPENDE 
+              GRPSTART EN J FID 92 GRPENDE 
+              GRPSTART EN N FID 32 GRPENDE 
+              GRPSTART EN N FID 34 GRPENDE 
+              GRPSTART EN N FID 33 GRPENDE 
+              GRPSTART EN N FID 35 GRPENDE 
+              GRPSTART EN N FID 52 GRPENDE 
+              GRPSTART EN J FID 7 GRPENDE 
+              GRPSTART EN J FID 64 GRPENDE 
+              GRPSTART EN J FID 27 GRPENDE 
+              GRPSTART EN J FID 28 GRPENDE 
+              GRPSTART EN J FID 94 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN J FID 4 GRPENDE 
+              GRPSTART EN N FID 98 GRPENDE 
+            GENDE 
+            SSTART2 
+              SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SENDE 
+            MASK "PREPA ml" 
+            NSTART 
+              ENNUM N 
+              CBSTRT 0 
+              NBEG 1 
+              BSTF 0 
+              CBNUM 0 
+              KFLD 34 
+              SFLD 34 
+              NSTF 0 
+            NENDE 
+            GESP J 
+            MSKSTART 
+              VERSION 1 
+              ANF NAME "PAK" BRE 82 END 
+              ANF NAME "BEZEICH" BRE 173 END 
+              ANF NAME "MATNR" BRE 36 END 
+              ANF NAME "MAT" BRE 182 END 
+              ANF NAME "FREI1" BRE 90 END 
+              ANF NAME "FREI2" BRE 90 END 
+              ANF NAME "DIMENSION" BRE 90 END 
+              ANF NAME "SCHNITTKL" BRE 2 END 
+              ANF NAME "LAUFLAENGE" BRE 60 END 
+            MSKENDE 
+            WSTART 
+              AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+            WENDE 
+            PSTART 
+              MVT N 
+              MNT N 
+            PENDE 
+            SUMTL J 
+            STSUMSTART 
+              BSUM FID 6 EN J ESUM 
+              BSUM FID 37 EN J ESUM 
+              BSUM FID 71 EN N ESUM 
+              BSUM FID 38 EN N ESUM 
+              BSUM FID 39 EN N ESUM 
+              BSUM FID 40 EN N ESUM 
+              BSUM FID 41 EN N ESUM 
+              BSUM FID 42 EN J ESUM 
+              BSUM FID 69 EN N ESUM 
+              BSUM FID 43 EN N ESUM 
+              BSUM FID 44 EN N ESUM 
+              BSUM FID 45 EN N ESUM 
+              BSUM FID 47 EN N ESUM 
+              BSUM FID 48 EN N ESUM 
+              BSUM FID 49 EN N ESUM 
+              BSUM FID 72 EN N ESUM 
+              BSUM FID 95 EN N ESUM 
+              BSUM FID 157 EN J ESUM 
+            STSUMENDE 
+            ATL N 
+            MATL N 
+            PATL N 
+            AFID 0 
+            AGES J 
+            ADIR J 
+            ATFN "" 
+            ATAN 4 
+            PLAN N 
+            PLANTL N 
+            PLANTLWERT "" 
+            PLANTLGES "" 
+            PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+            EXCEL J 
+            SHEET "PREPA" 
+            CELL "T_PREPA_Paquet_Atelier_ml" 
+            INSLINE 2 
+            EXCELTLAUTO N 
+            EXCELZUSATZ STRINGSENDE 
+            EXCELTITEL N 
+            PRN N 
+            ASC N 
+            SD J 
+            KL N 
+            KT N 
+            KTD N 
+            KD N 
+          TIENDE 
+        KINDENDE 
+      KNOTENENDE 
+      KNOTENSTART 
+        TISTART 
+          TITL "Paquets Chantier" 
+          BSTART 
+            BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BENDE 
+          INVERS N 
+          GSTART2 
+            GRP J 
+            GRPSTART EN J FID 93 GRPENDE 
+            GRPSTART EN J FID 92 GRPENDE 
+            GRPSTART EN N FID 32 GRPENDE 
+            GRPSTART EN N FID 34 GRPENDE 
+            GRPSTART EN N FID 33 GRPENDE 
+            GRPSTART EN N FID 35 GRPENDE 
+            GRPSTART EN N FID 52 GRPENDE 
+            GRPSTART EN J FID 7 GRPENDE 
+            GRPSTART EN J FID 64 GRPENDE 
+            GRPSTART EN J FID 27 GRPENDE 
+            GRPSTART EN J FID 28 GRPENDE 
+            GRPSTART EN J FID 94 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN J FID 4 GRPENDE 
+            GRPSTART EN N FID 98 GRPENDE 
+          GENDE 
+          SSTART2 
+            SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SENDE 
+          MASK "PREPA ml" 
+          NSTART 
+            ENNUM N 
+            CBSTRT 0 
+            NBEG 1 
+            BSTF 0 
+            CBNUM 0 
+            KFLD 34 
+            SFLD 34 
+            NSTF 0 
+          NENDE 
+          GESP J 
+          MSKSTART 
+            VERSION 1 
+            ANF NAME "PAK" BRE 65 END 
+            ANF NAME "BEZEICH" BRE 173 END 
+            ANF NAME "MATNR" BRE 36 END 
+            ANF NAME "MAT" BRE 182 END 
+            ANF NAME "FREI1" BRE 90 END 
+            ANF NAME "FREI2" BRE 90 END 
+            ANF NAME "DIMENSION" BRE 90 END 
+            ANF NAME "SCHNITTKL" BRE 2 END 
+            ANF NAME "LAUFLAENGE" BRE 60 END 
+          MSKENDE 
+          WSTART 
+            AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+          WENDE 
+          PSTART 
+            MVT N 
+            MNT N 
+          PENDE 
+          SUMTL J 
+          STSUMSTART 
+            BSUM FID 6 EN J ESUM 
+            BSUM FID 37 EN J ESUM 
+            BSUM FID 71 EN N ESUM 
+            BSUM FID 38 EN N ESUM 
+            BSUM FID 39 EN N ESUM 
+            BSUM FID 40 EN N ESUM 
+            BSUM FID 41 EN N ESUM 
+            BSUM FID 42 EN J ESUM 
+            BSUM FID 69 EN N ESUM 
+            BSUM FID 43 EN N ESUM 
+            BSUM FID 44 EN N ESUM 
+            BSUM FID 45 EN N ESUM 
+            BSUM FID 47 EN N ESUM 
+            BSUM FID 48 EN N ESUM 
+            BSUM FID 49 EN N ESUM 
+            BSUM FID 72 EN N ESUM 
+            BSUM FID 95 EN N ESUM 
+            BSUM FID 157 EN J ESUM 
+          STSUMENDE 
+          ATL N 
+          MATL N 
+          PATL N 
+          AFID 0 
+          AGES J 
+          ADIR J 
+          ATFN "" 
+          ATAN 4 
+          PLAN N 
+          PLANTL N 
+          PLANTLWERT "" 
+          PLANTLGES "" 
+          PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+          EXCEL J 
+          SHEET "PREPA" 
+          CELL "T_PREPA_Paquet_Chantier_ml" 
+          INSLINE 2 
+          EXCELTLAUTO N 
+          EXCELZUSATZ STRINGSENDE 
+          EXCELTITEL N 
+          PRN N 
+          ASC N 
+          SD J 
+          KL N 
+          KT N 
+          KTD N 
+          KD N 
+        TIENDE 
+      KINDENDE 
+    KNOTENENDE 
+  KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "m2" 
+    BSTART 
+      BEDSTART EN J FID 75 REL 1 VAL "*m2*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 64 GRPENDE 
+      GRPSTART EN J FID 27 GRPENDE 
+      GRPSTART EN J FID 28 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "PREPA ml" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "MATNR" BRE 36 END 
+      ANF NAME "MAT" BRE 182 END 
+      ANF NAME "FREI1" BRE 90 END 
+      ANF NAME "FREI2" BRE 90 END 
+      ANF NAME "ZONE" BRE 3 END 
+      ANF NAME "SCHNITTKL" BRE 2 END 
+      ANF NAME "NETTOFL" BRE 60 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL J 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "PREPA" 
+    CELL "T_PREPA_Goblal_m2" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Paquets Atelier" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN J FID 27 GRPENDE 
+          GRPSTART EN J FID 28 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN J FID 4 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "PREPA m2" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "PAK" BRE 70 END 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MATNR" BRE 36 END 
+          ANF NAME "MAT" BRE 182 END 
+          ANF NAME "FREI1" BRE 90 END 
+          ANF NAME "FREI2" BRE 90 END 
+          ANF NAME "ZONE" BRE 3 END 
+          ANF NAME "SCHNITTKL" BRE 2 END 
+          ANF NAME "NETTOFL" BRE 60 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL N 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+        EXCEL J 
+        SHEET "PREPA" 
+        CELL "T_PREPA_Paquet_Atelier_m2" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+    KINDENDE 
+  KNOTENENDE 
+  KNOTENSTART 
+    TISTART 
+      TITL "Paquets Chantier" 
+      BSTART 
+        BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN J FID 93 GRPENDE 
+        GRPSTART EN J FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 7 GRPENDE 
+        GRPSTART EN J FID 64 GRPENDE 
+        GRPSTART EN J FID 27 GRPENDE 
+        GRPSTART EN J FID 28 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN J FID 4 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "PREPA m2" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "PAK" BRE 73 END 
+        ANF NAME "BEZEICH" BRE 173 END 
+        ANF NAME "MATNR" BRE 36 END 
+        ANF NAME "MAT" BRE 182 END 
+        ANF NAME "FREI1" BRE 90 END 
+        ANF NAME "FREI2" BRE 90 END 
+        ANF NAME "ZONE" BRE 3 END 
+        ANF NAME "SCHNITTKL" BRE 2 END 
+        ANF NAME "NETTOFL" BRE 60 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL J 
+      STSUMSTART 
+        BSUM FID 6 EN J ESUM 
+        BSUM FID 37 EN J ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN J ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL N 
+      PATL N 
+      AFID 0 
+      AGES J 
+      ADIR J 
+      ATFN "" 
+      ATAN 4 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+      EXCEL J 
+      SHEET "PREPA" 
+      CELL "T_PREPA_Paquet_Chantier_m2" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD J 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+  KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "QUINCAILLERIE" 
+    BSTART 
+      BEDSTART EN J FID 36 REL 1 VAL "mbaMATERIAL" BEDENDE 
+      BEDSTART EN J FID 4 REL 0 VAL "Pense_Bête;Question" BEDENDE 
+      BEDSTART EN J FID 35 REL 1 VAL "M3DCAD" BEDENDE 
+      BEDSTART EN J FID 9 REL 1 VAL ";" BEDENDE 
+      BEDSTART EN J FID 75 REL 0 VAL "*Zing*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP N 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 76 GRPENDE 
+      GRPSTART EN J FID 25 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "GROESSE" BRE 90 END 
+      ANF NAME "STUECK" BRE 36 END 
+      ANF NAME "BESCHREIBUNG" BRE 192 END 
+      ANF NAME "GUETEKL" BRE 158 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL N 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL N 
+    SHEET "QUINCAILLERIE" 
+    CELL "QUINCAILLERIE_TOTAL" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Unité" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 0 VAL "*ml*" BEDENDE 
+          BEDSTART EN J FID 75 REL 0 VAL "*m2*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MAT" BRE 182 END 
+          ANF NAME "STUECK" BRE 36 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL J 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        EXCEL J 
+        SHEET "QUINCAILLERIE" 
+        CELL "T_QUINCAILLERIE_Magasinier_u" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+      KINDSTART 
+        KNOTENSTART 
+          TISTART 
+            TITL "Paquets Atelier" 
+            BSTART 
+              BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BENDE 
+            INVERS N 
+            GSTART2 
+              GRP J 
+              GRPSTART EN J FID 93 GRPENDE 
+              GRPSTART EN J FID 92 GRPENDE 
+              GRPSTART EN N FID 32 GRPENDE 
+              GRPSTART EN N FID 34 GRPENDE 
+              GRPSTART EN N FID 33 GRPENDE 
+              GRPSTART EN N FID 35 GRPENDE 
+              GRPSTART EN N FID 52 GRPENDE 
+              GRPSTART EN J FID 7 GRPENDE 
+              GRPSTART EN J FID 64 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN J FID 4 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 98 GRPENDE 
+            GENDE 
+            SSTART2 
+              SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SENDE 
+            MASK "Pièces 01" 
+            NSTART 
+              ENNUM N 
+              CBSTRT 0 
+              NBEG 1 
+              BSTF 0 
+              CBNUM 0 
+              KFLD 34 
+              SFLD 34 
+              NSTF 0 
+            NENDE 
+            GESP J 
+            MSKSTART 
+              VERSION 1 
+              ANF NAME "PAK" BRE 67 END 
+              ANF NAME "BEZEICH" BRE 173 END 
+              ANF NAME "MAT" BRE 100 END 
+              ANF NAME "STUECK" BRE 36 END 
+            MSKENDE 
+            WSTART 
+              AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+            WENDE 
+            PSTART 
+              MVT N 
+              MNT N 
+            PENDE 
+            SUMTL J 
+            STSUMSTART 
+              BSUM FID 6 EN J ESUM 
+              BSUM FID 37 EN J ESUM 
+              BSUM FID 71 EN N ESUM 
+              BSUM FID 38 EN N ESUM 
+              BSUM FID 39 EN N ESUM 
+              BSUM FID 40 EN N ESUM 
+              BSUM FID 41 EN N ESUM 
+              BSUM FID 42 EN J ESUM 
+              BSUM FID 69 EN N ESUM 
+              BSUM FID 43 EN N ESUM 
+              BSUM FID 44 EN N ESUM 
+              BSUM FID 45 EN N ESUM 
+              BSUM FID 47 EN N ESUM 
+              BSUM FID 48 EN N ESUM 
+              BSUM FID 49 EN N ESUM 
+              BSUM FID 72 EN N ESUM 
+              BSUM FID 95 EN N ESUM 
+              BSUM FID 157 EN J ESUM 
+            STSUMENDE 
+            ATL N 
+            MATL N 
+            PATL N 
+            AFID 0 
+            AGES J 
+            ADIR J 
+            ATFN "" 
+            ATAN 4 
+            PLAN N 
+            PLANTL N 
+            PLANTLWERT "" 
+            PLANTLGES "" 
+            PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+            EXCEL J 
+            SHEET "QUINCAILLERIE" 
+            CELL "T_QUINCAILLERIE_Paquet_Atelier_u" 
+            INSLINE 2 
+            EXCELTLAUTO N 
+            EXCELZUSATZ STRINGSENDE 
+            EXCELTITEL N 
+            PRN N 
+            ASC N 
+            SD J 
+            KL N 
+            KT N 
+            KTD N 
+            KD N 
+          TIENDE 
+        KINDENDE 
+      KNOTENENDE 
+      KNOTENSTART 
+        TISTART 
+          TITL "Paquets Chantier" 
+          BSTART 
+            BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BENDE 
+          INVERS N 
+          GSTART2 
+            GRP J 
+            GRPSTART EN J FID 93 GRPENDE 
+            GRPSTART EN J FID 92 GRPENDE 
+            GRPSTART EN N FID 32 GRPENDE 
+            GRPSTART EN N FID 34 GRPENDE 
+            GRPSTART EN N FID 33 GRPENDE 
+            GRPSTART EN N FID 35 GRPENDE 
+            GRPSTART EN N FID 52 GRPENDE 
+            GRPSTART EN J FID 7 GRPENDE 
+            GRPSTART EN J FID 64 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN J FID 4 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 98 GRPENDE 
+          GENDE 
+          SSTART2 
+            SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SENDE 
+          MASK "Pièces 01" 
+          NSTART 
+            ENNUM N 
+            CBSTRT 0 
+            NBEG 1 
+            BSTF 0 
+            CBNUM 0 
+            KFLD 34 
+            SFLD 34 
+            NSTF 0 
+          NENDE 
+          GESP J 
+          MSKSTART 
+            VERSION 1 
+            ANF NAME "PAK" BRE 67 END 
+            ANF NAME "BEZEICH" BRE 173 END 
+            ANF NAME "MAT" BRE 100 END 
+            ANF NAME "STUECK" BRE 36 END 
+          MSKENDE 
+          WSTART 
+            AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+          WENDE 
+          PSTART 
+            MVT N 
+            MNT N 
+          PENDE 
+          SUMTL J 
+          STSUMSTART 
+            BSUM FID 6 EN J ESUM 
+            BSUM FID 37 EN J ESUM 
+            BSUM FID 71 EN N ESUM 
+            BSUM FID 38 EN N ESUM 
+            BSUM FID 39 EN N ESUM 
+            BSUM FID 40 EN N ESUM 
+            BSUM FID 41 EN N ESUM 
+            BSUM FID 42 EN J ESUM 
+            BSUM FID 69 EN N ESUM 
+            BSUM FID 43 EN N ESUM 
+            BSUM FID 44 EN N ESUM 
+            BSUM FID 45 EN N ESUM 
+            BSUM FID 47 EN N ESUM 
+            BSUM FID 48 EN N ESUM 
+            BSUM FID 49 EN N ESUM 
+            BSUM FID 72 EN N ESUM 
+            BSUM FID 95 EN N ESUM 
+            BSUM FID 157 EN J ESUM 
+          STSUMENDE 
+          ATL N 
+          MATL N 
+          PATL N 
+          AFID 0 
+          AGES J 
+          ADIR J 
+          ATFN "" 
+          ATAN 4 
+          PLAN N 
+          PLANTL N 
+          PLANTLWERT "" 
+          PLANTLGES "" 
+          PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+          EXCEL J 
+          SHEET "QUINCAILLERIE" 
+          CELL "T_QUINCAILLERIE_Paquet_Chantier_u" 
+          INSLINE 2 
+          EXCELTLAUTO N 
+          EXCELZUSATZ STRINGSENDE 
+          EXCELTITEL N 
+          PRN N 
+          ASC N 
+          SD J 
+          KL N 
+          KT N 
+          KTD N 
+          KD N 
+        TIENDE 
+      KINDENDE 
+    KNOTENENDE 
+  KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "ml" 
+    BSTART 
+      BEDSTART EN J FID 75 REL 1 VAL "*ml*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 64 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "MAT" BRE 182 END 
+      ANF NAME "LAUFLAENGE" BRE 60 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL J 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "QUINCAILLERIE" 
+    CELL "T_QUINCAILLERIE_Magasinier_ml" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Paquets Atelier" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN J FID 4 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "PAK" BRE 67 END 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MAT" BRE 100 END 
+          ANF NAME "LAUFLAENGE" BRE 60 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL N 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+        EXCEL J 
+        SHEET "QUINCAILLERIE" 
+        CELL "T_QUINCAILLERIE_Paquet_Atelier_ml" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+    KINDENDE 
+  KNOTENENDE 
+  KNOTENSTART 
+    TISTART 
+      TITL "Paquets Chantier" 
+      BSTART 
+        BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN J FID 93 GRPENDE 
+        GRPSTART EN J FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 7 GRPENDE 
+        GRPSTART EN J FID 64 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN J FID 4 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "Pièces 01" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "PAK" BRE 67 END 
+        ANF NAME "BEZEICH" BRE 173 END 
+        ANF NAME "MAT" BRE 100 END 
+        ANF NAME "LAUFLAENGE" BRE 60 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL J 
+      STSUMSTART 
+        BSUM FID 6 EN J ESUM 
+        BSUM FID 37 EN J ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN J ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL N 
+      PATL N 
+      AFID 0 
+      AGES J 
+      ADIR J 
+      ATFN "" 
+      ATAN 4 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+      EXCEL J 
+      SHEET "QUINCAILLERIE" 
+      CELL "T_QUINCAILLERIE_Paquet_Chantier_ml" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD J 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+  KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "m2" 
+    BSTART 
+      BEDSTART EN J FID 75 REL 1 VAL "*m2*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 64 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "MAT" BRE 182 END 
+      ANF NAME "NETTOFL" BRE 60 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL J 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "QUINCAILLERIE" 
+    CELL "T_QUINCAILLERIE_Magasinier_m2" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Paquets Atelier" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN J FID 4 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "PAK" BRE 67 END 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MAT" BRE 100 END 
+          ANF NAME "NETTOFL" BRE 60 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL N 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+        EXCEL J 
+        SHEET "QUINCAILLERIE" 
+        CELL "T_QUINCAILLERIE_Paquet_Atelier_m2" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+    KINDENDE 
+  KNOTENENDE 
+  KNOTENSTART 
+    TISTART 
+      TITL "Paquets Chantier" 
+      BSTART 
+        BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN J FID 93 GRPENDE 
+        GRPSTART EN J FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 7 GRPENDE 
+        GRPSTART EN J FID 64 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN J FID 4 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "Pièces 01" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "PAK" BRE 67 END 
+        ANF NAME "BEZEICH" BRE 173 END 
+        ANF NAME "MAT" BRE 100 END 
+        ANF NAME "NETTOFL" BRE 60 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL J 
+      STSUMSTART 
+        BSUM FID 6 EN J ESUM 
+        BSUM FID 37 EN J ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN J ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL N 
+      PATL N 
+      AFID 0 
+      AGES J 
+      ADIR J 
+      ATFN "" 
+      ATAN 4 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+      EXCEL J 
+      SHEET "QUINCAILLERIE" 
+      CELL "T_QUINCAILLERIE_Paquet_Chantier_m2" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD J 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+  KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "Sous Elements Ferrure" 
+    BSTART 
+      BEDSTART EN J FID 36 REL 1 VAL "mbaMATERIAL" BEDENDE 
+      BEDSTART EN J FID 35 REL 1 VAL "M3DCAD" BEDENDE 
+      BEDSTART EN J FID 9 REL 0 VAL ";" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN J FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 9 GRPENDE 
+      GRPSTART EN J FID 2 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 9 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 2 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Ferrure" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "GUETEKL" BRE 236 END 
+      ANF NAME "BEZEICH" BRE 191 END 
+      ANF NAME "MATNR" BRE 36 END 
+      ANF NAME "STUECK" BRE 36 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL N 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN N ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN N ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL N 
+    PATL N 
+    AFID 0 
+    AGES N 
+    ADIR J 
+    ATFN "" 
+    ATAN 3 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "ELEMENTS FERRURES" 
+    CELL "ELEMENTS_FERRURES" 
+    INSLINE 0 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "ZINGUERIE" 
+    BSTART 
+      BEDSTART EN J FID 75 REL 1 VAL "*Zing*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP N 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 76 GRPENDE 
+      GRPSTART EN J FID 25 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "HERSTELLER" BRE 84 END 
+      ANF NAME "GROESSE" BRE 90 END 
+      ANF NAME "STUECK" BRE 36 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL N 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL N 
+    SHEET "QUINCAILLERIE" 
+    CELL "QUINCAILLERIE_TOTAL" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD N 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Unité" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 0 VAL "*ml*" BEDENDE 
+          BEDSTART EN J FID 75 REL 0 VAL "*m2*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MAT" BRE 182 END 
+          ANF NAME "STUECK" BRE 36 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL J 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        EXCEL J 
+        SHEET "ZINGUERIE" 
+        CELL "T_ZINGUERIE_Goblal_u" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+      KINDSTART 
+        KNOTENSTART 
+          TISTART 
+            TITL "Paquets Atelier" 
+            BSTART 
+              BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+              BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BENDE 
+            INVERS N 
+            GSTART2 
+              GRP J 
+              GRPSTART EN J FID 93 GRPENDE 
+              GRPSTART EN J FID 92 GRPENDE 
+              GRPSTART EN N FID 32 GRPENDE 
+              GRPSTART EN N FID 34 GRPENDE 
+              GRPSTART EN N FID 33 GRPENDE 
+              GRPSTART EN N FID 35 GRPENDE 
+              GRPSTART EN N FID 52 GRPENDE 
+              GRPSTART EN J FID 7 GRPENDE 
+              GRPSTART EN J FID 64 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN J FID 4 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 0 GRPENDE 
+              GRPSTART EN N FID 98 GRPENDE 
+            GENDE 
+            SSTART2 
+              SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+              SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SENDE 
+            MASK "Pièces 01" 
+            NSTART 
+              ENNUM N 
+              CBSTRT 0 
+              NBEG 1 
+              BSTF 0 
+              CBNUM 0 
+              KFLD 34 
+              SFLD 34 
+              NSTF 0 
+            NENDE 
+            GESP J 
+            MSKSTART 
+              VERSION 1 
+              ANF NAME "PAK" BRE 67 END 
+              ANF NAME "BEZEICH" BRE 173 END 
+              ANF NAME "MAT" BRE 100 END 
+              ANF NAME "STUECK" BRE 36 END 
+            MSKENDE 
+            WSTART 
+              AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+            WENDE 
+            PSTART 
+              MVT N 
+              MNT N 
+            PENDE 
+            SUMTL J 
+            STSUMSTART 
+              BSUM FID 6 EN J ESUM 
+              BSUM FID 37 EN J ESUM 
+              BSUM FID 71 EN N ESUM 
+              BSUM FID 38 EN N ESUM 
+              BSUM FID 39 EN N ESUM 
+              BSUM FID 40 EN N ESUM 
+              BSUM FID 41 EN N ESUM 
+              BSUM FID 42 EN J ESUM 
+              BSUM FID 69 EN N ESUM 
+              BSUM FID 43 EN N ESUM 
+              BSUM FID 44 EN N ESUM 
+              BSUM FID 45 EN N ESUM 
+              BSUM FID 47 EN N ESUM 
+              BSUM FID 48 EN N ESUM 
+              BSUM FID 49 EN N ESUM 
+              BSUM FID 72 EN N ESUM 
+              BSUM FID 95 EN N ESUM 
+              BSUM FID 157 EN J ESUM 
+            STSUMENDE 
+            ATL N 
+            MATL N 
+            PATL N 
+            AFID 0 
+            AGES J 
+            ADIR J 
+            ATFN "" 
+            ATAN 4 
+            PLAN N 
+            PLANTL N 
+            PLANTLWERT "" 
+            PLANTLGES "" 
+            PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+            EXCEL J 
+            SHEET "ZINGUERIE" 
+            CELL "T_ZINGUERIE_Paquet_Atelier_u" 
+            INSLINE 2 
+            EXCELTLAUTO N 
+            EXCELZUSATZ STRINGSENDE 
+            EXCELTITEL N 
+            PRN N 
+            ASC N 
+            SD J 
+            KL N 
+            KT N 
+            KTD N 
+            KD N 
+          TIENDE 
+        KINDENDE 
+      KNOTENENDE 
+      KNOTENSTART 
+        TISTART 
+          TITL "Paquets Chantier" 
+          BSTART 
+            BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+            BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BENDE 
+          INVERS N 
+          GSTART2 
+            GRP J 
+            GRPSTART EN J FID 93 GRPENDE 
+            GRPSTART EN J FID 92 GRPENDE 
+            GRPSTART EN N FID 32 GRPENDE 
+            GRPSTART EN N FID 34 GRPENDE 
+            GRPSTART EN N FID 33 GRPENDE 
+            GRPSTART EN N FID 35 GRPENDE 
+            GRPSTART EN N FID 52 GRPENDE 
+            GRPSTART EN J FID 7 GRPENDE 
+            GRPSTART EN J FID 64 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN J FID 4 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 0 GRPENDE 
+            GRPSTART EN N FID 98 GRPENDE 
+          GENDE 
+          SSTART2 
+            SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+            SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SENDE 
+          MASK "Pièces 01" 
+          NSTART 
+            ENNUM N 
+            CBSTRT 0 
+            NBEG 1 
+            BSTF 0 
+            CBNUM 0 
+            KFLD 34 
+            SFLD 34 
+            NSTF 0 
+          NENDE 
+          GESP J 
+          MSKSTART 
+            VERSION 1 
+            ANF NAME "PAK" BRE 67 END 
+            ANF NAME "BEZEICH" BRE 173 END 
+            ANF NAME "MAT" BRE 100 END 
+            ANF NAME "STUECK" BRE 36 END 
+          MSKENDE 
+          WSTART 
+            AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+          WENDE 
+          PSTART 
+            MVT N 
+            MNT N 
+          PENDE 
+          SUMTL J 
+          STSUMSTART 
+            BSUM FID 6 EN J ESUM 
+            BSUM FID 37 EN J ESUM 
+            BSUM FID 71 EN N ESUM 
+            BSUM FID 38 EN N ESUM 
+            BSUM FID 39 EN N ESUM 
+            BSUM FID 40 EN N ESUM 
+            BSUM FID 41 EN N ESUM 
+            BSUM FID 42 EN J ESUM 
+            BSUM FID 69 EN N ESUM 
+            BSUM FID 43 EN N ESUM 
+            BSUM FID 44 EN N ESUM 
+            BSUM FID 45 EN N ESUM 
+            BSUM FID 47 EN N ESUM 
+            BSUM FID 48 EN N ESUM 
+            BSUM FID 49 EN N ESUM 
+            BSUM FID 72 EN N ESUM 
+            BSUM FID 95 EN N ESUM 
+            BSUM FID 157 EN J ESUM 
+          STSUMENDE 
+          ATL N 
+          MATL N 
+          PATL N 
+          AFID 0 
+          AGES J 
+          ADIR J 
+          ATFN "" 
+          ATAN 4 
+          PLAN N 
+          PLANTL N 
+          PLANTLWERT "" 
+          PLANTLGES "" 
+          PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+          EXCEL J 
+          SHEET "ZINGUERIE" 
+          CELL "T_ZINGUERIE_Paquet_Chantier_u" 
+          INSLINE 2 
+          EXCELTLAUTO N 
+          EXCELZUSATZ STRINGSENDE 
+          EXCELTITEL N 
+          PRN N 
+          ASC N 
+          SD J 
+          KL N 
+          KT N 
+          KTD N 
+          KD N 
+        TIENDE 
+      KINDENDE 
+    KNOTENENDE 
+  KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "ml" 
+    BSTART 
+      BEDSTART EN J FID 75 REL 1 VAL "*ml*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 64 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "MAT" BRE 182 END 
+      ANF NAME "LAUFLAENGE" BRE 60 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL J 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "ZINGUERIE" 
+    CELL "T_ZINGUERIE_Goblal_ml" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Paquets Atelier" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN J FID 4 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "PAK" BRE 67 END 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MAT" BRE 100 END 
+          ANF NAME "LAUFLAENGE" BRE 60 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL N 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+        EXCEL J 
+        SHEET "ZINGUERIE" 
+        CELL "T_ZINGUERIE_Paquet_Atelier_ml" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+    KINDENDE 
+  KNOTENENDE 
+  KNOTENSTART 
+    TISTART 
+      TITL "Paquets Chantier" 
+      BSTART 
+        BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN J FID 93 GRPENDE 
+        GRPSTART EN J FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 7 GRPENDE 
+        GRPSTART EN J FID 64 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN J FID 4 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "Pièces 01" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "PAK" BRE 67 END 
+        ANF NAME "BEZEICH" BRE 173 END 
+        ANF NAME "MAT" BRE 100 END 
+        ANF NAME "LAUFLAENGE" BRE 60 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL J 
+      STSUMSTART 
+        BSUM FID 6 EN J ESUM 
+        BSUM FID 37 EN J ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN J ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL N 
+      PATL N 
+      AFID 0 
+      AGES J 
+      ADIR J 
+      ATFN "" 
+      ATAN 4 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+      EXCEL J 
+      SHEET "ZINGUERIE" 
+      CELL "T_ZINGUERIE_Paquet_Chantier_ml" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD J 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+  KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "m2" 
+    BSTART 
+      BEDSTART EN J FID 75 REL 1 VAL "*m2*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 64 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "MAT" BRE 182 END 
+      ANF NAME "NETTOFL" BRE 60 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL J 
+    STSUMSTART 
+      BSUM FID 6 EN J ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "ZINGUERIE" 
+    CELL "T_ZINGUERIE_Goblal_m2" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "Paquets Atelier" 
+        BSTART 
+          BEDSTART EN J FID 75 REL 1 VAL "*Atelier*" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 64 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN J FID 4 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "PAK" BRE 67 END 
+          ANF NAME "BEZEICH" BRE 173 END 
+          ANF NAME "MAT" BRE 100 END 
+          ANF NAME "NETTOFL" BRE 60 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL J 
+        STSUMSTART 
+          BSUM FID 6 EN J ESUM 
+          BSUM FID 37 EN J ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN J ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL N 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+        EXCEL J 
+        SHEET "ZINGUERIE" 
+        CELL "T_ZINGUERIE_Paquet_Atelier_m2" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+    KINDENDE 
+  KNOTENENDE 
+  KNOTENSTART 
+    TISTART 
+      TITL "Paquets Chantier" 
+      BSTART 
+        BEDSTART EN J FID 75 REL 0 VAL "*Atelier*" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN J FID 93 GRPENDE 
+        GRPSTART EN J FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 7 GRPENDE 
+        GRPSTART EN J FID 64 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN J FID 4 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 34 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "Pièces 01" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "PAK" BRE 67 END 
+        ANF NAME "BEZEICH" BRE 173 END 
+        ANF NAME "MAT" BRE 100 END 
+        ANF NAME "NETTOFL" BRE 60 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL J 
+      STSUMSTART 
+        BSUM FID 6 EN J ESUM 
+        BSUM FID 37 EN J ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN J ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL N 
+      PATL N 
+      AFID 0 
+      AGES J 
+      ADIR J 
+      ATFN "" 
+      ATAN 4 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      PLANVW STM_SVW 1 SKEY MLL 3810826561961 ST 0 VWN 0 STMEND 
+      EXCEL J 
+      SHEET "ZINGUERIE" 
+      CELL "T_ZINGUERIE_Paquet_Chantier_m2" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD J 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+  KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "A TRAITER (chez ORLO)" 
+    BSTART 
+      BEDSTART EN J FID 36 REL 1 VAL "mbaHOELZER" BEDENDE 
+      BEDSTART EN J FID 28 REL 1 VAL "CL3;CL4" BEDENDE 
+      BEDSTART EN J FID 27 REL 1 VAL "*PIN*;*EPICEA*" BEDENDE 
+      BEDSTART EN J FID 32 REL 0 VAL "*Cl 4*" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 4 GRPENDE 
+      GRPSTART EN J FID 64 GRPENDE 
+      GRPSTART EN J FID 28 GRPENDE 
+      GRPSTART EN J FID 74 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 28 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 64 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 4 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "PAK" BRE 77 END 
+      ANF NAME "MAT" BRE 65 END 
+      ANF NAME "FREI2" BRE 46 END 
+      ANF NAME "FREI4" BRE 66 END 
+      ANF NAME "VOLUMEN" BRE 60 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL J 
+    STSUMSTART 
+      BSUM FID 6 EN N ESUM 
+      BSUM FID 37 EN J ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN J ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES N 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL J 
+    SHEET "A TRAITER" 
+    CELL "A_TRAITER_SEMA" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+KINDENDE 
+KNOTENENDE 
+KNOTENSTART 
+  TISTART 
+    TITL "PENSES BETE - QUESTIONS" 
+    BSTART 
+      BEDSTART EN J FID 4 REL 1 VAL "Pense_Bête;Question" BEDENDE 
+      BEDSTART EN N FID 0 REL 1 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+    BENDE 
+    INVERS N 
+    GSTART2 
+      GRP J 
+      GRPSTART EN J FID 93 GRPENDE 
+      GRPSTART EN J FID 92 GRPENDE 
+      GRPSTART EN N FID 32 GRPENDE 
+      GRPSTART EN N FID 34 GRPENDE 
+      GRPSTART EN N FID 33 GRPENDE 
+      GRPSTART EN N FID 35 GRPENDE 
+      GRPSTART EN N FID 52 GRPENDE 
+      GRPSTART EN J FID 7 GRPENDE 
+      GRPSTART EN J FID 76 GRPENDE 
+      GRPSTART EN J FID 25 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 0 GRPENDE 
+      GRPSTART EN N FID 98 GRPENDE 
+    GENDE 
+    SSTART2 
+      SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+    SENDE 
+    MASK "Pièces 01" 
+    NSTART 
+      ENNUM N 
+      CBSTRT 0 
+      NBEG 1 
+      BSTF 0 
+      CBNUM 0 
+      KFLD 34 
+      SFLD 34 
+      NSTF 0 
+    NENDE 
+    GESP J 
+    MSKSTART 
+      VERSION 1 
+      ANF NAME "BEZEICH" BRE 173 END 
+      ANF NAME "HERSTELLER" BRE 84 END 
+      ANF NAME "GROESSE" BRE 90 END 
+      ANF NAME "STUECK" BRE 36 END 
+    MSKENDE 
+    WSTART 
+      AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+    WENDE 
+    PSTART 
+      MVT N 
+      MNT N 
+    PENDE 
+    SUMTL N 
+    STSUMSTART 
+      BSUM FID 6 EN N ESUM 
+      BSUM FID 37 EN N ESUM 
+      BSUM FID 71 EN N ESUM 
+      BSUM FID 38 EN N ESUM 
+      BSUM FID 39 EN N ESUM 
+      BSUM FID 40 EN N ESUM 
+      BSUM FID 41 EN N ESUM 
+      BSUM FID 42 EN N ESUM 
+      BSUM FID 69 EN N ESUM 
+      BSUM FID 43 EN N ESUM 
+      BSUM FID 44 EN N ESUM 
+      BSUM FID 45 EN N ESUM 
+      BSUM FID 47 EN N ESUM 
+      BSUM FID 48 EN N ESUM 
+      BSUM FID 49 EN N ESUM 
+      BSUM FID 72 EN N ESUM 
+      BSUM FID 95 EN N ESUM 
+      BSUM FID 157 EN J ESUM 
+    STSUMENDE 
+    ATL N 
+    MATL J 
+    PATL N 
+    AFID 0 
+    AGES J 
+    ADIR J 
+    ATFN "" 
+    ATAN 4 
+    PLAN N 
+    PLANTL N 
+    PLANTLWERT "" 
+    PLANTLGES "" 
+    EXCEL N 
+    SHEET "" 
+    CELL "" 
+    INSLINE 2 
+    EXCELTLAUTO N 
+    EXCELZUSATZ STRINGSENDE 
+    EXCELTITEL N 
+    PRN N 
+    ASC N 
+    SD J 
+    KL N 
+    KT N 
+    KTD N 
+    KD N 
+  TIENDE 
+  KINDSTART 
+    KNOTENSTART 
+      TISTART 
+        TITL "PENSES BETE" 
+        BSTART 
+          BEDSTART EN J FID 4 REL 1 VAL "Pense_Bête" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+          BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BENDE 
+        INVERS N 
+        GSTART2 
+          GRP J 
+          GRPSTART EN J FID 93 GRPENDE 
+          GRPSTART EN J FID 92 GRPENDE 
+          GRPSTART EN N FID 32 GRPENDE 
+          GRPSTART EN N FID 34 GRPENDE 
+          GRPSTART EN N FID 33 GRPENDE 
+          GRPSTART EN N FID 35 GRPENDE 
+          GRPSTART EN N FID 52 GRPENDE 
+          GRPSTART EN J FID 7 GRPENDE 
+          GRPSTART EN J FID 76 GRPENDE 
+          GRPSTART EN J FID 25 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 0 GRPENDE 
+          GRPSTART EN N FID 98 GRPENDE 
+        GENDE 
+        SSTART2 
+          SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+          SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SENDE 
+        MASK "Pièces 01" 
+        NSTART 
+          ENNUM N 
+          CBSTRT 0 
+          NBEG 1 
+          BSTF 0 
+          CBNUM 0 
+          KFLD 34 
+          SFLD 34 
+          NSTF 0 
+        NENDE 
+        GESP J 
+        MSKSTART 
+          VERSION 1 
+          ANF NAME "BEZEICH" BRE 536 END 
+        MSKENDE 
+        WSTART 
+          AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+        WENDE 
+        PSTART 
+          MVT N 
+          MNT N 
+        PENDE 
+        SUMTL N 
+        STSUMSTART 
+          BSUM FID 6 EN N ESUM 
+          BSUM FID 37 EN N ESUM 
+          BSUM FID 71 EN N ESUM 
+          BSUM FID 38 EN N ESUM 
+          BSUM FID 39 EN N ESUM 
+          BSUM FID 40 EN N ESUM 
+          BSUM FID 41 EN N ESUM 
+          BSUM FID 42 EN N ESUM 
+          BSUM FID 69 EN N ESUM 
+          BSUM FID 43 EN N ESUM 
+          BSUM FID 44 EN N ESUM 
+          BSUM FID 45 EN N ESUM 
+          BSUM FID 47 EN N ESUM 
+          BSUM FID 48 EN N ESUM 
+          BSUM FID 49 EN N ESUM 
+          BSUM FID 72 EN N ESUM 
+          BSUM FID 95 EN N ESUM 
+          BSUM FID 157 EN J ESUM 
+        STSUMENDE 
+        ATL N 
+        MATL J 
+        PATL N 
+        AFID 0 
+        AGES J 
+        ADIR J 
+        ATFN "" 
+        ATAN 4 
+        PLAN N 
+        PLANTL N 
+        PLANTLWERT "" 
+        PLANTLGES "" 
+        EXCEL J 
+        SHEET "Questions et  Penses Bête" 
+        CELL "Pense_bete_SEMA" 
+        INSLINE 2 
+        EXCELTLAUTO N 
+        EXCELZUSATZ STRINGSENDE 
+        EXCELTITEL N 
+        PRN N 
+        ASC N 
+        SD J 
+        KL N 
+        KT N 
+        KTD N 
+        KD N 
+      TIENDE 
+    KINDENDE 
+  KNOTENENDE 
+  KNOTENSTART 
+    TISTART 
+      TITL "QUESTIONS" 
+      BSTART 
+        BEDSTART EN J FID 4 REL 1 VAL "Question" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+        BEDSTART EN N FID 0 REL 0 VAL "" BEDENDE 
+      BENDE 
+      INVERS N 
+      GSTART2 
+        GRP J 
+        GRPSTART EN J FID 93 GRPENDE 
+        GRPSTART EN J FID 92 GRPENDE 
+        GRPSTART EN N FID 32 GRPENDE 
+        GRPSTART EN N FID 34 GRPENDE 
+        GRPSTART EN N FID 33 GRPENDE 
+        GRPSTART EN N FID 35 GRPENDE 
+        GRPSTART EN N FID 52 GRPENDE 
+        GRPSTART EN J FID 7 GRPENDE 
+        GRPSTART EN J FID 76 GRPENDE 
+        GRPSTART EN J FID 25 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 0 GRPENDE 
+        GRPSTART EN N FID 98 GRPENDE 
+      GENDE 
+      SSTART2 
+        SORTSTART EN J FID 93 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 92 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN J FID 7 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+        SORTSTART EN N FID 0 AUF J TRN 0 ZWS N SORTENDE 
+      SENDE 
+      MASK "Pièces 01" 
+      NSTART 
+        ENNUM N 
+        CBSTRT 0 
+        NBEG 1 
+        BSTF 0 
+        CBNUM 0 
+        KFLD 34 
+        SFLD 34 
+        NSTF 0 
+      NENDE 
+      GESP J 
+      MSKSTART 
+        VERSION 1 
+        ANF NAME "BEZEICH" BRE 532 END 
+      MSKENDE 
+      WSTART 
+        AAB N BLZ N LZU 0.001 BLR N LRU 0.001 BLG N BLB N BQZ N QZU 0.0001 BQR N QRU 0.0001 BQG N 
+      WENDE 
+      PSTART 
+        MVT N 
+        MNT N 
+      PENDE 
+      SUMTL N 
+      STSUMSTART 
+        BSUM FID 6 EN N ESUM 
+        BSUM FID 37 EN N ESUM 
+        BSUM FID 71 EN N ESUM 
+        BSUM FID 38 EN N ESUM 
+        BSUM FID 39 EN N ESUM 
+        BSUM FID 40 EN N ESUM 
+        BSUM FID 41 EN N ESUM 
+        BSUM FID 42 EN N ESUM 
+        BSUM FID 69 EN N ESUM 
+        BSUM FID 43 EN N ESUM 
+        BSUM FID 44 EN N ESUM 
+        BSUM FID 45 EN N ESUM 
+        BSUM FID 47 EN N ESUM 
+        BSUM FID 48 EN N ESUM 
+        BSUM FID 49 EN N ESUM 
+        BSUM FID 72 EN N ESUM 
+        BSUM FID 95 EN N ESUM 
+        BSUM FID 157 EN J ESUM 
+      STSUMENDE 
+      ATL N 
+      MATL J 
+      PATL N 
+      AFID 0 
+      AGES J 
+      ADIR J 
+      ATFN "" 
+      ATAN 4 
+      PLAN N 
+      PLANTL N 
+      PLANTLWERT "" 
+      PLANTLGES "" 
+      EXCEL J 
+      SHEET "Questions et  Penses Bête" 
+      CELL "Question_SEMA" 
+      INSLINE 2 
+      EXCELTLAUTO N 
+      EXCELZUSATZ STRINGSENDE 
+      EXCELTITEL N 
+      PRN N 
+      ASC N 
+      SD J 
+      KL N 
+      KT N 
+      KTD N 
+      KD N 
+    TIENDE 
+  KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+KINDENDE 
+KNOTENENDE 
+DOKENDE 
