@@ -1,0 +1,2398 @@
+﻿VERSION = 21100 
+
+[MODULANFANG] WAND 
+  WERTE J 
+  AUTOS J SCHBE 0.3 
+  AUTOF J 
+  ASCH 24 WLIG 0 
+  TMVW 
+  MUG N MUGB 0.14 MMWL 12.0 
+  PFAUS N LUHO 0.0 LUSCH 0.0 KULA 0 PFMAK 
+  SPAUS N SLUHO 0.0 SLUSCH 0.0 SKULA 0 SPMAK 
+  ZAUS N ZLUHO 0.0 ZLUSCH 0.0 ZKULA 0 ZMAK 
+  GRAUS N GLUHO 0.0 GLUSCH 0.0 GKULA 0 GMAK 
+  BAUS N BLUHO 0.0 BLUSCH 0.0 BKULA 0 BMAK 
+  AAD N 
+  FTAG N FTGA 0.0 KNIE N 
+  NPN N CONA N CONAB 0.02 NAKR 0 
+  FSVAR N 
+  OPTFT N 
+  FTMK J 
+  SCHNI N MAKBB J 
+  SCHNV 0.16 
+  OGL 0.25 
+  MWEINZL N MWHLZ N MWHSTM N MWVOR 5 
+  LMU 0 HSU J TSU J TSUA 0.1 
+[MODULENDE] 
+
+[MODULANFANG] AUSMITTLUNG 
+  WERTE J 
+[MODULENDE] 
+
+[MODULANFANG] AUFMASS 
+  VERS 800 
+  MWST 19.0 
+  WAEHRUNG "€" 
+  LINARTNR KEINE ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR GRAT ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR KEHL ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR FIRST ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR TRAUF ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR ORTG ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR VERF ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR KRPLW ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR BOHLE ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR DACH ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR UMRIS ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR LOCH ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR UNTERG ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR OBERG ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR LINKS ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR RECHTS ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR GIEBL ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR GIEBR ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR GRD ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR RS ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR KAMIN ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR DFENST ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR ORTGLI ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR ORTGRE ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR PFIRST ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR PFIMAU ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR ORTMAU ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR ORTSCH ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR TRFSTG ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LINARTNR AUSKLNK ZUSCHL 0.0 RUND 0.0 PREIS 10.0 LINEND 
+  LAUFMHLZ W 0.7 Z 50.0 R 1.0 P 4.0 
+  KUBIKMHLZ W 60.0 Z 5.0 R 0.1 P 230.0 
+  ROH W 0.018 Z 10.0 R 0.1 P 8.0 
+  SICHT W 0.014 Z 10.0 R 0.1 P 11.0 
+  DICHT W 20.0 Z 10.0 R 0.1 P 1.5 
+  DACHD W 10.0 Z 30.0 R 0.1 P 12.0 
+  KONTERL W 0.0 Z 10.0 R 0.1 P 2.0 
+  LATTG W 0.0 Z 10.0 R 0.1 P 3.0 
+  ROH_IN QM 
+  SICHT_IN QM 
+  DICHT_IN QM 
+  KONTERL_IN QM 
+  LATTG_IN QM 
+  DACHD_IN QM 
+  LATTA 0.335 
+  HKONTERL 0.028 
+  BKONTERL 0.048 
+  HLATTG 0.028 
+  BLATTG 0.048 
+  ASCEXPDIR "@V-EIN-AUS@" 
+  ASCEXPFILE "SEMAK###.ASC" 
+  HWSVON 0 
+  HWSRUECK N 
+  HWSEXPDIR "@V-EIN-AUS@" 
+  HWSEXPFILE "SEMAK###.MAS" 
+  RPVON 0 
+  RPRUECK N 
+  RPEXPDIR "@V-EIN-AUS@" 
+  RPEXPFILE "SEMAK###.TXT" 
+[MODULENDE] 
+
+[MODULANFANG] HLZSYSELEMENTE 
+  ZLAGE  =  N 0.0 
+  BOHRER =  10.0 
+  UMRFLG =  J 2 N 2 
+  AUTO   =  J 2 
+  MCADFL =  J 
+  KOLLIS =  N 0 
+  N SPMASS =  0.6 
+  VMASS  =  0.455 
+  ABST   =  1.1 
+  BLKMKR =  J 
+  BLKRST =  0.03 
+  BLKAUT =  N 
+  BLSPBM =  N 
+  RNGABS =  1 
+  BLBART =  0 
+  BLKMAX =  8.0 
+  BLKMIN =  0.4 
+  BLCHAR =  N "'" 
+[MODULENDE] 
+
+[MODULANFANG] SPARLSPARREN 
+  CUT_MA =   J 
+  SPM    =   0.4 
+  BDIST  =   1.0 
+[MODULENDE] 
+
+[MODULANFANG] SPARLPFETTEN 
+  PFETTE_ZU_KAMIN          =   J 
+  PFETTE_KAMIN             =   0.08 
+  PFETTE_NEUESPROFIL_LI    =   0.0 
+  PF_UEBERST_SGHD          =   0.0 
+  PF_UEBERST_SGORTG        =   0.0 
+  PF_ENDE_SGHD             =   1 
+  VERSCHMELZUNG            =   J 
+  SCHMELZ_DIST             =   3.0 
+  DELTA_ECK                =   0.01 
+  DELTA_1_BLATT            =   0.05 
+  LAGE_1_BLATT             =   J 
+  LAGE_2_BLATT             =   0 
+  CUTFREE                  =   0 
+  FREE_PLUS                =   0.0 
+  DEF_KERVE                =   0.0 
+[MODULENDE] 
+
+[MODULANFANG] AVDECKUNGEN_AN 
+  WERTE J 
+  MINHOLZ = 0.0 
+  MINRAND = 0.0 
+  MINDAEM = 0.0 
+  MINGR   = 0.0 
+  BSTGL   = N BSTLUFT = 0.0 
+  MLYABST = 0.5 
+  LIMSCHU = 1.0 
+  STANZEN = 0 
+  HLZWND  = 1 
+  RPOPT   = N 
+  USEFS   = N 
+  PLDEL   = N 
+  TAVA    = N 
+  DEXAKT  = J 
+[MODULENDE] 
+
+[MODULANFANG] TREPPENSEMACONNECT 
+  WERTE J 
+  SCEPP "@V-EIN-AUS@\SEMA connect data\@Z-GESCHOSS-KUERZEL@@TR_TREPPENNUMMER@###.@BV-FELD0@\" 
+  SCINI "@V-PROFILES-SYSTEM@\SEMA_connect_Mehrseite_191.INI" 
+  SCPAR "" 
+[MODULENDE] 
+
+[MODULANFANG] TREPPENDXFEXPORT 
+  WERTE J 
+  NEP "@V-EIN-AUS@\@Z-GESCHOSS-KUERZEL@@TR_TREPPENNUMMER@###.@BV-FELD0@\" 
+  INI "@V-PROFILES-SYSTEM@\TRP_HOPS_5X_191.INI" 
+  EXE "" 
+  PAR "" 
+  BLP "" 
+  DVC N 
+  PAR "" 
+[MODULENDE] 
+
+[MODULANFANG] EINZELSTAB 
+  WERTE J 
+  LAENGENTOLERANZ 1.0 
+  WNKTOL          0.5 
+  ANSCHNITT       20 
+  ABSCHNITT       20 
+  NEWMASCH        0 
+  SMXBLECH        0 
+  AKTEXPORT       0 
+  STARTMODUS      0 
+  PICKGLEICH      N 
+  NACHBEARBLISTE  1 
+  EINGABEMODUS    0 
+  EZHILFEARTAN    J 
+  EZHILFEART      5 
+  EZHILFEFORM     3 
+  EZHILFEFARBE    0 
+  EZHILFEGROESSE  0 
+  TITELWIE        2 
+  TITELSTUFE      1 
+  TITELAB         1 
+  FELDINDEX 1 
+  63BVNR          1 
+  KERVEKLAUE      N 
+  KERVEVORARBAN   J 
+  KERVEVORARB00   2 
+  URSENKELAN      J 
+  URSENKEL        0 
+  URSENKELSEITE   0 
+  VERSTICHAN      J 
+  VERSTICH        0 
+  VERSTICHSEITE   0 
+  SCHWALBTIEFE    28.0 
+  ABRUNDRADIUS    20.0 
+  FLANKENWINKEL   15.0 
+  MRKKT           3.0 
+  LINESPLIT       J 
+[MODULENDE] 
+
+[MODULANFANG] MATERIALLISTE 
+  WERTE J 
+  HLBERART 0 
+  SFUGENBR 0.006 
+  SHOWNULL N 
+  SHOWVW J 
+  EXPORTART 1 
+  EXP_PFAD "@V-EIN-AUS@" 
+  EXP_NAME "SEMAM###.ASC" 
+  EXP_SEPAR ";#9" 
+  EXP_ZLNEND "#13#10" 
+  EXP_DATEND "" 
+  EXP_DEZTREN "," 
+  EXP_UEBER "" 
+  EXP_UEBJN N 
+  EXP_MITLZ J 
+  EXP_ZLNR J 
+  EXP_ZSATZ J 
+  EXP_UTF8 N 
+  EXP_NR_ML 1 
+  EXP_NR_EZ 1 
+  IMP_PFAD "@V-EIN-AUS@" 
+  HWS_PFAD "C:\HWS\" 
+  HWS_NAME "SEMAM###.MAS" 
+  HWS_UEBERJN N 
+  HWS_UEBER "" 
+  HWS_FRAGE N 
+  HWS_DEZTREN "," 
+  HWS_TRENN1 1 
+  HWS_TRENN2 1 
+  HWS_TRENN3 1 
+  HWS_TRENN4 1 
+  RP_PFAD "C:\RP\CAD2RP\" 
+  RP_NAME "SEMAM###.TXT" 
+  RP_UEBERJN N 
+  RP_UEBER "" 
+  RP_FRAGE N 
+  RP_DEZTREN "," 
+  RP_TRENN1 1 
+  RP_TRENN2 1 
+  RP_TRENN3 1 
+  RP_TRENN4 1 
+  DIV_PFAD "@TEMP@" 
+  DIV_NAME "SEMAM###.TEM" 
+  DIV_UEBERJN N 
+  DIV_UEBER "" 
+  DIV_FRAGE N 
+  DIV_DEZTREN "," 
+  DIV_TRENN1 1 
+  DIV_TRENN2 1 
+  DIV_TRENN3 1 
+  DIV_TRENN4 1 
+  FREIESP J 
+  OPTAUFSTEIG N 
+  NTHIGHSCOREGLB N 
+  ALLEREITER J 
+  INCM J 
+  ININCH N 
+[MODULENDE] 
+
+[MODULANFANG] BEMASSUNG 
+  ABB 
+  STM_SVW 1 SKEY MBA 4129507942672 ST 0 VWN 0 STMEND 
+  ABB2 
+  STM_SVW 1 SKEY MBA 4386537251271 ST 0 VWN 0 STMEND 
+  ABB3 
+  STM_SVW 1 SKEY MBA 4043014382039 ST 0 VWN 0 STMEND 
+  ABB4 
+  STM_SVW 1 SKEY MBA 2386184808502 ST 0 VWN 0 STMEND 
+  ABB5 
+  STM_SVW 1 SKEY MBA 3108798508628 ST 0 VWN 0 STMEND 
+  MLCAD N ENDE    
+[MODULENDE] 
+
+[MODULANFANG] MWERTE 
+  SCHRIFTGROESSEN 
+    BESNIX 3.5 1.5 FONTNAME "Arial" 
+    BESPROFIL 10.0 1.0 FONTNAME "Courier New" 
+    BESMASSE 15.0 1.5 FONTNAME "Arial" 
+    BESEINTEIL 3.5 1.5 FONTNAME "Arial" 
+    BESBNDL 10.0 1.0 FONTNAME "Arial" 
+    BESBNDMASS 10.0 1.0 FONTNAME "Arial" 
+    BESFLAECHE 10.0 1.0 FONTNAME "Arial" 
+    BESLINIE 10.0 1.0 FONTNAME "Arial" 
+    BESEZLAENG 10.0 1.0 FONTNAME "Arial" 
+    BESZIMMERE 10.0 1.0 FONTNAME "Arial" 
+    BESFLEDERM 10.0 1.0 FONTNAME "Arial" 
+    BESBEMASS 10.0 1.0 FONTNAME "Arial" 
+    BESTREPPE 10.0 1.0 FONTNAME "Arial" 
+    BESSCHNITT 10.0 1.0 FONTNAME "Arial" 
+    BES3DO 10.0 1.0 FONTNAME "Arial" 
+    BTLSCHNTT 1.0 0.1 FONTNAME "Arial" 
+  ENDE 
+  EINHEIT 0 
+  ZOLL 3 
+  EDGEN 0 
+  EDYFI 0 
+  EDKURZ N 
+  SPEZINPUT 1 1 
+  PLZOLL 3 
+  ZAHLEN 0 
+  ESTRICH N 
+  PSTRICH J 
+  ENULL N 
+  PNULL J 
+  E0ZOLL N 
+  P0ZOLL J 
+  ENEIG 0 
+  PNEIG 0 
+  EGWCHT J 
+  EFLACH 1 
+  EVOL 1 
+  NULLVORNE 2 
+  NACHKOMMA 3 
+  NACHKOMMAW 2 
+  HOCHSTELLEN J 
+  RUNDUNGAN N 
+  RUNDUNG 5 
+  LEGENDE 
+  HINTFARBE 1 
+  GEFARBEAN 2 
+  GEFARBEDS 2 
+  UPDATERATE 0 
+  MLGREIFER N 
+  MSLDINOPT J 
+  MASSSTAB 100.0 50.0 40.0 50.0 MASSSTABENDE 
+  RELMASSOPT N 
+  CLPSCNEW2 1 
+  WINTEXTDRUCK J 
+  PRINTWHITE J 
+  ROTFORM 0.01 
+  ROTWINK 0.01 
+  EXTFORM 0.005 
+  RLINIE 0.05 
+  LINFORM 0.001 
+  GLDFORM 0.05 
+  3DSINCAD N 
+  BHRMRK N 
+  BTLFILL J 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] SPARLSPAREINZL 
+  SCHALUNG N 0.02 0.1 
+  TR_GANZ J 
+  TR_BTL_N 1 
+  FSK_NEW N 0.005 3 
+  FB_KUERZ N 0.005 
+  FIRSTBOHR J 
+  ZANGERECHTS N 
+  HOBELN N 
+  SPRHOBELN J N 0.1 
+  ELEHOBELN J N 0.1 
+  ZNGHOBELN J N 0.1 
+  PFETHOBELN J N 0.1 
+  PFOSTHOBELN J N 0.1 
+  STBRHOBELN N J 0.1 
+  UMKANTEN N 0 
+  BTLLAGE J 0 
+  WENDEN N 0 
+  ELERTG N 
+  RISSEGRUND N 1 0 
+  RISSEWAND N 0 0 0 
+  RISSEDAAM N 0 0 
+  KANTMATGES J 
+  FLAECHMATGES J 
+  FLAECHMATGES J 
+  TRKNTMODE "datr_LASum" 
+  PF_BTL_RISS N BEIDE 
+  PFRART 0 
+  PF_ELE_RISS N BEIDE 
+  PFRELE 0 
+  MSORT SPARLGRATKEHLE SPARLSPARREN SPARLPFETTEN SPARLPFOSTEN SPARLZANGEN SPARLKNAGGEN SPARLSTELLBRETT MSORT_ENDE 
+  FLIMGRD N 
+  AUSFL 2.0 
+  AUSK 0 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] DXF-IMPORT 
+  WERTE J 
+  IMPORTPFAD   = "C:\Laser\@BV-FELD2@\" 
+  COLORBYLAYER = J COLORORG     = J 
+  EXPORTPFAD   = "C:\Laser\@BV-FELD2@\" 
+  EXPORTDATEI  = "@Z-GESCHOSS-KUERZEL@@Z-ZEICHNUNGSNAME@" 
+  EXPFAKTOR    = 1000.0 
+  ZIELLAYEXP   = "SEMA2D" 
+  ZIELLAYTXT   = "SEMATEXT" 
+  BLOCKLAYER   = J 
+  PKT          = J 
+  DXFTOCLIP    = N 
+  MODULLAYER   = J 
+  FUELLUNG     = N 
+  KOERPERMODUS "kmFACES" 
+  BLOCKNAMEN "@B-GESCHOSS@_@B-DA-WA-DE-NR$L2@_@B-Schicht@_@B-Bezeichnung@" 
+  INTOLAYOUT J 
+  GRAFIKEXPORT J 
+  GRAFIKPFADRELATIV J 
+  EXPORTPATHPAGEORIENT =  "@V-HAUSGRUND@\DXF_DWG\" 
+  EXPORTFILEPAGEOREINT =  "@PL-PLANNAME_PDF@.DWG" 
+[MODULENDE] 
+
+[MODULANFANG] BALTRANS 
+  HOBELN N J J J J 
+  UMKANTEN N 0 
+  BTLLAGE J 0 
+  WENDEN N 
+  ELERTG N 
+  RISSE_HLZ J 0 2 
+  RISSEGRUND N 1 0 
+  RISSEWAND N 0 0 0 
+  SCHICHTTRANSMOD 2 
+  KAMITAUS AUSFL 2.0 
+  AUSK 0 
+  FLA 0 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] HLZTRANS 
+  HOBELN N J J J J 
+  UMKANTEN N 0 
+  BTLLAGE J 0 
+  WENDEN N 
+  ELERTG N 
+  RISSE_HLZ N 0 2 
+  RISSEGRUND J 1 0 
+  RISSEWAND N 0 0 0 
+  SCHICHTTRANSMOD 2 
+  KAMITAUS AUSFL 2.0 
+  AUSK 0 
+  FLA 0 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] IMP_EXP 
+  WERTE J 
+  IMPPFAD = N "@V-BV@\SCI_IMPORT\" 
+  EXPPFAD = N "@V-BV@\FHP_EXPORT\" 
+  MGSKZ = J 
+  MPLST = 0.005 
+  ABSZ = N 
+  XWAUTO = N XDAUTO = N XCAUTO = J 
+  XMLEXP = "@V-BV@\SCI_EXPORT\" 
+  XMLEXN = "SEMAX###.XML" 
+[MODULENDE] 
+
+[MODULANFANG] BURMEK 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\BURMEK\" 
+    FNAM = "" 
+    SCHICHT  -1 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  3 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  4 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  5 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  6 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  7 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  8 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  9 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  10 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  11 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  12 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  13 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  14 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  15 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  16 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  17 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  18 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  19 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  20 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  21 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  22 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  23 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  24 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  25 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  26 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  MODUS  = 0 
+  GBLDAT = 0 
+[MODULENDE] 
+
+[MODULANFANG] GIBEN 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\GIBEN\" 
+    FNAM = "" 
+    SCHICHT  -1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "LIN_1" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 0 
+    BEZ = "REC_1" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 0 
+    BEZ = "LIN_2" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 0 
+    BEZ = "REC_2" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 0 
+    BEZ = "LIN_3" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 0 
+    BEZ = "REC_3" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 0 
+    BEZ = "LIN_4" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 0 
+    BEZ = "REC_4" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 0 
+    BEZ = "LIN_5" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 0 
+    BEZ = "REC_5" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 0 
+    BEZ = "LIN_6" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 0 
+    BEZ = "REC_6" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 0 
+    BEZ = "LIN_7" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 0 
+    BEZ = "REC_7" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 0 
+    BEZ = "LIN_8" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 0 
+    BEZ = "REC_8" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 0 
+    BEZ = "LIN_9" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 0 
+    BEZ = "REC_9" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 0 
+    BEZ = "LIN_10" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 0 
+    BEZ = "REC_10" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 0 
+    BEZ = "LIN_11" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 0 
+    BEZ = "REC_11" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 0 
+    BEZ = "LIN_12" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 0 
+    BEZ = "REC_12" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  FORMAT = 0 
+  SGEPRM = "101SPT" 
+  PLFPRM = "FERMA_15" 
+[MODULENDE] 
+
+[MODULANFANG] WEINMANN 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\WEINM\" 
+    FNAM = "" 
+    SCHICHT  -1 J 
+    ASW = 0 
+    BEZ = "HOELZER" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 1 
+    BEZ = "PLI1" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 1 
+    BEZ = "PLA1" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 1 
+    BEZ = "PLI2" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 1 
+    BEZ = "PLA2" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 1 
+    BEZ = "PLI3" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 1 
+    BEZ = "PLA3" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 1 
+    BEZ = "PLI4" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 1 
+    BEZ = "PLA4" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 1 
+    BEZ = "PLI5" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 1 
+    BEZ = "PLA5" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 1 
+    BEZ = "PLI6" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 1 
+    BEZ = "PLA6" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 1 
+    BEZ = "PLI7" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 1 
+    BEZ = "PLA7" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 1 
+    BEZ = "PLI8" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 1 
+    BEZ = "PLA8" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 1 
+    BEZ = "PLI9" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 1 
+    BEZ = "PLA9" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 1 
+    BEZ = "PLI10" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 1 
+    BEZ = "PLA10" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 1 
+    BEZ = "PLI11" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 1 
+    BEZ = "PLA11" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 1 
+    BEZ = "PLI12" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 1 
+    BEZ = "PLA12" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  ANR = "@BV-FELD1@" 
+  ABB = "TXT" 
+  ABE = "TXT" 
+  VRS = J "3.0" 
+  MDL = N 0 
+  MRKON N 
+  MARKER 
+  MARKERENDE 
+  POLY J REIHE N ZNR N RGW J 
+  KSCH N 
+  ZUSD N 
+  AUTOS N LINRE J 
+  WL N 
+  ZL N 
+[MODULENDE] 
+
+[MODULANFANG] CMS 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\CMS\" 
+    FNAM = "" 
+    SCHICHT  -1 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "PLI1" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 0 
+    BEZ = "PLA1" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 0 
+    BEZ = "PLI2" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 0 
+    BEZ = "PLA2" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 0 
+    BEZ = "PLI3" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 0 
+    BEZ = "PLA3" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 0 
+    BEZ = "PLI4" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 0 
+    BEZ = "PLA4" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 0 
+    BEZ = "PLI5" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 0 
+    BEZ = "PLA5" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 0 
+    BEZ = "PLI6" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 0 
+    BEZ = "PLA6" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 0 
+    BEZ = "PLI7" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 0 
+    BEZ = "PLA7" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 0 
+    BEZ = "PLI8" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 0 
+    BEZ = "PLA8" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 0 
+    BEZ = "PLI9" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 0 
+    BEZ = "PLA9" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 0 
+    BEZ = "PLI10" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 0 
+    BEZ = "PLA10" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 0 
+    BEZ = "PLI11" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 0 
+    BEZ = "PLA11" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 0 
+    BEZ = "PLI12" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 0 
+    BEZ = "PLA12" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  ANR = "@BV-FELD1@" 
+  SGE = N 0 
+  VRS = N "" 
+  SCHZSZ 
+  SCHZSZ 2 
+    BZG2 0 
+  ENDE 
+  SCHZSZ 3 
+    BZG2 0 
+  ENDE 
+  SCHZSZ 4 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 5 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 6 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 7 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 8 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 9 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 10 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 11 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 12 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 13 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 14 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 15 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 16 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 17 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 18 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 19 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 20 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 21 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 22 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 23 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 24 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 25 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 26 
+    BZG2 1 
+  ENDE 
+  SCHZSZ 27 
+    BZG2 1 
+  ENDE 
+  SCHIZUENDE 
+[MODULENDE] 
+
+[MODULANFANG] SCHELLING 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\SCHELLING\" 
+    FNAM = "" 
+    SCHICHT  -1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "LIN_1" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 0 
+    BEZ = "REC_1" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 0 
+    BEZ = "LIN_2" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 0 
+    BEZ = "REC_2" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 0 
+    BEZ = "LIN_3" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 0 
+    BEZ = "REC_3" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 0 
+    BEZ = "LIN_4" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 0 
+    BEZ = "REC_4" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 0 
+    BEZ = "LIN_5" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 0 
+    BEZ = "REC_5" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 0 
+    BEZ = "LIN_6" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 0 
+    BEZ = "REC_6" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 0 
+    BEZ = "LIN_7" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 0 
+    BEZ = "REC_7" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 0 
+    BEZ = "LIN_8" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 0 
+    BEZ = "REC_8" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 0 
+    BEZ = "LIN_9" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 0 
+    BEZ = "REC_9" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 0 
+    BEZ = "LIN_10" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 0 
+    BEZ = "REC_10" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 0 
+    BEZ = "LIN_11" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 0 
+    BEZ = "REC_11" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 0 
+    BEZ = "LIN_12" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 0 
+    BEZ = "REC_12" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  INFO N 
+  AUSK N 
+[MODULENDE] 
+
+[MODULANFANG] PANHANS 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\PANHANS\" 
+    FNAM = "" 
+    SCHICHT  -1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "LINKS_1" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 0 
+    BEZ = "RECHTS_1" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 0 
+    BEZ = "LINKS_2" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 0 
+    BEZ = "RECHTS_2" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 0 
+    BEZ = "LINKS_3" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 0 
+    BEZ = "RECHTS_3" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 0 
+    BEZ = "LINKS_4" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 0 
+    BEZ = "RECHTS_4" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 0 
+    BEZ = "LINKS_5" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 0 
+    BEZ = "RECHTS_5" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 0 
+    BEZ = "LINKS_6" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 0 
+    BEZ = "RECHTS_6" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 0 
+    BEZ = "LINKS_7" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 0 
+    BEZ = "RECHTS_7" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 0 
+    BEZ = "LINKS_8" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 0 
+    BEZ = "RECHTS_8" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 0 
+    BEZ = "LINKS_9" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 0 
+    BEZ = "RECHTS_9" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 0 
+    BEZ = "LINKS_10" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 0 
+    BEZ = "RECHTS_10" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 0 
+    BEZ = "LINKS_11" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 0 
+    BEZ = "RECHTS_11" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 0 
+    BEZ = "LINKS_12" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 0 
+    BEZ = "RECHTS_12" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  KENNFLG = 0 
+  PASSPL  = N 
+[MODULENDE] 
+
+[MODULANFANG] RASTER 
+  KARTESISCH (0.0, 0.0) 0.5 0.5 0.0 POLAR 15.0 0.5 FLAGS J N 1 N J N N 
+  ZUSATZ 0.0 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] BEDIENUNG 
+  MARKM 1 
+  FK N 
+  WINLA J 
+  UNDO 20 
+  MAUSBELEGUNG 0 0 1 1 2 3 MAUSRAD 2 
+  KRALLE J 
+  BRECHTS J 
+  MBLEND N 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] SONSTIGES 
+  VERSION 6 
+  USERLAYER 
+    SPR 
+    SAA 
+    WND 
+    WNA 
+    WNE 
+    BAL 
+    FHA 
+    AVD 
+    AVA 
+    AVE 
+    SPF 
+    TRP 
+    GRD 
+    L 1 "Arases" 
+    L 2 "Cotes Maconnerie" 
+    L 3 "Cotes Charpente" 
+    L 4 "Cotes Mob RDC" 
+    L 5 "Cotes Mob R+1" 
+    L 6 "Cotes Chevrons" 
+    L 7 "Cotes Pannes" 
+    L 8 "Descente de charges" 
+    L 9 "Annotations" 
+    GLD 
+    KEA 
+    L 1 "Détails" 
+    BIA 
+    DAA 
+    DEA 
+    HKE 
+    HBI 
+    HDA 
+    HDE 
+    ADE 
+    ADA 
+  ENDE 
+  DEMAND N 
+  PNAME "@PL-PLANINHALT@" 
+  WNDAUSG "@B-WANDNAME@" 
+  PDFNAME "@PL-PLANNR@-@BV-FELD11@-@PL-PLANNAME$TB@-@Z-GESCHOSS-KUERZEL@-@B-DA-WA-DE-NR@-@Z-ANZEIGEOPTION@" 
+  PDFPFAD "Z:\Dropbox\2-DOSSIERS ACCEPTES\" 
+  ABFRAGE J 
+  PDFQuality 1 
+  TABNAME N "@PL-PLANNAME@" SAVESTDPLN J 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] B_WAND_DR 
+  WERTE J 
+  SPRM 1.5 
+[MODULENDE] 
+
+[MODULANFANG] ALLG_TRANS 
+  TOUCH N 
+  MARKMITTEXT N 
+  MARKART 0 
+  MARKF 0 
+  MGR 40 
+  NRALLG N 
+  NRSTRBTL "@B-EZLISTEN-NR@" 
+  NRSTRDECK "@B-EZLISTEN-NR@" 
+  NRX_SPR N 3 0.3 
+  NRX_WCH N 3 0.3 
+  NRX_ELE N 4 0.3 
+  NRX_BHL N 3 0.3 
+  NRX_ZNG N 3 0.3 
+  NRX_PFT N 3 0.3 
+  NRX_PST N 3 0.3 
+  NRX_STB N 3 0.3 
+  NRX_KNG N 3 0.3 
+  NRX_FHA N 3 0.3 
+  NRX_BAL N 3 0.3 
+  NRX_3DH N 3 0.3 
+  NRX_DCK N 3 0.3 
+  NRPLATZ 0 
+  NRANF J 
+  NRF 0 
+  NRGR 40 
+  CUTMODE 0 
+  EKHANDLING 0 
+  VHWSCHNITT N 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] HPGL 
+  EXPPFAD   = "@V-EIN-AUS@" 
+  EXPDATEI  = "SEMAH###.PLT" 
+  INIT      = "" 
+  DEINIT    = "" 
+  AUFL      = 40 
+[MODULENDE] 
+
+[MODULANFANG] PBA 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\PBA\" 
+    FNAM = "@BV-FELD2@" 
+    SCHICHT  -1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  WKON J WPARA4 0 WPARA10 0 WPARA9 0 WPARA11 0 
+  FKON J FPARA4 0 FPARA10 0 FPARA9 0 FPARA11 0 
+  TKON J TPARA4 0 TPARA10 0 TPARA9 0 TPARA11 0 
+[MODULENDE] 
+
+[MODULANFANG] VISUAL 
+  EXPPFAD   = "@V-TEMP@" 
+  EXPDATEI  = "SEMA.TGF" 
+  EXEPROG   = "C:\GAMMARAY\PROG_14\GAMMARAY.EXE" 
+  EXPORTTEX = N 
+[MODULENDE] 
+
+[MODULANFANG] RAUM 
+  WERTE J 
+  HL1A J HL2A J BDEX 1 HL1H 1.0 HL2H 2.0 HL1F 0.0 HL2F 0.5 
+[MODULENDE] 
+
+[MODULANFANG] LASER 
+  PFAD "@V-BV@\Laser\" 
+  DAT "@Z-GESCHOSS-NAME@.plt" 
+  AUF "@BV-FELD1@" 
+  WND "@Z-ZEICHNUNGSNAME@" 
+  SU1 "T1.hpg" 
+  SU2 "T2.hpg" 
+  OFF1 0.0 
+  OFF2 0.0 
+[MODULENDE] 
+
+[MODULANFANG] BOSMOB 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\BOSMOB\TISCH1" 
+    FNAM = "PROG_@B-WANDNAME@_1" 
+    SCHICHT  -1 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  3 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  4 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  5 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  6 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  7 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  8 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  9 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  10 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  11 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  12 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  13 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  14 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  15 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  16 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  17 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  18 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  19 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  20 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  21 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  22 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  23 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  24 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  25 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  26 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  PFAD2 = "@V-BV@\BOSMOB\TISCH2" 
+  FNAM2 = "PROG_@B-WANDNAME@_2" 
+  KOMM  = J 
+  SCHICHT2  -1 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  0 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  1 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  2 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  3 J 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  4 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  5 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  6 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  7 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  8 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  9 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  10 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  11 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  12 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  13 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  14 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  15 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  16 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  17 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  18 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  19 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  20 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  21 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  22 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  23 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  24 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  25 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  26 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+  SCHICHT2  27 N 
+  ASW = 0 
+  BEZ = "" 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] HOLZMA 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\HOLZMA\" 
+    FNAM = "" 
+    SCHICHT  -1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 0 
+    BEZ = "Li_1" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 0 
+    BEZ = "Re_1" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 0 
+    BEZ = "Li_2" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 0 
+    BEZ = "Re_2" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 0 
+    BEZ = "Li_3" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 0 
+    BEZ = "Re_3" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 0 
+    BEZ = "Li_4" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 0 
+    BEZ = "Re_4" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 0 
+    BEZ = "Li_5" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 0 
+    BEZ = "Re_5" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 0 
+    BEZ = "Li_6" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 0 
+    BEZ = "Re_6" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 0 
+    BEZ = "Li_7" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 0 
+    BEZ = "Re_7" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 0 
+    BEZ = "Li_8" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 0 
+    BEZ = "Re_8" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 0 
+    BEZ = "Li_9" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 0 
+    BEZ = "Re_9" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 0 
+    BEZ = "Li_10" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 0 
+    BEZ = "Re_10" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 0 
+    BEZ = "Li_11" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 0 
+    BEZ = "Re_11" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 0 
+    BEZ = "Li_12" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 0 
+    BEZ = "Re_12" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  INFO "" 
+[MODULENDE] 
+
+[MODULANFANG] MHW 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\MHW\" 
+    FNAM = "" 
+    SCHICHT  -1 N 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  1 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 1 
+    BEZ = "PLA@" 
+    ENDE 
+  ENDE 
+  ANR "@BV-FELD1@" 
+  LINRE J 
+  UMRLI 0.0 
+  UMRRE 0.0 
+  UMROB 0.0 
+  UMRUN 0.0 
+  ABS 1000 
+  ML J MLV 0.6 
+[MODULENDE] 
+
+[MODULANFANG] RANDEK_BTH 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\randek_bth\" 
+    FNAM = "" 
+    SCHICHT  -1 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  ORDER "@BV-FELD2@" 
+  VER 1 
+[MODULENDE] 
+
+[MODULANFANG] RANDEK_CDT 
+  WERTE J 
+  HEADER AF7 
+    PFAD = "@V-BV@\randek_cdt\" 
+    FNAM = "" 
+    SCHICHT  -1 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  0 J 
+    ASW = 0 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  1 N 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  2 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  3 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  4 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  5 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  6 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  7 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  8 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  9 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  10 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  11 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  12 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  13 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  14 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  15 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  16 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  17 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  18 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  19 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  20 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  21 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  22 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  23 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  24 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  25 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  26 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+    SCHICHT  27 J 
+    ASW = 1 
+    BEZ = "" 
+    ENDE 
+  ENDE 
+  VER "3.3" 
+[MODULENDE] 
+
+[MODULANFANG] STATIK 
+  TR_LD_STD =   LD_GE 
+  TR_LD_PEAK_BR 0.2 
+  TR_AK_DIST_ST 0.01 
+  TR_AK_DIST_UK 0.05 
+  3D_UNITE_BEAM_NODES J 
+  3D_UNITE_BEAM_NODES_DIST 0.2 
+  3D_SKIP_ENDBEAM_NODES J 
+  3D_SKIP_ENDBEAM_NODES_DIST 0.3 
+  INSDACH J 
+  BERZUMP J 
+  PARZUS J 
+  ENDKURZ J 
+  MAXKURZ 0.1 
+[MODULENDE] 
+
+[MODULANFANG] FRILO_STATIK 
+  FR_NRM 0 
+  FR_NRMST 0 
+  FR_CRDRUCK N 
+  FR_HBNRM E5_D2 
+  FR_STEGTR 10524 
+  FR_BSSTEICO N 
+[MODULENDE] 
+
+[MODULANFANG] EXCEL 
+  ExcelVorlagenPfad "C:\Users\yannick\Bureau\Dashboard" 
+  ExcelVorlagenDatei "Modèle_Tableau_de_Bord.xlsm" 
+  ExcelEXPPfad "C:\Users\yannick\Bureau\Dashboard\ExportsSEMA" 
+  ExcelEXPDatei "Tableau de Bord @BV-FELD2$TB@ ###.xlsm" 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] SOUND 
+  SoundPfad "@V-VOREINSTELLUNGEN@" 
+  SoundDatei "SEMA Melodie 01.wav" 
+  SoundAbspielen N 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] RAUMTRANS 
+  BODEN 
+  ON J AUSW 0 VAL 2.0 
+  FLAGEND 
+  WAND 
+  ON J AUSW 0 VAL 2.0 
+  FLAGEND 
+  DECKE 
+  ON J AUSW 0 VAL 2.0 
+  FLAGEND 
+  SCHRAEG 
+  ON J AUSW 0 VAL 2.0 
+  FLAGEND 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] MDBAT_STATIK 
+  MD_NORMKEY EUROCODE|1 
+[MODULENDE] 
+
+[MODULANFANG] BLECHSCHARE 
+  BIVK bvVK_DIN_MitRadius 
+  BIRD 1.5 
+  BUSF "@V-PROFILES-SYSTEM@\BLE_STANDARD.INI" 
+  ENDE 
+[MODULENDE] 
+
+[MODULANFANG] PUNKTWOLKE 
+  EXPPFAD   = "@S-EIGENE-DATEIEN@" 
+  IMPPFAD   = "@S-EIGENE-DATEIEN@" 
+  TMPPFAD   = "@S-WINTEMP@" 
+[MODULENDE] 
+[AF7DATENENDE] 
