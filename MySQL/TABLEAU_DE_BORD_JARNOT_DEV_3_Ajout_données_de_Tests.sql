@@ -148,13 +148,13 @@ SELECT nom_projet, nom_etape
 
 
 SELECT 'OPERATIONS PROJETS A' AS ''; # Affiche u commentaire
-SELECT nom_projet, T_PROJETS.id, nom_etape, T_ETAPES.id, ordre_etape, nom_paquet, T_PAQUETS.id, statut_op, compte_op
+SELECT nom_projet, T_PROJETS.id, ordre_paquet, nom_paquet, T_PAQUETS.id, ordre_etape, nom_etape, T_ETAPES.id, statut_op, compte_op, texte_op
     FROM T_PROJETS
     LEFT JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
     LEFT JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
     LEFT JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
     WHERE nom_projet LIKE '%A%'
-    ORDER BY nom_projet, nom_etape;
+    ORDER BY ordre_paquet, ordre_etape;
 
 
     SELECT '*****   TABLEAU_DE_BORD_JARNOT_DEV  prêt pour le test *****' AS ''; # Affiche u commentaire
