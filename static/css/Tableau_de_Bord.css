@@ -1,0 +1,270 @@
+/* PORTFOLIO/static/css/styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(144, 144, 139);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Ajout des styles pour la boîte Entête de page */
+header {
+    color: white;
+    background: #121212;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Espacement entre les éléments */
+}
+
+#logo {
+    margin: 10px;
+}
+
+/* Ajout des styles pour la boîte 'PROJETS' */
+#dropdown {
+    background: #ef3939;
+    min-width: 350px;
+    font-size: 25px;
+}
+
+#dropdown ul {
+    box-sizing:content-box;
+    list-style-type: none;
+    background: #ef3939ec;
+    display: none;
+    border-style: none;
+
+    margin: 2px;
+    border: 1px solid rgb(75, 73, 73);
+    position: absolute; /* Position absolue */
+    width: 100%; /* Même largeur que #dropdown */
+    top: 100%; /* Position sous #dropdown */
+}
+
+#dropdown:hover ul {
+    display: block;
+    max-height: 80vh;
+    overflow-y: auto;
+    cursor:grab;
+    border-radius: 5px;
+}
+
+#nom_compte {
+    margin-left: auto;
+
+    display: none; /* 'none' pour masquer 'flex' pour afficher */
+    }
+
+.tableau-de_bord {
+    flex-grow: 1;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-spacing: 2px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid rgb(75, 73, 73);
+    border-radius: 25px;
+    min-width: 150px;
+    max-width: 200px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden; /* Cache tout contenu dépassant la hauteur maximale */
+    text-overflow: ellipsis; /* Ajoute des points de suspension (...) pour indiquer que le texte est tronqué */
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+}
+
+th {
+    height: 50px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    background: #3a8d19;
+    border-radius: 0px;
+    z-index: 1;
+}
+
+th:first-of-type {
+    left: 0;
+
+    z-index: 3;
+    background: #ef3939;
+}
+
+td:first-of-type {
+    position: sticky;
+    left: 0;
+    background: #ee6262;
+    border-radius: 10px;
+    z-index: 2;
+}
+th:first-of-type {
+    left: 0;
+}
+
+
+[data-statut="None"] {
+background-color: rgb(144, 144, 139); /* Changez la couleur selon votre préférence */
+color: rgb(144, 144, 139);
+}
+
+/* Statut EN COURS */
+td[data-statut]:not([data-statut="None"]):not([data-statut="0"]):not([data-statut="100"]) {
+    background: rgb(70, 120, 180);
+    }
+td[data-statut]:not([data-statut="None"]):not([data-statut="0"]):not([data-statut="100"]):hover  {
+    background: rgb(70, 120, 180, 0.5);
+    cursor: pointer;
+    }
+
+
+[data-statut="0"] {
+        background-color: rgb(204, 204, 41);
+        cursor: pointer;
+    }
+
+[data-statut="0"]:hover {
+        background-color: rgba(204, 204, 41, 0.5); /* Changez la couleur selon votre préférence */
+    }
+
+[data-statut="100"] {
+        background-color:  rgb(41, 112, 44); /* Changez la couleur selon votre préférence */
+        cursor: pointer
+    }
+
+[data-statut="100"]:hover {
+        background-color: rgba(41, 112, 44, 0.5); /* Changez la couleur selon votre préférence */
+    }
+
+/* Définition des styles pour la cellule sélectionnée */
+[selected="true"] {
+    border: 5px solid red;
+    }
+
+
+
+/* Ajout des styles pour la boîte Pied de page */
+footer {
+        color: white;
+        padding: 5px;
+        background: #121212;
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+        flex-wrap: wrap; /* Permet de passer les éléments à la ligne si nécessaire */
+        gap: 10px; /* Espacement entre les éléments */
+    }
+
+.info_op {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex; /* Utilisation de flexbox */
+        align-items: center; /* Centrage vertical */
+        justify-content: center; /* Centrage horizontal */
+        gap: 20px; /* Espacement entre les éléments */
+    }
+.Action_user {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex; /* Utilisation de flexbox */
+        align-items: center; /* Centrage vertical */
+        justify-content: center; /* Centrage horizontal */
+        gap: 10px; /* Espacement entre les éléments */
+    }
+
+#op_select {
+        display: none; /* 'none' pour masquer 'flex' pour afficher */
+    }
+
+#Texte_select {
+        min-height: 40px;
+        min-width: 450px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: whitesmoke;
+        color: black;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+
+
+        align-items: center; /* Centrage vertical */
+        justify-content: center; /* Centrage horizontal */
+        flex-grow: 1; /* Occuper tout l'espace disponible */
+
+      }
+
+#Statut_select {
+    background: whitesmoke;
+    color: black;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+
+    display: none; /* 'none' pour masquer 'flex' pour afficher */
+    }
+
+
+button {
+    min-width: 120px;
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 4;
+    border-radius: 60px;
+
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+
+    position: relative; /* Position relative */
+}
+
+#bouton_nom_compte {
+    background: #ef3939;
+    min-width: 50px;
+    font-family:'Gill Sans MT';
+    padding-bottom: 10px;
+    font-size: 40px;
+
+    display: none; /* 'none' pour masquer 'flex' pour afficher */
+}
+
+#bouton_A_FAIRE {
+    background: rgb(204, 204, 41);
+}
+
+#bouton_EN_COURS {
+    background: rgb(70, 120, 180);
+}
+#bouton_FAIT {
+    background: rgb(41, 112, 44);
+}
+
+    li {
+        margin: 10px;
+    }
+
