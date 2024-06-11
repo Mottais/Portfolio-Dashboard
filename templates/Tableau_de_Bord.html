@@ -12,21 +12,20 @@
     <img id="logo" src="/static/images/logo-groupe-bam.png" alt="Logo du groupe BAM">
 
     <button id="dropdown">
-
-      Projet TEST
-
-    <ul>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/1">id 1 Projet TEST A</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/2">id 2 Projet TEST B</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/3">id 3 Projet TEST C</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/4">id 4 Projet TEST D</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/5">id 5 Projet TEST E</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/6">id 6 Projet TEST F</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/7">id 7 Projet TEST G</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/8">id 8 Projet TEST H</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/9">id 9 Projet TEST I</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/10">id 10 Projet TEST J</a></li>
-    </ul>
+      {% if projet is defined %}
+        {{ projet['nom'] }}
+      {% else %}
+        PROJETS ?
+      {% endif %}
+      <ul>
+        {% if projets is defined %}
+          {% for prj in projets %}
+            <li>
+              <a href="/Tableau_de_bord_JARNOT/Projets/{{ prj }}">{{ prj }} - {{ projets[prj]['nom'] }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
     </button>
 
     <p id="info_projet"> 123 Rue des Champs 53000 LAVAL</p>

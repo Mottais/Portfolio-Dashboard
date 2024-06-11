@@ -12,6 +12,23 @@ class AccesBDD:
             passwd='pw@DEV',
             db='TABLEAU_DE_BORD_JARNOT_DEV')
 
+    def get_all_projets(self):
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            SELECT  id, nom_projet, version_projet
+            FROM T_PROJETS
+            """)
+
+        rows = curseur.fetchall()
+        curseur.close()
+
+        projets = {}
+        for id, nom, version in rows:
+            projets[id] = {'nom': nom, 'version': version}
+
+        return projets
+
     def get_ops_by_id_projet(self, projet_id):
         curseur = self.connexion.cursor()
         curseur.execute(

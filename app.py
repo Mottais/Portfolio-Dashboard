@@ -24,9 +24,10 @@ def close_database_connection(exception=None):
 def detail_projet(projet_id):
     base_de_donnees = get_database()
 
+    projets = base_de_donnees.get_all_projets()
     ops_projet = base_de_donnees.get_ops_by_id_projet(projet_id)
 
-    return render_template('Tableau_de_Bord.html', ops_projet=ops_projet)
+    return render_template('Tableau_de_Bord.html', projets=projets, ops_projet=ops_projet)
 
 
 if __name__ == '__main__':
