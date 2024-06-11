@@ -20,19 +20,37 @@ cells.forEach(function(cell) {
             textSelect.textContent = this.textContent;
             statutSelect.textContent = this.getAttribute('data-statut') + "%";
 
-            // Obtenez la valeur de cet élément à l'intérieur de cette fonction de clic
-            const opValue = opSelect.textContent.trim();
-
-            // Parcours de toutes les cellules pour désélectionner les autres
-            cells.forEach(function(otherCell) {
-                if (otherCell.id !== opValue) {
-                    // Supprime l'attribut 'selected'
-                    otherCell.removeAttribute('selected');
-                }
-            });
+            // Supprime l'attribut 'selected' de l'élément actuellement sélectionné (s'il existe)
+            if (document.querySelector('[selected="true"]')) {document.querySelector('[selected="true"]').removeAttribute('selected');}
 
             // création d'un attribut 'selected' pour la cellule cliquée avec la valeur 'true'
             this.setAttribute('selected', 'true');
+
+            let statut = this.getAttribute('data-statut');
+
+            if (statut == 0) {
+                document.getElementById('bouton_A_FAIRE').style.visibility = 'hidden';
+                document.getElementById('bouton_EN_COURS').style.visibility = 'visible';
+                document.getElementById('bouton_FAIT').style.visibility = 'visible';
+            }
+
+            if (statut > 0 && statut < 90) {
+                document.getElementById('bouton_A_FAIRE').style.visibility = 'visible';
+                document.getElementById('bouton_EN_COURS').style.visibility = 'visible';
+                document.getElementById('bouton_FAIT').style.visibility = 'visible';
+            }
+
+            if (statut >= 90 && statut < 100) {
+                document.getElementById('bouton_A_FAIRE').style.visibility = 'visible';
+                document.getElementById('bouton_EN_COURS').style.visibility = 'hidden';
+                document.getElementById('bouton_FAIT').style.visibility = 'visible';
+            }
+
+            if (statut == 100) {
+                document.getElementById('bouton_A_FAIRE').style.visibility = 'visible';
+                document.getElementById('bouton_EN_COURS').style.visibility = 'hidden';
+                document.getElementById('bouton_FAIT').style.visibility = 'hidden';
+            }
         }
     });
 });
