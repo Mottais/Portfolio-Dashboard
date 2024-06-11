@@ -2,30 +2,30 @@
 <html>
 <head>
   <title>PORTFOLIO TABLEAU</title>
-  <link rel="icon" type="image/x-icon" href="../static/images/BAM.ico">
-  <link rel="stylesheet" type="text/css" href="../static/css/Tableau_de_Bord.css">
+  <link rel="icon" type="image/x-icon" href="/static/images/BAM.ico">
+  <link rel="stylesheet" type="text/css" href="/static/css/Tableau_de_Bord.css">
 
 </head>
 
 <body>
   <header>
-    <img id="logo" src="../static/images/logo-groupe-bam.png" alt="Logo du groupe BAM">
+    <img id="logo" src="/static/images/logo-groupe-bam.png" alt="Logo du groupe BAM">
 
     <button id="dropdown">
 
       Projet TEST
 
     <ul>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/1">Projet TEST A</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/2">Projet TEST B</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/3">Projet TEST C</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/4">Projet TEST D</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/5">Projet TEST E</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/6">Projet TEST F</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/7">Projet TEST G</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/8">Projet TEST H</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/9">Projet TEST I</a></li>
-      <li><a href="/Tableau_de_bord_JARNOT/Projets/10">Projet TEST J</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/1">id 1 Projet TEST A</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/2">id 2 Projet TEST B</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/3">id 3 Projet TEST C</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/4">id 4 Projet TEST D</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/5">id 5 Projet TEST E</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/6">id 6 Projet TEST F</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/7">id 7 Projet TEST G</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/8">id 8 Projet TEST H</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/9">id 9 Projet TEST I</a></li>
+      <li><a href="/Tableau_de_bord_JARNOT/Projets/10">id 10 Projet TEST J</a></li>
     </ul>
     </button>
 
@@ -38,437 +38,35 @@
 
 
     <div class="tableau-de_bord">
+      {% if ops_projet is defined %}
+        <table>
+          <!-- Ligne Entêtes de colonne : Etapes -->
+          <tr>
+              <th>PAQUETS</th>
+              {% set first_paquet = ops_projet | first %}
+              {% for etape in ops_projet[first_paquet] %}
+                  <th>{{ etape }}</th>
+              {% endfor %}
+          </tr>
 
-      <table>
-        <!-- Ligne Entêtes de colonne : Etapes -->
-        <tr>
-          <th>PAQUETS</th>
-          <th>ETAPE1</th>
-          <th>ETAPE2</th>
-          <th>ETAPE3</th>
-          <th>ETAPE4</th>
-          <th>ETAPE5</th>
-          <th>ETAPE6</th>
-          <th>ETAPE7</th>
-          <th>ETAPE8</th>
-          <th>ETAPE9</th>
-          <th>ETAPE10</th>
-          <th>ETAPE11</th>
-          <th>ETAPE12</th>
-          <th>ETAPE13</th>
-          <th>ETAPE14</th>
-          <th>ETAPE15</th>
-          <th>ETAPE16</th>
-          <th>ETAPE17</th>
-          <th>ETAPE18</th>
-          <th>ETAPE19</th>
+          <!-- Lignes tableau -->
+          {% for paquet in ops_projet %}
+          <tr>
+            <!-- Entête de ligne : Paquet -->
+            <td>{{ paquet }}</td>
 
-        </tr>
+            <!-- Valeurs des cellules : opérations -->
+            {% for etape in ops_projet[paquet] %}
+              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}">
+                {{ ops_projet[paquet][etape]['texte'] }}
+              </td>
+            {% endfor %}
 
-        <!-- Lignes tableau -->
-        <tr>
-          <td>PAQ1</td><!-- Entête de ligne : Paquet -->
-          <td id="1" data-statut="100" data-paquet="PAQ1" data-etape="ETAPE1" >A FAIRE</td>
-          <td id="2" data-statut="100" data-paquet="PAQ1" data-etape="ETAPE2">ICI un long texte saisi par le BE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ1" data-etape="ETAPE3">None</td>
-          <td id="3" data-statut="100" data-paquet="PAQ1" data-etape="ETAPE4">A FAIRE</td>
-          <td id="4" data-statut="100" data-paquet="PAQ1" data-etape="ETAPE5">A FAIRE</td>
-          <td id="5" data-statut="100" data-paquet="PAQ1" data-etape="ETAPE6">A FAIRE</td>
-          <td id="6" data-statut="40" data-paquet="PAQ1" data-etape="ETAPE7">A FAIRE</td>
-          <td id="7" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE8">A FAIRE</td>
-          <td id="8" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE9">A FAIRE</td>
-          <td id="9" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE10">A FAIRE</td>
-          <td id="10" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE11">A FAIRE</td>
-          <td id="11" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE12">A FAIRE</td>
-          <td id="12" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE13">A FAIRE</td>
-          <td id="13" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE14">A FAIRE</td>
-          <td id="14" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE15">A FAIRE</td>
-          <td id="15" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE16">A FAIRE</td>
-          <td id="16" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE17">A FAIRE</td>
-          <td id="17" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE18">A FAIRE</td>
-          <td id="18" data-statut="0" data-paquet="PAQ1" data-etape="ETAPE19">A FAIRE</td>
-        </tr>
-
-        <tr>
-          <td>PAQ2</td><!-- Entête de ligne : Paquet -->
-          <td id="19" data-statut="100" data-paquet="PAQ2" data-etape="ETAPE1">ICI texte encore plus long saisi par le BE</td>
-          <td id="20" data-statut="100" data-paquet="PAQ2" data-etape="ETAPE2">ICI un très très très très très très très très très très très très très très très très long texte saisi par le BE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ2" data-etape="ETAPE3">None</td>
-          <td id="21" data-statut="100" data-paquet="PAQ2" data-etape="ETAPE4"selected="true">A FAIRE</td>
-          <td id="22" data-statut="100" data-paquet="PAQ2" data-etape="ETAPE5">A FAIRE</td>
-          <td id="23" data-statut="30" data-paquet="PAQ2" data-etape="ETAPE6">A FAIRE</td>
-          <td id="24" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE7">A FAIRE</td>
-          <td id="25" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE8">A FAIRE</td>
-          <td id="26" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE9">A FAIRE</td>
-          <td id="27" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE10">A FAIRE</td>
-          <td id="28" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE11">A FAIRE</td>
-          <td id="29" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE12">A FAIRE</td>
-          <td id="30" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE13">A FAIRE</td>
-          <td id="31" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE14">A FAIRE</td>
-          <td id="32" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE15">A FAIRE</td>
-          <td id="33" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE16">A FAIRE</td>
-          <td id="34" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE17">A FAIRE</td>
-          <td id="35" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE18">A FAIRE</td>
-          <td id="36" data-statut="0" data-paquet="PAQ2" data-etape="ETAPE19">A FAIRE</td>
-        </tr>
-
-        <tr>
-          <td>PAQ3</td><!-- Entête de ligne : Paquet -->
-          <td id="37" data-statut="100" data-paquet="PAQ3" data-etape="ETAPE1">A FAIRE</td>
-          <td id="38" data-statut="100" data-paquet="PAQ3" data-etape="ETAPE2">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE3">None</td>
-          <td id="39" data-statut="90" data-paquet="PAQ3" data-etape="ETAPE4">A FAIRE</td>
-          <td id="40" data-statut="0" data-paquet="PAQ3" data-etape="ETAPE5">A FAIRE</td>
-          <td id="41" data-statut="0" data-paquet="PAQ3" data-etape="ETAPE6">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ3" data-etape="ETAPE19">None</td>
-        </tr>
-
-        <tr>
-          <td>PAQ4</td><!-- Entête de ligne : Paquet -->
-          <td id="42" data-statut="100" data-paquet="PAQ4" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE2">None</td>
-          <td id="43" data-statut="100" data-paquet="PAQ4" data-etape="ETAPE3">A FAIRE</td>
-          <td id="44" data-statut="90" data-paquet="PAQ4" data-etape="ETAPE4">A FAIRE</td>
-          <td id="45" data-statut="0" data-paquet="PAQ4" data-etape="ETAPE5">A FAIRE</td>
-          <td id="46" data-statut="0" data-paquet="PAQ4" data-etape="ETAPE6">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ4" data-etape="ETAPE19">None</td>
-        </tr>
-
-        <tr>
-          <td>PAQ5</td><!-- Entête de ligne : Paquet -->
-          <td id="47" data-statut="100" data-paquet="PAQ5" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE2">None</td>
-          <td id="48" data-statut="100" data-paquet="PAQ5" data-etape="ETAPE3">A FAIRE</td>
-          <td id="49" data-statut="90" data-paquet="PAQ5" data-etape="ETAPE4">A FAIRE</td>
-          <td id="50" data-statut="0" data-paquet="PAQ5" data-etape="ETAPE5">A FAIRE</td>
-          <td id="51" data-statut="0" data-paquet="PAQ5" data-etape="ETAPE6">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ5" data-etape="ETAPE19">None</td>
-        </tr>
-
-        <tr>
-          <td>PAQ6</td><!-- Entête de ligne : Paquet -->
-          <td id="52" data-statut="100" data-paquet="PAQ6" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ6" data-etape="ETAPE19">None</td>
-        </tr>
-
-        <tr>
-          <td>PAQ7</td><!-- Entête de ligne : Paquet -->
-          <td id="53" data-statut="100" data-paquet="PAQ7" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ7" data-etape="ETAPE19">None</td>
-        </tr>
-
-        <tr>
-          <td>PAQ8</td><!-- Entête de ligne : Paquet -->
-          <td id="54" data-statut="100" data-paquet="PAQ8" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ8" data-etape="ETAPE19">None</td>
-        </tr>
-
-        <tr>
-          <td>PAQ9</td><!-- Entête de ligne : Paquet -->
-          <td id="55" data-statut="100" data-paquet="PAQ9" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ9" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ10</td><!-- Entête de ligne : Paquet -->
-          <td id="56" data-statut="100" data-paquet="PAQ10" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ10" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ11</td><!-- Entête de ligne : Paquet -->
-          <td id="57" data-statut="100" data-paquet="PAQ11" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ11" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ12</td><!-- Entête de ligne : Paquet -->
-          <td id="58" data-statut="100" data-paquet="PAQ12" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ12" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ13</td><!-- Entête de ligne : Paquet -->
-          <td id="59" data-statut="100" data-paquet="PAQ13" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ13" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ14</td><!-- Entête de ligne : Paquet -->
-          <td id="60" data-statut="100" data-paquet="PAQ14" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ14" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ15</td><!-- Entête de ligne : Paquet -->
-          <td id="61" data-statut="100" data-paquet="PAQ15" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ15" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ16</td><!-- Entête de ligne : Paquet -->
-          <td id="62" data-statut="100" data-paquet="PAQ16" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ16" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-        <tr>
-          <td>PAQ17</td><!-- Entête de ligne : Paquet -->
-          <td id="63" data-statut="100" data-paquet="PAQ17" data-etape="ETAPE1">A FAIRE</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE2">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE3">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE4">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE5">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE6">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE7">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE8">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE9">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE10">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE11">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE12">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE13">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE14">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE15">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE16">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE17">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE18">None</td>
-          <td id="None" data-statut="None" data-paquet="PAQ17" data-etape="ETAPE19">None</td>
-        </tr>
-
-
-
-      </table>
-  </div>
+          </tr>
+          {% endfor %}
+        </table>
+      {% endif %}
+    </div>
 
   <footer>
     <div class="info_op">
@@ -487,7 +85,7 @@
     </div>
   </footer>
 
-  <script src="../static/js/clic_cellule_operation.js"></script>
+  <script src="/static/js/clic_cellule_operation.js"></script>
 
 
 
