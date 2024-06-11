@@ -19,6 +19,14 @@ def close_database_connection(exception=None):
         base_de_donnees.connexion_close()
 
 
+# Définition de la route pour afficher la liste des projets en cours
+@app.route('/Tableau_de_bord_JARNOT/Projets/')
+def tableau_de_bord():
+    base_de_donnees = get_database()
+    projets = base_de_donnees.get_all_projets()
+    return render_template('Tableau_de_Bord.html', projets=projets)
+
+
 # Définition de la route pour afficher le détail d'un projet
 @app.route('/Tableau_de_bord_JARNOT/Projets/<int:projet_id>')
 def detail_projet(projet_id):
