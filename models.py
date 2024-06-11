@@ -29,6 +29,31 @@ class AccesBDD:
 
         return projets
 
+    def get_info_projet_by_id(self, projet_id):
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            SELECT  id, nom_projet, version_projet, add_projet, cp_projet,
+                    ville_projet
+            FROM T_PROJETS
+            WHERE   id = %s
+            """, (projet_id,))
+
+        row = curseur.fetchone()
+        curseur.close()
+
+        if row:
+            return {
+                'id': row[0],
+                'nom': row[1],
+                'version': row[2],
+                'adresse': row[3],
+                'cp': row[4],
+                'ville': row[5]
+            }
+        else:
+            return {None}
+
     def get_ops_by_id_projet(self, projet_id):
         curseur = self.connexion.cursor()
         curseur.execute(

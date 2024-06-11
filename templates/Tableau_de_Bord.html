@@ -28,7 +28,9 @@
       </ul>
     </button>
 
-    <p id="info_projet"> 123 Rue des Champs 53000 LAVAL</p>
+    {% if projet is defined %}
+    <p id="info_projet"> {{ projet['adresse'] }} {{ projet['cp'] }} {{ projet['ville'] }}</p>
+    {% endif %}
 
     <p id="nom_compte"> nom_compte</p>
     <button id="bouton_nom_compte" onclick="location.href='/logout';">x</button>
