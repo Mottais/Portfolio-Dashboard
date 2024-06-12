@@ -75,7 +75,7 @@ const boutonEN_COURS = document.getElementById('bouton_EN_COURS');
 // Ajout d'un gestionnaire d'événement click au bouton "EN COURS"
 boutonEN_COURS.addEventListener('click', function() {
     // Définition de la progression
-    const progression = 10;
+    const progression = ValeurDeProgression;
     // Appel de la fonction avec la progression en tant qu'argument
     boutonsAFAIRE_ENCOURS_FAIT_Click(progression);
 });

@@ -1,3 +1,8 @@
+// Décmaration des variables globales
+
+// Valeur de progression pour le bouton "EN COURS"
+ValeurDeProgression = 10;
+
 // Cellules du tableau avec un attribut 'data-statut' différent de 'None' c'est-à-dire les cellules qui ont une opération
 const cells = document.querySelectorAll('td[data-statut]:not([data-statut="None"])');
 
@@ -34,7 +39,7 @@ cells.forEach(function(cell) {
                 document.getElementById('bouton_FAIT').style.visibility = 'visible';
             }
 
-            if (statut > 0 && statut < 90) {
+            if (statut > 0 && statut < (100 - ValeurDeProgression)) {
                 document.getElementById('bouton_A_FAIRE').style.visibility = 'visible';
                 document.getElementById('bouton_EN_COURS').style.visibility = 'visible';
                 document.getElementById('bouton_FAIT').style.visibility = 'visible';
