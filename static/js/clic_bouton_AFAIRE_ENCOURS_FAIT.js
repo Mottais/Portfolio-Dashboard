@@ -26,8 +26,7 @@ function boutonsAFAIRE_ENCOURS_FAIT_Click(progression) {
                 console.log(return_update_statut_from_app.message);
                 // Mise à jour de l'attribut data-statut de la cellule avec le nouveau statut
                 cellToChange.dataset.statut = nouveau_statut;
-                // mise à jour de l'affichage du statut dans la bôite de dialogue
-                statutSelect.textContent = cellToChange.dataset.statut + '%';
+                miseAJourBoiteDeDialogue(cellToChange);
             } else {
                 console.error(return_update_statut_from_app.message);
             }
