@@ -47,7 +47,7 @@ def update_statut():
     nouveau_statut = request.json['nouveau_statut']
 
     # Mise à jour du statut de l'opération dans la base de données
-    base_de_donnees = AccesBDD()
+    base_de_donnees = get_database()
     success = base_de_donnees.update_statut_operation(operation_id, nouveau_statut)
 
     # Envoi de la réponse au frontend
