@@ -1,4 +1,4 @@
-from flask import Flask, render_template, g
+from flask import Flask, render_template, g, request, jsonify
 from models import AccesBDD
 
 app = Flask(__name__)
@@ -37,6 +37,26 @@ def detail_projet(projet_id):
     ops_projet = base_de_donnees.get_ops_by_id_projet(projet_id)
 
     return render_template('Tableau_de_Bord.html', projets=projets, projet=projet, ops_projet=ops_projet)
+
+
+# Définition de la route pour mettre à jour le statut de l'opération
+@app.route('/Tableau_de_bord_JARNOT/update_statut/', methods=['PUT'])
+def update_statut():
+    # Récupération des données envoyées depuis le frontend
+    operation_id = request.json['id']
+    nouveau_statut = request.json['nouveau_statut']
+
+    # Mise à jour du statut de l'opération dans la base de données
+    base_de_donnees = AccesBDD()
+    success = base_de_donnees.update_statut_operation(operation_id, nouveau_statut)
+
+    # Envoi de la réponse au frontend
+    if success:
+        return jsonify({'success': True,
+                        'message': f'Statut de l\'opération {operation_id} mis à jour avec succès'})
+    else:
+        return jsonify({'success': False,
+                        'message': f'Echec de la mise à jour du statut de l\'op id:{operation_id}'})
 
 
 if __name__ == '__main__':
