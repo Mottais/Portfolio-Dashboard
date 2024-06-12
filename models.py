@@ -77,6 +77,26 @@ class AccesBDD:
             ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut}
         return ops_projet
 
+    def update_statut_operation(self, operation_id, nouveau_statut):
+
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            UPDATE T_OPERATIONS
+            SET statut_op = %s, compte_op = 'lui'
+            WHERE id = %s;
+            """, (nouveau_statut, operation_id,))
+
+        nombre_lignes_modifiees = curseur.rowcount  # Nb lignes affectées par la mise à jour
+
+        curseur.close()
+
+        if nombre_lignes_modifiees == 1:
+            self.connexion.commit()
+            return True
+        else:
+            return False
+
     def connexion_close(self):
         print('Fermeture de la connexion à la base de données')
         self.connexion.close()
