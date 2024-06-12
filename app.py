@@ -1,7 +1,10 @@
 from flask import Flask, render_template, g, request, jsonify
+from flask_socketio import SocketIO
 from models import AccesBDD
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret!'
+socketio = SocketIO(app)
 
 
 # Fonction pour obtenir la connexion à la base de données
@@ -52,6 +55,7 @@ def update_statut():
 
     # Envoi de la réponse au frontend
     if success:
+        socketio.emit('update_status', {'id': operation_id, 'nouveau_statut': nouveau_statut}, namespace='/')
         return jsonify({'success': True,
                         'message': f'Statut de l\'opération {operation_id} mis à jour avec succès'})
     else:
@@ -60,4 +64,4 @@ def update_statut():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    socketio.run(app, host='0.0.0.0', port=5000)
