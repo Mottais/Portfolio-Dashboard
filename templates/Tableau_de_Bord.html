@@ -76,7 +76,13 @@
       <p id="Paquet_select">----</p>
     </div>
 
-    <p id="Texte_select">...</p>
+    <p id="Texte_select">
+    {% if projet is defined %}
+      Sélectionnez une tâche du projet : {{ projet['nom'] }}
+    {% else %}
+      Sélectionnez un projet dans le menu déroulant.
+    {% endif %}
+    </p>
 
     <div class="Action_user">
     <p id="Statut_select">--%</p>
