@@ -221,7 +221,7 @@ footer {
     align-items: center; /* Centrage vertical */
     justify-content: center; /* Centrage horizontal */
 
-    display: none; /* 'none' pour masquer 'flex' pour afficher */
+    display: flex; /* 'none' pour masquer 'flex' pour afficher */
     }
 
 
