@@ -15,6 +15,8 @@
           // alert(`Cellule trouvée pour id: ${operationId} et mis àjour dans cette page`);
           cell.dataset.statut = nouveauStatut;
           // cell.innerText = nouveauStatut;
+          var elementSelected = document.querySelector('[selected="true"]');
+          if (elementSelected.id == operationId) { miseAJourBoiteDeDialogue(elementSelected)}
         } // else {
         //   alert(`Cellule non trouvée pour id: ${operationId}`);
         // }
