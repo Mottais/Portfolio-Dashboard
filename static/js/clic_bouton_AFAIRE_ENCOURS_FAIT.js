@@ -24,9 +24,8 @@ function boutonsAFAIRE_ENCOURS_FAIT_Click(progression) {
         .then(return_update_statut_from_app => {
             if (return_update_statut_from_app.success) {
                 console.log(return_update_statut_from_app.message);
-                // Mise à jour de l'attribut data-statut de la cellule avec le nouveau statut
-                cellToChange.dataset.statut = nouveau_statut;
-                miseAJourBoiteDeDialogue(cellToChange);
+                // Mise à jour du tableau de bord (statut de l'élément et boîte de dialogue) fait via
+                // le retour se socket-io (voir static/js/TempsReel_Operation_change.js)
             } else {
                 console.error(return_update_statut_from_app.message);
             }
