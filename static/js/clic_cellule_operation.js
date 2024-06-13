@@ -44,7 +44,7 @@ function miseAJourBoiteDeDialogue(cell) {
             document.getElementById('bouton_FAIT').style.visibility = 'visible';
         }
 
-        if (statut >= 90 && statut < 100) {
+        if (statut >= (100 - ValeurDeProgression) && statut < 100) {
             document.getElementById('bouton_A_FAIRE').style.visibility = 'visible';
             document.getElementById('bouton_EN_COURS').style.visibility = 'hidden';
             document.getElementById('bouton_FAIT').style.visibility = 'visible';
