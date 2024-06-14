@@ -118,7 +118,12 @@ INSERT INTO T_OPERATIONS ( id_etape, id_paquet, profil_op, texte_op, statut_op, 
     VALUES (7, 7, 'Atelier Bois', 'A FAIRE', 0,'moi');
 
 
-
+-- Insérer nouveau(x) compte
+INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('admin', 'pwadmin');
+INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('toto', 'toto');
+INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('Tristan', 'pwTristan');
+INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('Didier', 'pwDidier');
+INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('Jordan', 'pwJordan');
 
 
 -- Lister les noms des tables dans la base de données
