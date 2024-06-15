@@ -12,6 +12,38 @@ class AccesBDD:
             passwd='pw@DEV',
             db='TABLEAU_DE_BORD_JARNOT_DEV')
 
+    def get_compte_by_id(self, compte_id):
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            SELECT id, nom_compte, pw_compte FROM T_COMPTES
+            WHERE   id = %s
+            """, (compte_id,))
+
+        compte = curseur.fetchone()
+        curseur.close()
+
+        if compte:
+            return {'id': compte[0], 'nom': compte[1], 'pw': compte[2]}
+        else:
+            return {None}
+
+    def get_compte_by_nom_pw(self, nom, pw):
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            SELECT id, nom_compte, pw_compte FROM T_COMPTES
+            WHERE nom_compte = %s AND pw_compte = %s
+            """, (nom, pw))
+
+        compte = curseur.fetchone()
+        curseur.close()
+
+        if compte:
+            return {'id': compte[0], 'nom': compte[1], 'pw': compte[2]}
+        else:
+            return None
+
     def get_all_projets(self):
         curseur = self.connexion.cursor()
         curseur.execute(

@@ -63,7 +63,7 @@ header {
 #nom_compte {
     margin-left: auto;
 
-    display: none; /* 'none' pour masquer 'flex' pour afficher */
+    display: flex; /* 'none' pour masquer 'flex' pour afficher */
     }
 
 .tableau-de_bord {
@@ -250,7 +250,7 @@ button {
     padding-bottom: 10px;
     font-size: 40px;
 
-    display: none; /* 'none' pour masquer 'flex' pour afficher */
+    display: flex; /* 'none' pour masquer 'flex' pour afficher */
 }
 
 #bouton_A_FAIRE {
