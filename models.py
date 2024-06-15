@@ -44,20 +44,32 @@ class AccesBDD:
         else:
             return None
 
-    def get_all_projets(self):
+    def get_all_projets(self, nb_jour=7):
+        # liste des projets pas finis ou finis depuis moins de nb_jour jours
         curseur = self.connexion.cursor()
         curseur.execute(
             """
-            SELECT  id, nom_projet, version_projet
+            SELECT T_PROJETS.id, nom_projet, version_projet Version,
+            SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) nb_ops_non_finies
             FROM T_PROJETS
-            """)
+            INNER JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+            INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+            INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id
+                                    AND T_OPERATIONS.id_etape = T_ETAPES.id
+            GROUP BY T_PROJETS.id, nom_projet, version_projet
+            HAVING
+            (SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) <> 0)
+            OR
+            (SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) = 0
+            AND MAX(date_modif_op) > DATE_SUB(NOW(), INTERVAL %s DAY))
+            """, (nb_jour,))
 
         rows = curseur.fetchall()
         curseur.close()
 
         projets = {}
-        for id, nom, version in rows:
-            projets[id] = {'nom': nom, 'version': version}
+        for id, nom, version, nb_ops_non_finies in rows:
+            projets[id] = {'nom': nom, 'version': version, 'nb_ops_non_finies': nb_ops_non_finies}
 
         return projets
 
