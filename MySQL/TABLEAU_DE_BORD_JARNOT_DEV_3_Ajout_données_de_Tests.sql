@@ -165,4 +165,82 @@ SELECT nom_projet, T_PROJETS.id, ordre_paquet, nom_paquet, T_PAQUETS.id, ordre_e
     SELECT '*****   TABLEAU_DE_BORD_JARNOT_DEV  prêt pour le test *****' AS ''; # Affiche u commentaire
     SELECT '' AS '***********************************************************';
 
+-- Liste des projets avec les opérations
+SELECT nom_projet, T_PROJETS.id, nom_paquet, nom_etape, statut_op, compte_op, date_modif_op, texte_op
+    FROM T_PROJETS
+    LEFT JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+    LEFT JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+    INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
+    WHERE  T_PROJETS.id = 1
+    ORDER BY date_modif_op;
+
+-- Liste des projets non finis et nombre d'opérations total
+SELECT T_PROJETS.id, nom_projet "Projets non finis", version_projet, COUNT(T_OPERATIONS.id) "nb op pas finis"
+    FROM T_PROJETS
+    INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+    INNER JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+    INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
+    WHERE statut_op <> 100
+    GROUP BY T_PROJETS.id, nom_projet, version_projet;
+
+
+-- Liste des projets avec nb opérations ,finis, à finir et date de dernière modification
+SELECT T_PROJETS.id, nom_projet AS "Projets", version_projet Version, COUNT(T_OPERATIONS.id) "Nb op",
+SUM(CASE WHEN statut_op = 100 THEN 1 ELSE 0 END) AS "dont finies",
+SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) AS "dont à finir",
+MAX(T_OPERATIONS.date_modif_op) AS "date derniere modif opération"
+FROM T_PROJETS
+INNER JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
+GROUP BY T_PROJETS.id, nom_projet, version_projet;
+
+-- Liste des projets terminés depuis moins de 7 jours
+SELECT T_PROJETS.id, nom_projet AS "Projets finis", version_projet Version
+FROM T_PROJETS
+INNER JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
+GROUP BY T_PROJETS.id, nom_projet, version_projet
+HAVING
+SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) = 0
+AND MAX(T_OPERATIONS.date_modif_op) > DATE_SUB(NOW(), INTERVAL 7 DAY);
+
+-- Liste des projets PAS terminés
+SELECT T_PROJETS.id, nom_projet AS "Projets PAS finis", version_projet Version
+FROM T_PROJETS
+INNER JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
+GROUP BY T_PROJETS.id, nom_projet, version_projet
+HAVING
+SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) <> 0;
+
+
+-- Liste des projets PAS terminés ou terminés depuis moins de 7 jours
+-- Les projet terminés en fin de liste
+SELECT T_PROJETS.id, nom_projet AS "Projet Tableau de bord", version_projet Version,
+SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) AS "Nb op à finir"
+FROM T_PROJETS
+INNER JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
+INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
+INNER JOIN T_OPERATIONS ON T_OPERATIONS.id_paquet = T_PAQUETS.id AND T_OPERATIONS.id_etape = T_ETAPES.id
+GROUP BY T_PROJETS.id, nom_projet, version_projet
+HAVING
+-- Projet PAS terminés
+(SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) <> 0)
+OR
+-- Projet terminés depuis moins de 7 jours
+(SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) = 0
+AND MAX(T_OPERATIONS.date_modif_op) > DATE_SUB(NOW(), INTERVAL 7 DAY))
+
+ORDER BY
+    CASE WHEN SUM(CASE WHEN statut_op <> 100 THEN 1 ELSE 0 END) <> 0 THEN 1 ELSE 2 END ASC,
+    T_PROJETS.id DESC;
+
+
+
+
+
+
 
