@@ -58,7 +58,7 @@
 
             <!-- Valeurs des cellules : opérations -->
             {% for etape in ops_projet[paquet] %}
-              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}">
+              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}">
                 {{ ops_projet[paquet][etape]['texte'] }}
               </td>
             {% endfor %}
@@ -85,7 +85,8 @@
     </p>
 
     <div class="Action_user">
-    <p id="Statut_select">--%</p>
+    <p id="Compte_select">--%</p>
+    <p id="Statut_select" title="Votre info-bulle ici">--%</p>
       <button id="bouton_A_FAIRE">A FAIRE</button>
       <button id="bouton_EN_COURS">EN COURS</button>
       <button id="bouton_FAIT">FAIT</button>

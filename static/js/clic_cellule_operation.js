@@ -12,6 +12,8 @@ const paquetSelect = document.getElementById('Paquet_select');
 const etapeSelect = document.getElementById('Etape_select');
 const textSelect = document.getElementById('Texte_select');
 const statutSelect = document.getElementById('Statut_select');
+const profilSelect = document.getElementById('Profil_select');
+const compteSelect = document.getElementById('Compte_select');
 
 // Fonction de gestionnaire d'événements
 function miseAJourBoiteDeDialogue(cell) {
@@ -23,6 +25,9 @@ function miseAJourBoiteDeDialogue(cell) {
         etapeSelect.textContent = cell.getAttribute('data-etape');
         textSelect.textContent = cell.textContent;
         statutSelect.textContent = cell.getAttribute('data-statut') + "%";
+        statutSelect.setAttribute('title', 'Mis à jour par :'+ cell.getAttribute('data-compte'));
+        profilSelect.textContent = cell.getAttribute('data-profil');
+        compteSelect.textContent = cell.getAttribute('data-compte');
 
         // Supprime l'attribut 'selected' de l'élément actuellement sélectionné (s'il existe)
         if (document.querySelector('[selected="true"]')) {document.querySelector('[selected="true"]').removeAttribute('selected');}

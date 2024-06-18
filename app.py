@@ -102,7 +102,7 @@ def update_statut():
 
     # Envoi de la réponse au frontend
     if success:
-        socketio.emit('update_status', {'id': operation_id, 'nouveau_statut': nouveau_statut}, namespace='/')
+        socketio.emit('update_status', {'id': operation_id, 'nouveau_statut': nouveau_statut, 'compte': current_user.nom}, namespace='/')
         return jsonify({'success': True,
                         'message': f'Statut de l\'opération {operation_id} mis à jour avec succès'})
     else:

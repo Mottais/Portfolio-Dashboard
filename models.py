@@ -102,7 +102,7 @@ class AccesBDD:
         curseur = self.connexion.cursor()
         curseur.execute(
             """
-            SELECT nom_paquet, nom_etape, T_OPERATIONS.id,texte_op, statut_op
+            SELECT nom_paquet, nom_etape, T_OPERATIONS.id,texte_op, statut_op, profil_op, compte_op
             FROM T_PROJETS
             INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
             LEFT JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
@@ -115,10 +115,10 @@ class AccesBDD:
         rows = curseur.fetchall()
         curseur.close()
         ops_projet = {}
-        for paquet, etape, id, texte, statut in rows:
+        for paquet, etape, id, texte, statut, profil_op, compte_op in rows:
             if paquet not in ops_projet:
                 ops_projet[paquet] = {}
-            ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut}
+            ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut, 'profil': profil_op, 'compte': compte_op}
         return ops_projet
 
     def update_statut_operation(self, operation_id, nouveau_statut, nom_compte="qui?"):
