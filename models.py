@@ -121,15 +121,15 @@ class AccesBDD:
             ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut}
         return ops_projet
 
-    def update_statut_operation(self, operation_id, nouveau_statut):
+    def update_statut_operation(self, operation_id, nouveau_statut, nom_compte="qui?"):
 
         curseur = self.connexion.cursor()
         curseur.execute(
             """
             UPDATE T_OPERATIONS
-            SET statut_op = %s, compte_op = 'lui'
+            SET statut_op = %s, compte_op = %s
             WHERE id = %s;
-            """, (nouveau_statut, operation_id,))
+            """, (nouveau_statut, nom_compte, operation_id,))
 
         nombre_lignes_modifiees = curseur.rowcount  # Nb lignes affectées par la mise à jour
 

@@ -98,7 +98,7 @@ def update_statut():
 
     # Mise à jour du statut de l'opération dans la base de données
     base_de_donnees = get_database()
-    success = base_de_donnees.update_statut_operation(operation_id, nouveau_statut)
+    success = base_de_donnees.update_statut_operation(operation_id, nouveau_statut, current_user.nom)
 
     # Envoi de la réponse au frontend
     if success:
