@@ -31,8 +31,16 @@
     {% if projet is defined %}
     <p id="info_projet"> {{ projet['adresse'] }} {{ projet['cp'] }} {{ projet['ville'] }}</p>
     {% endif %}
-
-    <p id="nom_compte"> {{ name }}</p>
+    
+    <button id="nom_compte"> {{ name }}
+      <ul>
+        {% if liste_profils is defined %}
+            {% for profil in liste_profils %}
+                <li>{{ profil }}</li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+    </button>
     <button id="bouton_nom_compte" onclick="location.href='/logout';">x</button>
 
     </header>
@@ -94,6 +102,7 @@
     </div>
   </footer>
 
+  <script src="/static/js/clic_bouton_compte.js"></script>
   <script src="/static/js/clic_bouton_projets.js"></script>
   <script src="/static/js/initialisation_boutons_boite_de_dialogue.js"></script>
   <script src="/static/js/clic_cellule_operation.js"></script>

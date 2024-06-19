@@ -44,6 +44,25 @@ class AccesBDD:
         else:
             return None
 
+    def get_profils_user(self, nom):
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            SELECT nom_profil FROM T_COMPTES
+            INNER JOIN T_COMPTE_PROFIL ON id_compte = T_COMPTES.id
+            INNER JOIN T_PROFILS ON T_PROFILS.id = id_profil
+            WHERE nom_compte = %s
+            ORDER BY id_profil
+            """, (nom,))
+
+        rows = curseur.fetchall()
+        curseur.close()
+
+        # Extraire les noms de profil des lignes
+        profils = [row[0] for row in rows]
+
+        return profils
+
     def get_all_projets(self, nb_jour=7):
         # liste des projets pas finis ou finis depuis moins de nb_jour jours
         curseur = self.connexion.cursor()
