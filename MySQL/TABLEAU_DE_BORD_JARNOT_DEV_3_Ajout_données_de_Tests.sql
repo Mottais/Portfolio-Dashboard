@@ -125,6 +125,15 @@ INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('Tristan', 'pwTristan');
 INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('Didier', 'pwDidier');
 INSERT INTO T_COMPTES (nom_compte, pw_compte) VALUES ('Jordan', 'pwJordan');
 
+-- Insérer nouveau(x) profil
+INSERT INTO T_PROFILS (nom_profil) VALUES
+    ("Atelier Bois"),
+    ("Atelier Zinguerie"),
+    ("Magazin"),
+    ("Chauffeur"),
+    ("Chantier"),
+    ("Conducteur travaux");
+
 
 -- Lister les noms des tables dans la base de données
 SHOW TABLES;
@@ -239,7 +248,27 @@ ORDER BY
     T_PROJETS.id DESC;
 
 
+-- Liste les comptes et les profils associés
+SELECT nom_compte, nom_profil, pw_compte
+    FROM T_COMPTES
+    INNER JOIN T_COMPTE_PROFIL ON id_compte = T_COMPTES.id
+    INNER JOIN T_PROFILS ON T_PROFILS.id = id_profil
+    WHERE nom_compte LIKE '%%'
+    ORDER BY id_compte, id_profil;
 
+-- Liste des profils utilisés par les comptes
+SELECT nom_profil, COUNT(id_profil) AS "Nb comptes"
+    FROM T_COMPTES
+    INNER JOIN T_COMPTE_PROFIL ON id_compte = T_COMPTES.id
+    INNER JOIN T_PROFILS ON T_PROFILS.id = id_profil
+    GROUP BY nom_profil
+    ORDER BY id_profil;
+
+-- Liste les profils utilisés par les opérations non finies
+SELECT profil_op, COUNT(profil_op) AS "Nb op"
+    FROM T_OPERATIONS
+    WHERE statut_op <> 100
+    GROUP BY profil_op;
 
 
 
