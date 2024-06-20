@@ -73,7 +73,8 @@ def close_database_connection(exception=None):
 def tableau_de_bord():
     base_de_donnees = get_database()
     projets = base_de_donnees.get_all_projets()
-    return render_template('Tableau_de_Bord.html', projets=projets, name=current_user.nom)
+    liste_profils = base_de_donnees.get_profils_user(current_user.nom)
+    return render_template('Tableau_de_Bord.html', projets=projets, name=current_user.nom, liste_profils=liste_profils)
 
 
 # Définition de la route pour afficher le détail d'un projet
@@ -85,8 +86,9 @@ def detail_projet(projet_id):
     projets = base_de_donnees.get_all_projets()
     projet = base_de_donnees.get_info_projet_by_id(projet_id)
     ops_projet = base_de_donnees.get_ops_by_id_projet(projet_id)
+    liste_profils = base_de_donnees.get_profils_user(current_user.nom)
 
-    return render_template('Tableau_de_Bord.html', projets=projets, projet=projet, ops_projet=ops_projet, name=current_user.nom)
+    return render_template('Tableau_de_Bord.html', projets=projets, projet=projet, ops_projet=ops_projet, name=current_user.nom, liste_profils=liste_profils)
 
 
 # Définition de la route pour mettre à jour le statut de l'opération
@@ -98,11 +100,11 @@ def update_statut():
 
     # Mise à jour du statut de l'opération dans la base de données
     base_de_donnees = get_database()
-    success = base_de_donnees.update_statut_operation(operation_id, nouveau_statut)
+    success = base_de_donnees.update_statut_operation(operation_id, nouveau_statut, current_user.nom)
 
     # Envoi de la réponse au frontend
     if success:
-        socketio.emit('update_status', {'id': operation_id, 'nouveau_statut': nouveau_statut}, namespace='/')
+        socketio.emit('update_status', {'id': operation_id, 'nouveau_statut': nouveau_statut, 'compte': current_user.nom}, namespace='/')
         return jsonify({'success': True,
                         'message': f'Statut de l\'opération {operation_id} mis à jour avec succès'})
     else:

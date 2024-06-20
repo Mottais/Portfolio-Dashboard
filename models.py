@@ -44,6 +44,25 @@ class AccesBDD:
         else:
             return None
 
+    def get_profils_user(self, nom):
+        curseur = self.connexion.cursor()
+        curseur.execute(
+            """
+            SELECT nom_profil FROM T_COMPTES
+            INNER JOIN T_COMPTE_PROFIL ON id_compte = T_COMPTES.id
+            INNER JOIN T_PROFILS ON T_PROFILS.id = id_profil
+            WHERE nom_compte = %s
+            ORDER BY id_profil
+            """, (nom,))
+
+        rows = curseur.fetchall()
+        curseur.close()
+
+        # Extraire les noms de profil des lignes
+        profils = [row[0] for row in rows]
+
+        return profils
+
     def get_all_projets(self, nb_jour=7):
         # liste des projets pas finis ou finis depuis moins de nb_jour jours
         curseur = self.connexion.cursor()
@@ -102,7 +121,7 @@ class AccesBDD:
         curseur = self.connexion.cursor()
         curseur.execute(
             """
-            SELECT nom_paquet, nom_etape, T_OPERATIONS.id,texte_op, statut_op
+            SELECT nom_paquet, nom_etape, T_OPERATIONS.id,texte_op, statut_op, profil_op, compte_op
             FROM T_PROJETS
             INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
             LEFT JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
@@ -115,21 +134,21 @@ class AccesBDD:
         rows = curseur.fetchall()
         curseur.close()
         ops_projet = {}
-        for paquet, etape, id, texte, statut in rows:
+        for paquet, etape, id, texte, statut, profil_op, compte_op in rows:
             if paquet not in ops_projet:
                 ops_projet[paquet] = {}
-            ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut}
+            ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut, 'profil': profil_op, 'compte': compte_op}
         return ops_projet
 
-    def update_statut_operation(self, operation_id, nouveau_statut):
+    def update_statut_operation(self, operation_id, nouveau_statut, nom_compte="qui?"):
 
         curseur = self.connexion.cursor()
         curseur.execute(
             """
             UPDATE T_OPERATIONS
-            SET statut_op = %s, compte_op = 'lui'
+            SET statut_op = %s, compte_op = %s
             WHERE id = %s;
-            """, (nouveau_statut, operation_id,))
+            """, (nouveau_statut, nom_compte, operation_id,))
 
         nombre_lignes_modifiees = curseur.rowcount  # Nb lignes affectées par la mise à jour
 

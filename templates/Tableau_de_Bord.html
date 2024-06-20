@@ -21,7 +21,7 @@
         {% if projets is defined %}
           {% for prj in projets %}
             <li>
-              <a href="/Tableau_de_bord_JARNOT/Projets/{{ prj }}">{{ prj }} - {{ projets[prj]['nom'] }}</a>
+              <a href="/Tableau_de_bord_JARNOT/Projets/{{ prj }} ">{{ projets[prj]['nom'] }}</a>&nbsp;&nbsp;({{ projets[prj]['nb_ops_non_finies'] }})
             </li>
           {% endfor %}
         {% endif %}
@@ -31,8 +31,16 @@
     {% if projet is defined %}
     <p id="info_projet"> {{ projet['adresse'] }} {{ projet['cp'] }} {{ projet['ville'] }}</p>
     {% endif %}
-
-    <p id="nom_compte"> {{ name }}</p>
+    
+    <button id="nom_compte"> {{ name }}
+      <ul>
+        {% if liste_profils is defined %}
+            {% for profil in liste_profils %}
+                <li>{{ profil }}</li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+    </button>
     <button id="bouton_nom_compte" onclick="location.href='/logout';">x</button>
 
     </header>
@@ -58,7 +66,7 @@
 
             <!-- Valeurs des cellules : opérations -->
             {% for etape in ops_projet[paquet] %}
-              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}">
+              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}">
                 {{ ops_projet[paquet][etape]['texte'] }}
               </td>
             {% endfor %}
@@ -74,6 +82,7 @@
       <p id="op_select">---</p>
       <p id="Etape_select">----</p>
       <p id="Paquet_select">----</p>
+      <p id="Profil_select">----</p>
     </div>
 
     <p id="Texte_select">
@@ -85,13 +94,16 @@
     </p>
 
     <div class="Action_user">
-    <p id="Statut_select">--%</p>
+    <p id="Compte_select">--%</p>
+    <p id="Statut_select" title="Votre info-bulle ici">--%</p>
       <button id="bouton_A_FAIRE">A FAIRE</button>
       <button id="bouton_EN_COURS">EN COURS</button>
       <button id="bouton_FAIT">FAIT</button>
     </div>
   </footer>
 
+  <script src="/static/js/clic_bouton_compte.js"></script>
+  <script src="/static/js/clic_bouton_projets.js"></script>
   <script src="/static/js/initialisation_boutons_boite_de_dialogue.js"></script>
   <script src="/static/js/clic_cellule_operation.js"></script>
   <script src="/static/js/clic_bouton_AFAIRE_ENCOURS_FAIT.js"></script>
