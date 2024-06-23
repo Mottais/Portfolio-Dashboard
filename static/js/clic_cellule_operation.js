@@ -36,7 +36,8 @@ function miseAJourBoiteDeDialogue(cell) {
         cell.setAttribute('selected', 'true');
 
         let statut = cell.getAttribute('data-statut');
-
+        let modif_autoris = cell.getAttribute('modif_autoris');
+        
         if (statut == 0) {
             document.getElementById('bouton_A_FAIRE').style.visibility = 'hidden';
             document.getElementById('bouton_EN_COURS').style.visibility = 'visible';
@@ -57,6 +58,12 @@ function miseAJourBoiteDeDialogue(cell) {
 
         if (statut == 100) {
             document.getElementById('bouton_A_FAIRE').style.visibility = 'visible';
+            document.getElementById('bouton_EN_COURS').style.visibility = 'hidden';
+            document.getElementById('bouton_FAIT').style.visibility = 'hidden';
+        }
+
+        if (modif_autoris == "non") {
+            document.getElementById('bouton_A_FAIRE').style.visibility = 'hidden';
             document.getElementById('bouton_EN_COURS').style.visibility = 'hidden';
             document.getElementById('bouton_FAIT').style.visibility = 'hidden';
         }
