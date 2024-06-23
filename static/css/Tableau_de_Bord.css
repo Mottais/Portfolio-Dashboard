@@ -181,6 +181,10 @@ td[data-statut]:not([data-statut="None"]):not([data-statut="0"]):not([data-statu
         background-color: rgba(41, 112, 44, 0.5); /* Changez la couleur selon votre préférence */
     }
 
+[modif_autoris="oui"] {
+    border: 3px solid rgb(75, 73, 73);
+    }
+    
 /* Définition des styles pour la cellule sélectionnée */
 [selected="true"] {
     border: 5px solid red;

@@ -66,9 +66,13 @@
 
             <!-- Valeurs des cellules : opérations -->
             {% for etape in ops_projet[paquet] %}
-              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}">
-                {{ ops_projet[paquet][etape]['texte'] }}
-              </td>
+              {% if ops_projet[paquet][etape]['profil'] in liste_profils %}
+                <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}" modif_autoris="oui">
+              {% else %}
+                <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}" modif_autoris="non">
+              {% endif %}  
+              {{ ops_projet[paquet][etape]['texte'] }}
+                </td>
             {% endfor %}
 
           </tr>
