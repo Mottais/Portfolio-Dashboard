@@ -17,15 +17,7 @@
       {% else %}
         PROJETS ?
       {% endif %}
-      <ul>
-        {% if projets is defined %}
-          {% for prj in projets %}
-            <li>
-              <a href="/Tableau_de_bord_JARNOT/Projets/{{ prj }} ">{{ projets[prj]['nom'] }}</a>&nbsp;&nbsp;({{ projets[prj]['nb_ops_non_finies'] }})
-            </li>
-          {% endfor %}
-        {% endif %}
-      </ul>
+      <ul id="listeProjets" style="display:none;"></ul>
     </button>
 
     {% if projet is defined %}

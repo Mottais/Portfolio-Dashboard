@@ -68,28 +68,28 @@ def close_database_connection(exception=None):
         base_de_donnees.connexion_close()
 
 
-# Définition de la route pour afficher la liste des projets en cours
-@app.route('/Tableau_de_bord_JARNOT/Projets/')
-def tableau_de_bord():
+# Définition de la route pour retourner la liste des projets en cours
+@app.route('/Tableau_de_bord_JARNOT/Liste_Projets/')
+def Liste_Projets():
     base_de_donnees = get_database()
     projets = base_de_donnees.get_all_projets()
-    liste_profils = base_de_donnees.get_profils_user(current_user.nom)
-    return render_template('Tableau_de_Bord.html', projets=projets, name=current_user.nom, liste_profils=liste_profils)
+    return jsonify(projets)
 
 
 # Définition de la route pour afficher le détail d'un projet
 @app.route('/Tableau_de_bord_JARNOT/Projets/<int:projet_id>')
+@app.route('/Tableau_de_bord_JARNOT/Projets/')
 @login_required
-def detail_projet(projet_id):
+def detail_projet(projet_id = 0):
     base_de_donnees = get_database()
-
-    projets = base_de_donnees.get_all_projets()
-    projet = base_de_donnees.get_info_projet_by_id(projet_id)
-    ops_projet = base_de_donnees.get_ops_by_id_projet(projet_id)
     liste_profils = base_de_donnees.get_profils_user(current_user.nom)
-
-    return render_template('Tableau_de_Bord.html', projets=projets, projet=projet, ops_projet=ops_projet, name=current_user.nom, liste_profils=liste_profils)
-
+    if projet_id > 0 :
+        projet = base_de_donnees.get_info_projet_by_id(projet_id)
+        ops_projet = base_de_donnees.get_ops_by_id_projet(projet_id)
+        return render_template('Tableau_de_Bord.html', projet=projet, ops_projet=ops_projet, name=current_user.nom, liste_profils=liste_profils)
+    else:
+        return render_template('Tableau_de_Bord.html', name=current_user.nom, liste_profils=liste_profils)
+    
 
 # Définition de la route pour mettre à jour le statut de l'opération
 @app.route('/Tableau_de_bord_JARNOT/update_statut/', methods=['PUT'])

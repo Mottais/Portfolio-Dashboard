@@ -86,10 +86,9 @@ class AccesBDD:
         rows = curseur.fetchall()
         curseur.close()
 
-        projets = {}
+        projets = []
         for id, nom, version, nb_ops_non_finies in rows:
-            projets[id] = {'nom': nom, 'version': version, 'nb_ops_non_finies': nb_ops_non_finies}
-
+            projets.append({'id':id,'nom': nom, 'version': version, 'nb_ops_non_finies': nb_ops_non_finies})
         return projets
 
     def get_info_projet_by_id(self, projet_id):
