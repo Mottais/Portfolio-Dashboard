@@ -41,7 +41,7 @@
         {% endif %}
     </ul>
     </button>
-    <button id="bouton_nom_compte" onclick="location.href='/logout';">x</button>
+    <button id="bouton_nom_compte" onclick="location.href='/logout';">✖</button>
 
     </header>
 
@@ -82,6 +82,18 @@
     </div>
 
   <footer>
+    <div class="modale-reglages" id="modaleReglages">
+      Réglages
+      <button id="bouton_quitter_reglages" onclick="cacherReglages()">✖</button>
+      <button id="bouton_AffichageEtape" onclick="AffichageEtape(this)">Afficher l'ETAPE de l'opération</button>
+      <button id="bouton_AffichagePaquet" onclick="AffichagePaquet(this)">Afficher le PAQUETde l'opération</button>
+      <button id="bouton_AffichageProfil" onclick="AffichageProfil(this)">Afficher le PROFIL nécessaire pour l'opération</button>
+      <button id="bouton_AffichageCompte" onclick="AffichageCompte(this)">Afficher l'auteur de la dernière modification</button>
+      <button id="bouton_AffichageStatut" onclick="AffichageStatut(this)">Afficher l'Avancement de l'opération (%)</button>
+    </div>
+  
+    <button class="bouton-reglages" onclick="montrerReglages()">⚙️</button>
+
     <div class="info_op">
       <p id="op_select">---</p>
       <p id="Etape_select">----</p>
@@ -106,6 +118,7 @@
     </div>
   </footer>
 
+  <script src="/static/js/Reglages_Affichage_boite_de_dialogue.js"></script>
   <script src="/static/js/clic_bouton_compte.js"></script>
   <script src="/static/js/clic_bouton_projets.js"></script>
   <script src="/static/js/initialisation_boutons_boite_de_dialogue.js"></script>
