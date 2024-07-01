@@ -203,7 +203,7 @@ INSERT INTO T_OPERATIONS ( id_etape, id_paquet, profil_op, texte_op, statut_op, 
 
 -- Insérer des données dans la table T_OPERATIONS pour Projet TEST C
 INSERT INTO T_OPERATIONS ( id_etape, id_paquet, profil_op, texte_op, statut_op, compte_op, date_modif_op)
-    VALUES (7, 7, 'Atelier Bois', 'A FAIRE', 100,'moi', '2024-01-01 00:42:27');
+    VALUES (7, 7, 'Atelier Bois', 'A FAIRE', 100,'moi', '2024-01-01 00:00:00');
 
 
 -- Insérer nouveau(x) compte
