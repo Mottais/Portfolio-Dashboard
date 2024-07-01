@@ -3,7 +3,7 @@ import MySQLdb
 
 
 class AccesBDD:
-    def __init__(self, BDD='TABLEAU_DE_BORD_JARNOT_TEST'):
+    def __init__(self, BDD='TABLEAU_DE_BORD_JARNOT_DEV'):
         print('Connexion à la base de données')
         self.connexion = MySQLdb.connect(
             host="localhost",
