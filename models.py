@@ -3,14 +3,14 @@ import MySQLdb
 
 
 class AccesBDD:
-    def __init__(self):
+    def __init__(self, BDD='TABLEAU_DE_BORD_JARNOT_TEST'):
         print('Connexion à la base de données')
         self.connexion = MySQLdb.connect(
             host="localhost",
             port=3306,
             user='DEV',
             passwd='pw@DEV',
-            db='TABLEAU_DE_BORD_JARNOT_DEV')
+            db=BDD)
 
     def get_compte_by_id(self, compte_id):
         curseur = self.connexion.cursor()
