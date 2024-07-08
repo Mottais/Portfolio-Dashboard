@@ -4,6 +4,11 @@ import MySQLdb
 
 class AccesBDD:
     def __init__(self, BDD='TABLEAU_DE_BORD_JARNOT_DEV'):
+        """
+        Initialise une connexion à la base de données MySQL.
+
+        :param BDD: Nom base de données,par défaut 'TABLEAU_DE_BORD_JARNOT_DEV'
+        """
         print('Connexion à la base de données')
         self.connexion = MySQLdb.connect(
             host="localhost",
@@ -13,6 +18,12 @@ class AccesBDD:
             db=BDD)
 
     def get_compte_by_id(self, compte_id):
+        """
+        Récupère les détails d'un compte par son ID.
+
+        :param compte_id: ID du compte à récupérer
+        :return: Dict avec détails du compte ou {None} si compte n'existe pas
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -29,6 +40,13 @@ class AccesBDD:
             return {None}
 
     def get_compte_by_nom_pw(self, nom, pw):
+        """
+        Récupère les détails d'un compte par nom et mot de passe.
+
+        :param nom: Nom du compte à récupérer
+        :param pw: Mot de passe du compte à récupérer
+        :return: Dict avec détails du compte ou None si compte n'existe pas
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -45,6 +63,12 @@ class AccesBDD:
             return None
 
     def get_profils_user(self, nom):
+        """
+        Récupère les profils d'utilisateur par nom de compte.
+
+        :param nom: Nom du compte pour lequel récupérer les profils
+        :return: Liste des noms de profils associés au compte
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -64,7 +88,13 @@ class AccesBDD:
         return profils
 
     def get_all_projets(self, nb_jour=7):
-        # liste des projets pas finis ou finis depuis moins de nb_jour jours
+        """
+        Récupère tous les projets non terminés ou terminés récemment.
+
+        :param nb_jour: Nb de jours à partir desquels considérer
+         les projets comme récents (par défaut 7)
+        :return: Liste des projets sous forme de dictionnaires
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -93,6 +123,12 @@ class AccesBDD:
         return projets
 
     def get_info_projet_by_id(self, projet_id):
+        """
+        Récupère les informations détaillées d'un projet par son ID.
+
+        :param projet_id: ID du projet à récupérer
+        :return: Dict avec informations projet, {None} si projet n'existe pas
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -118,6 +154,12 @@ class AccesBDD:
             return {None}
 
     def get_ops_by_id_projet(self, projet_id):
+        """
+        Récupère toutes les opérations d'un projet par son ID.
+
+        :param projet_id: ID du projet pour lequel récupérer les opérations
+        :return: Dicti avec les opérations du projet par paquet et étape
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -145,7 +187,14 @@ class AccesBDD:
 
     def update_statut_operation(self, operation_id, nouveau_statut,
                                 nom_compte="qui?"):
+        """
+        Met à jour le statut d'une opération dans la base de données.
 
+        :param operation_id: ID de l'opération à mettre à jour
+        :param nouveau_statut: Nouveau statut de l'opération
+        :param nom_compte: Nom du compte à associer à la màj, par défaut 'qui?'
+        :return: True si la mise à jour est réussie, False sinon
+        """
         curseur = self.connexion.cursor()
         curseur.execute(
             """
@@ -166,5 +215,8 @@ class AccesBDD:
             return False
 
     def connexion_close(self):
+        """
+        Ferme la connexion à la base de données MySQL.
+        """
         print('Fermeture de la connexion à la base de données')
         self.connexion.close()
