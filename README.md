@@ -3,13 +3,24 @@
 
 ### TABLE DES MATIÈRES
 - [DESCRIPTION](#description)
+- [DESCRIPTION](#description)
 - [PREREQUIS](#prerequis)
 - [INSTALLATION](#installation)
 - [LANCEMENT](#lancement)
 - [TESTS](#tests)
 - [UTILISATION](#utilisation)
+- [CONTRIBUTION](#contribution)
+- [PROJETS CONNEXES](#projets-connexes)
+- [LICENCES](#licences)
 - [AUTEUR](#auteur)
 
+### INTRODUCTION
+
+Bienvenue dans le dépôt du projet Portfolio-Dashboard. Ce projet est un outil de visualisation et de mise à jour de l'avancement des projets pour les entreprises de construction utilisant le logiciel SEMA.
+
+- __Liens vers vidéos de démo du site déployé__: [vidéo FR](https://youtu.be/vmoC8oMKvtE)/[vidéo EN](https://www.youtube.com/watch?v=F3pVUmrCwf4)
+- __Article de blog du projet final__: [blog](https://real-time-dashboards.blogspot.com/2024/07/blog-post.html)
+- __Profil LinkedIn de l'auteur__: [Yannick Mottais](https://github.com/Mottais)
 
 ### DESCRIPTION
 
@@ -115,6 +126,22 @@ __Exécuter les tests à la racine du projet :__
 Visionnez cette vidéo :
 [![Vidéo_Démo](https://github.com/Mottais/Images/blob/38d31e307ec85b56a0031eda92b31dc66bde537d/Portfolio-Dashboard/Acceuil_Demo_FR.jpg)](https://www.youtube.com/watch?v=vmoC8oMKvtE)
 
+### CONTRIBUTION
+
+Les contributions sont les bienvenues ! Veuillez soumettre un pull request pour les nouvelles fonctionnalités ou les corrections de bugs. Assurez-vous que vos modifications passent tous les tests avant de soumettre.
+
+### PROJETS CONNEXES
+
+- [SEMA](https://www.sema-soft.com/)
+- [Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
+- [Test FLask SocketIO](https://github.com/Mottais/TESTS_FLask_SocketIO)
+- [Test flask login](https://github.com/Mottais/LOGIN)
+
+### LICENCES
+
+Ce projet est sous licence de la Holberton School. En tant qu'étudiants de la Holberton School, veuillez vous conformer à toute autre politique de licence ou d'intégrité académique établie par votre institution.
+
 ### AUTEUR
 
 Yannick Mottais
+- [LinkedIn](https://www.linkedin.com/in/yannickmottais/)
