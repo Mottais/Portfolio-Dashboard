@@ -88,7 +88,8 @@ class AccesBDD:
 
         projets = []
         for id, nom, version, nb_ops_non_finies in rows:
-            projets.append({'id':id,'nom': nom, 'version': version, 'nb_ops_non_finies': nb_ops_non_finies})
+            projets.append({'id': id, 'nom': nom, 'version': version,
+                            'nb_ops_non_finies': nb_ops_non_finies})
         return projets
 
     def get_info_projet_by_id(self, projet_id):
@@ -120,7 +121,8 @@ class AccesBDD:
         curseur = self.connexion.cursor()
         curseur.execute(
             """
-            SELECT nom_paquet, nom_etape, T_OPERATIONS.id,texte_op, statut_op, profil_op, compte_op
+            SELECT nom_paquet, nom_etape, T_OPERATIONS.id,texte_op, statut_op,
+                profil_op, compte_op
             FROM T_PROJETS
             INNER JOIN T_ETAPES ON T_ETAPES.id_projet = T_PROJETS.id
             LEFT JOIN T_PAQUETS ON T_PAQUETS.id_projet = T_PROJETS.id
@@ -136,10 +138,13 @@ class AccesBDD:
         for paquet, etape, id, texte, statut, profil_op, compte_op in rows:
             if paquet not in ops_projet:
                 ops_projet[paquet] = {}
-            ops_projet[paquet][etape] = {'id': id, 'texte': texte, 'statut': statut, 'profil': profil_op, 'compte': compte_op}
+            ops_projet[paquet][etape] = {'id': id, 'texte': texte,
+                                         'statut': statut, 'profil': profil_op,
+                                         'compte': compte_op}
         return ops_projet
 
-    def update_statut_operation(self, operation_id, nouveau_statut, nom_compte="qui?"):
+    def update_statut_operation(self, operation_id, nouveau_statut,
+                                nom_compte="qui?"):
 
         curseur = self.connexion.cursor()
         curseur.execute(
@@ -149,7 +154,8 @@ class AccesBDD:
             WHERE id = %s;
             """, (nouveau_statut, nom_compte, operation_id,))
 
-        nombre_lignes_modifiees = curseur.rowcount  # Nb lignes affectées par la mise à jour
+        # Nb lignes affectées par la mise à jour
+        nombre_lignes_modifiees = curseur.rowcount
 
         curseur.close()
 
