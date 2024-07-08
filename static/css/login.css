@@ -1,69 +1,79 @@
+/* Définition des styles pour le corps de la page */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-color: #f4f4f4; /* Couleur de fond */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les paddings par défaut */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Hauteur de la vue */
+    flex-direction: column; /* Affichage en colonne */
 }
 
+/* Définition des styles pour les titres de niveau 3 (h3) */
 h3 {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les paddings par défaut */
 }
 
+/* Définition des styles pour les formulaires */
 form {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Couleur de fond */
+    padding: 20px; /* Padding interne */
+    margin: 20px; /* Marge externe */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
 
+/* Définition des styles pour les champs de saisie (input) */
 input {
-    display: block;
-    /* width: 100%; */
-    height: 30px;
-    padding-left: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display: block; /* Affichage en bloc */
+    /* width: 100%; Largeur totale (commenté) */
+    height: 30px; /* Hauteur */
+    padding-left: 10px; /* Padding interne à gauche */
+    margin: 10px 0; /* Marge verticale */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
 }
 
+/* Définition des styles pour les boutons */
 button {
-    padding: 10px 20px;
-    background-color: #447a44;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 20px; /* Padding interne */
+    background-color: #447a44; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de type "pointer" */
 }
 
+/* Définition des styles pour les boutons au survol */
 button:hover {
-    background-color: #4cae4c;
+    background-color: #4cae4c; /* Couleur de fond au survol */
 }
 
+/* Définition des styles pour la liste des messages (flashes) */
 .flashes {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Supprime les paddings */
 }
 
+/* Définition des styles pour les éléments de la liste des messages */
 .flashes li {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+    margin: 10px 0; /* Marge verticale */
+    padding: 10px; /* Padding interne */
+    border-radius: 5px; /* Coins arrondis */
+    text-align: center; /* Alignement centré du texte */
 }
 
+/* Définition des styles pour les messages de succès */
 .flashes .success {
-    background-color: #dff0d8;
-    color: #3c763d;
+    background-color: #dff0d8; /* Couleur de fond */
+    color: #3c763d; /* Couleur du texte */
 }
 
+/* Définition des styles pour les messages d'erreur */
 .flashes .error {
-    background-color: #f2dede;
-    color: #a94442;
+    background-color: #f2dede; /* Couleur de fond */
+    color: #a94442; /* Couleur du texte */
 }

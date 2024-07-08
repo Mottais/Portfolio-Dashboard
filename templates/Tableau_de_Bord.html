@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Titre de la page -->
   <title>PORTFOLIO TABLEAU</title>
+  <!-- Icône de la page -->
   <link rel="icon" type="image/x-icon" href="/static/images/BAM.ico">
+  <!-- Feuille de style CSS -->
   <link rel="stylesheet" type="text/css" href="/static/css/Tableau_de_Bord.css">
+  <!-- Bibliothèque client Socket.IO -->
   <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
 </head>
 
 <body>
+  <!-- En-tête de la page -->
   <header>
+    <!-- Logo de l'entreprise -->
     <img id="logo" src="/static/images/logo-groupe-bam.png" alt="Logo du groupe BAM">
 
+    <!-- Bouton déroulant pour les projets -->
     <button id="dropdown">
       {% if projet is defined %}
         {{ projet['nom'] }}
@@ -20,10 +27,12 @@
       <ul id="listeProjets" style="display:none;"></ul>
     </button>
 
+    <!-- Informations sur le projet sélectionné -->
     {% if projet is defined %}
     <p id="info_projet"> {{ projet['adresse'] }} {{ projet['cp'] }} {{ projet['ville'] }}</p>
     {% endif %}
     
+    <!-- Bouton pour le nom de compte -->
     <button id="nom_compte"> {{ name }}
       <ul>
         {% if liste_profils is defined %}
@@ -33,59 +42,65 @@
         {% endif %}
     </ul>
     </button>
+
+    <!-- Bouton de déconnexion -->
     <button id="bouton_nom_compte" onclick="location.href='/logout';">✖</button>
+  </header>
 
-    </header>
-
-
-    <div class="tableau-de_bord">
-      {% if ops_projet is defined %}
-        <table>
-          <!-- Ligne Entêtes de colonne : Etapes -->
-          <tr>
-              <th>PAQUETS</th>
-              {% set first_paquet = ops_projet | first %}
-              {% for etape in ops_projet[first_paquet] %}
-                  <th>{{ etape }}</th>
-              {% endfor %}
-          </tr>
-
-          <!-- Lignes tableau -->
-          {% for paquet in ops_projet %}
-          <tr>
-            <!-- Entête de ligne : Paquet -->
-            <td>{{ paquet }}</td>
-
-            <!-- Valeurs des cellules : opérations -->
-            {% for etape in ops_projet[paquet] %}
-              {% if ops_projet[paquet][etape]['profil'] in liste_profils %}
-                <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}" modif_autoris="oui">
-              {% else %}
-                <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}" modif_autoris="non">
-              {% endif %}  
-              {{ ops_projet[paquet][etape]['texte'] }}
-                </td>
+  <!-- Contenu principal du tableau de bord -->
+  <div class="tableau-de_bord">
+    <!-- Vérification si des opérations projet existent -->
+    {% if ops_projet is defined %}
+      <table>
+        <!-- Ligne des entêtes de colonne : Étapes -->
+        <tr>
+            <th>PAQUETS</th>
+            {% set first_paquet = ops_projet | first %}
+            {% for etape in ops_projet[first_paquet] %}
+                <th>{{ etape }}</th>
             {% endfor %}
+        </tr>
 
-          </tr>
+        <!-- Lignes du tableau pour les opérations -->
+        {% for paquet in ops_projet %}
+        <tr>
+          <!-- Entête de ligne : Paquet -->
+          <td>{{ paquet }}</td>
+
+          <!-- Cellules avec les informations des opérations -->
+          {% for etape in ops_projet[paquet] %}
+            {% if ops_projet[paquet][etape]['profil'] in liste_profils %}
+              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}" modif_autoris="oui">
+            {% else %}
+              <td id="{{ ops_projet[paquet][etape]['id'] }}" data-statut="{{ ops_projet[paquet][etape]['statut'] }}" data-profil="{{ ops_projet[paquet][etape]['profil'] }}" data-compte="{{ ops_projet[paquet][etape]['compte'] }}" data-paquet="{{ paquet }}" data-etape="{{ etape }}" modif_autoris="non">
+            {% endif %}  
+            {{ ops_projet[paquet][etape]['texte'] }}
+              </td>
           {% endfor %}
-        </table>
-      {% endif %}
-    </div>
 
+        </tr>
+        {% endfor %}
+      </table>
+    {% endif %}
+  </div>
+
+  <!-- Pied de page -->
   <footer>
+    <!-- Modale de réglages -->
     <div class="modale-reglages" id="modaleReglages">
       Réglages
       <button id="bouton_quitter_reglages" onclick="cacherReglages()">✖</button>
       <button id="bouton_AffichageEtape" onclick="AffichageEtape(this)">Afficher l'ETAPE de l'opération</button>
-      <button id="bouton_AffichagePaquet" onclick="AffichagePaquet(this)">Afficher le PAQUETde l'opération</button>
+      <button id="bouton_AffichagePaquet" onclick="AffichagePaquet(this)">Afficher le PAQUET de l'opération</button>
       <button id="bouton_AffichageProfil" onclick="AffichageProfil(this)">Afficher le PROFIL nécessaire pour l'opération</button>
       <button id="bouton_AffichageCompte" onclick="AffichageCompte(this)">Afficher l'auteur de la dernière modification</button>
       <button id="bouton_AffichageStatut" onclick="AffichageStatut(this)">Afficher l'Avancement de l'opération (%)</button>
     </div>
   
+    <!-- Bouton pour afficher la modale de réglages -->
     <button class="bouton-reglages" onclick="montrerReglages()">⚙️</button>
 
+    <!-- Informations détaillées sur l'opération sélectionnée -->
     <div class="info_op">
       <p id="op_select">---</p>
       <p id="Etape_select">----</p>
@@ -93,6 +108,7 @@
       <p id="Profil_select">----</p>
     </div>
 
+    <!-- Texte d'information pour la sélection -->
     <p id="Texte_select">
     {% if projet is defined %}
       Sélectionnez une tâche du projet : {{ projet['nom'] }}
@@ -101,15 +117,17 @@
     {% endif %}
     </p>
 
+    <!-- Actions utilisateur sur l'opération sélectionnée -->
     <div class="Action_user">
-    <p id="Compte_select">--%</p>
-    <p id="Statut_select" title="Votre info-bulle ici">--%</p>
+      <p id="Compte_select">--%</p>
+      <p id="Statut_select" title="Votre info-bulle ici">--%</p>
       <button id="bouton_A_FAIRE">A FAIRE</button>
       <button id="bouton_EN_COURS">EN COURS</button>
       <button id="bouton_FAIT">FAIT</button>
     </div>
   </footer>
 
+  <!-- Scripts JavaScript -->
   <script src="/static/js/Reglages_Affichage_boite_de_dialogue.js"></script>
   <script src="/static/js/clic_bouton_compte.js"></script>
   <script src="/static/js/clic_bouton_projets.js"></script>
@@ -117,7 +135,5 @@
   <script src="/static/js/clic_cellule_operation.js"></script>
   <script src="/static/js/clic_bouton_AFAIRE_ENCOURS_FAIT.js"></script>
   <script src="/static/js/TempsReel_Operation_change.js"></script>
-
-
 </body>
 </html>

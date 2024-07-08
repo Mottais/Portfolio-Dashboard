@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Méta-données -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <!-- Feuille de style externe -->
     <link rel="stylesheet" href="/static/css/login.css">
 </head>
 <body>
 
+    <!-- Messages Flash -->
     {% with messages = get_flashed_messages(with_categories=true) %}
-      {% if messages %}
-        <ul class="flashes">
-          {% for category, message in messages %}
-            <li class="{{ category }}">{{ message }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+        {% if messages %}
+            <!-- Liste des messages flash -->
+            <ul class="flashes">
+                {% for category, message in messages %}
+                    <!-- Élément de message flash avec catégorie -->
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
     {% endwith %}
 
+    <!-- Titres d'information -->
     <h3>Veuillez entrer votre identifiant</h3>
     <h3>et votre mot de passe</h3>
+
+    <!-- Formulaire de connexion -->
     <form method="POST">
+        <!-- Champ de saisie pour le nom -->
         <input type="text" name="nom" placeholder="Nom" required>
+        <!-- Champ de saisie pour le mot de passe -->
         <input type="password" name="mot_de_passe" placeholder="Mot de passe" required>
+        <!-- Bouton de soumission du formulaire -->
         <button type="submit">Valider</button>
     </form>
 

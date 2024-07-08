@@ -1,25 +1,25 @@
-    let socket = io();
+// Initialisation du socket.io
+let socket = io();
 
-    // Test la connexion au serveur WebSocket
-    // socket.on('connect', function() {
-    //   alert('La connexion au serveur WebSocket établie avec succès');
-    // });
+// Écouteur d'événement pour recevoir les mises à jour de statut depuis le serveur
+socket.on('update_status', function(data) {
+    // Récupération des données de l'événement
+    let operationId = data.id;
+    let nouveauStatut = data.nouveau_statut;
+    let compte = data.compte;
 
-    socket.on('update_status', function(data) {
-        // alert(`événement 'update_status' reçu avec id: ${data.id} et statut: ${data.nouveau_statut}`);
-        let operationId = data.id;
-        let nouveauStatut = data.nouveau_statut;
-        let compte = data.compte;
+    // Sélection de la cellule correspondante dans le tableau
+    let cell = document.getElementById(operationId);
+    if (cell) {
+        // Mise à jour des attributs dataset de la cellule
+        cell.dataset.statut = nouveauStatut;
+        cell.dataset.compte = compte;
 
-        let cell = document.getElementById(operationId);
-        if (cell) {
-          // alert(`Cellule trouvée pour id: ${operationId} et mis àjour dans cette page`);
-          cell.dataset.statut = nouveauStatut;
-          cell.dataset.compte = compte;
-          // cell.innerText = nouveauStatut;
-          let elementSelected = document.querySelector('[selected="true"]');
-          if (elementSelected.id == operationId) { miseAJourBoiteDeDialogue(elementSelected)}
-        } // else {
-        //   alert(`Cellule non trouvée pour id: ${operationId}`);
-        // }
-      });
+        // Vérification si une cellule est actuellement sélectionnée
+        let elementSelected = document.querySelector('[selected="true"]');
+        if (elementSelected && elementSelected.id === operationId) {
+            // Si la cellule sélectionnée correspond à celle mise à jour, mettre à jour la boîte de dialogue
+            miseAJourBoiteDeDialogue(elementSelected);
+        }
+    }
+});

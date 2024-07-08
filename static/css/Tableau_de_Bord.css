@@ -1,266 +1,272 @@
 /* PORTFOLIO/static/css/styles.css */
 
+/* Applique une marge et un padding de 0 à tous les éléments, et utilise le modèle de boîte border-box */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styles globaux pour le corps de la page */
 body {
-    background-color: rgb(144, 144, 139);
+    background-color: rgb(144, 144, 139); /* Couleur de fond */
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0px;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column; /* Affichage en colonne */
+    height: 100vh; /* Hauteur de la vue */
+    margin: 0px; /* Supprime la marge par défaut */
+    font-size: 25px; /* Taille de police */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Police de caractères */
 }
 
-
-/* Ajout des styles pour la boîte Entête de page */
+/* Ajout des styles pour l'en-tête de page */
 header {
     color: white;
-    background: #121212;
+    background: #121212; /* Couleur de fond */
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row; /* Affichage en ligne */
+    align-items: center; /* Alignement des éléments au centre */
     gap: 10px; /* Espacement entre les éléments */
 }
 
+/* Style pour le logo dans l'en-tête */
 #logo {
     margin: 10px;
 }
 
-/* Ajout des styles pour la boîte 'PROJETS' */
+/* Ajout des styles pour le bouton 'PROJETS' */
 #dropdown {
-    background: #ef3939;
-    min-width: 350px;
-    font-size: 25px;
+    background: #ef3939; /* Couleur de fond */
+    min-width: 350px; /* Largeur minimale */
+    font-size: 25px; /* Taille de police */
 }
 
+/* Styles pour la liste déroulante de 'PROJETS' */
 #dropdown ul {
-    box-sizing:content-box;
-    list-style-type: none;
-    background: #ef3939ec;
-    display: none;
-    border-style: none;
+    box-sizing: content-box;
+    list-style-type: none; /* Supprime les puces de la liste */
+    background: #ef3939ec; /* Couleur de fond */
+    display: none; /* Cache la liste par défaut */
+    border-style: none; /* Supprime le style de bordure */
 
     margin: 2px;
-    border: 1px solid rgb(75, 73, 73);
+    border: 1px solid rgb(75, 73, 73); /* Bordure */
     position: absolute; /* Position absolue */
     width: 100%; /* Même largeur que #dropdown */
     top: 100%; /* Position sous #dropdown */
-    display: none;
-    max-height: 80vh;
-    overflow-y: auto;
-    cursor:grab;
-    border-radius: 5px;
+    max-height: 80vh; /* Hauteur maximale */
+    overflow-y: auto; /* Défilement vertical si nécessaire */
+    cursor: grab; /* Curseur de type "grab" */
+    border-radius: 5px; /* Coins arrondis */
 }
 
+/* Style pour le nom de compte affiché dans l'en-tête */
 #nom_compte {
-    margin-left: auto;
+    margin-left: auto; /* Espace automatique à gauche */
 
-    display: flex; /* 'none' pour masquer 'flex' pour afficher */
-    }
-
-#nom_compte {
-    background: #d36d08;
-    min-width: 250px;
-    font-size: 25px;
+    display: flex; /* Affichage en flex */
 }
+
+/* Style pour le conteneur du nom de compte */
+#nom_compte {
+    background: #d36d08; /* Couleur de fond */
+    min-width: 250px; /* Largeur minimale */
+    font-size: 25px; /* Taille de police */
+}
+
+/* Styles pour la liste déroulante du nom de compte */
 #nom_compte ul {
-    box-sizing:content-box;
-    list-style-type: none;
-    background: #d36d08;
-    display: none;
-    border-style: none;
+    box-sizing: content-box;
+    list-style-type: none; /* Supprime les puces de la liste */
+    background: #d36d08; /* Couleur de fond */
+    display: none; /* Cache la liste par défaut */
+    border-style: none; /* Supprime le style de bordure */
 
     margin: 2px;
-    border: 1px solid rgb(75, 73, 73);
+    border: 1px solid rgb(75, 73, 73); /* Bordure */
     position: absolute; /* Position absolue */
-    width: 100%; /* Même largeur que #dropdown */
-    top: 100%; /* Position sous #dropdown */
-    max-height: 80vh;
-    overflow-y: auto;
-    cursor:grab;
-    border-radius: 5px;
+    width: 100%; /* Même largeur que #nom_compte */
+    top: 100%; /* Position sous #nom_compte */
+    max-height: 80vh; /* Hauteur maximale */
+    overflow-y: auto; /* Défilement vertical si nécessaire */
+    cursor: grab; /* Curseur de type "grab" */
+    border-radius: 5px; /* Coins arrondis */
 }
 
+/* Style pour le bouton du nom de compte */
 #bouton_nom_compte {
-    background: #d36d08;
-    min-width: 50px;
-    font-family:'Gill Sans MT';
-    padding-bottom: 3px;
-    font-size: 30px;
-    display: flex; /* 'none' pour masquer 'flex' pour afficher */
-    margin-right: 5px;
+    background: #d36d08; /* Couleur de fond */
+    min-width: 50px; /* Largeur minimale */
+    font-family: 'Gill Sans MT'; /* Police de caractères */
+    padding-bottom: 3px; /* Padding en bas */
+    font-size: 30px; /* Taille de police */
+    display: flex; /* Affichage en flex */
+    margin-right: 5px; /* Marge à droite */
 }
 
+/* Style pour la section du tableau de bord */
 .tableau-de_bord {
-    flex-grow: 1;
-    overflow-x: auto;
+    flex-grow: 1; /* Prend tout l'espace disponible */
+    overflow-x: auto; /* Défilement horizontal si nécessaire */
 }
 
+/* Style pour les tables */
 table {
-    width: 100%;
-    border-spacing: 2px;
+    width: 100%; /* Largeur complète */
+    border-spacing: 2px; /* Espacement entre les cellules */
 }
 
+/* Style pour les cellules (td) */
 td {
-    padding: 5px;
-    border: 1px solid rgb(75, 73, 73);
-    border-radius: 25px;
-    min-width: 150px;
-    max-width: 200px;
-    height: 50px;
-    text-align: center;
-    overflow: hidden; /* Cache tout contenu dépassant la hauteur maximale */
-    text-overflow: ellipsis; /* Ajoute des points de suspension (...) pour indiquer que le texte est tronqué */
+    padding: 5px; /* Padding interne */
+    border: 1px solid rgb(75, 73, 73); /* Bordure */
+    border-radius: 25px; /* Coins arrondis */
+    min-width: 150px; /* Largeur minimale */
+    max-width: 200px; /* Largeur maximale */
+    height: 50px; /* Hauteur */
+    text-align: center; /* Alignement du texte */
+    overflow: hidden; /* Cache le contenu débordant */
+    text-overflow: ellipsis; /* Points de suspension pour le texte débordant */
     white-space: nowrap; /* Empêche le texte de passer à la ligne */
 }
 
+/* Style pour les en-têtes de colonnes (th) */
 th {
-    height: 50px;
-    padding: 5px;
-    position: sticky;
-    top: 0;
-    background: #3a8d19;
-    border-radius: 0px;
-    z-index: 1;
+    height: 50px; /* Hauteur */
+    padding: 5px; /* Padding interne */
+    position: sticky; /* Positionnement fixe */
+    top: 0; /* Positionnement en haut */
+    background: #3a8d19; /* Couleur de fond */
+    border-radius: 0px; /* Coins non arrondis */
+    z-index: 1; /* Niveau de superposition */
 }
 
+/* Style spécifique pour le premier en-tête de colonne */
 th:first-of-type {
-    left: 0;
+    left: 0; /* Positionnement à gauche */
 
-    z-index: 3;
-    background: #ef3939;
+    z-index: 3; /* Niveau de superposition */
+    background: #ef3939; /* Couleur de fond */
 }
 
+/* Style spécifique pour la première cellule de chaque ligne */
 td:first-of-type {
-    position: sticky;
-    left: 0;
-    background: #ee6262;
-    border-radius: 10px;
-    z-index: 2;
-}
-th:first-of-type {
-    left: 0;
+    position: sticky; /* Positionnement fixe */
+    left: 0; /* Positionnement à gauche */
+    background: #ee6262; /* Couleur de fond */
+    border-radius: 10px; /* Coins arrondis */
+    z-index: 2; /* Niveau de superposition */
 }
 
-
+/* Couleur de fond pour les cellules avec statut "None" */
 [data-statut="None"] {
-background-color: rgb(144, 144, 139); /* Changez la couleur selon votre préférence */
-color: rgb(144, 144, 139);
+    background-color: rgb(144, 144, 139); /* Changez la couleur selon votre préférence */
+    color: rgb(144, 144, 139);
 }
 
-/* Statut EN COURS */
+/* Couleur de fond pour les cellules avec statut "EN COURS" */
 td[data-statut]:not([data-statut="None"]):not([data-statut="0"]):not([data-statut="100"]) {
     background: rgb(70, 120, 180);
-    }
-td[data-statut]:not([data-statut="None"]):not([data-statut="0"]):not([data-statut="100"]):hover  {
+}
+
+/* Couleur de fond au survol pour les cellules avec statut "EN COURS" */
+td[data-statut]:not([data-statut="None"]):not([data-statut="0"]):not([data-statut="100"]):hover {
     background: rgb(70, 120, 180, 0.5);
     cursor: pointer;
-    }
+}
 
-
+/* Couleur de fond pour les cellules avec statut "0" */
 [data-statut="0"] {
-        background-color: rgb(204, 204, 41);
-        cursor: pointer;
-    }
+    background-color: rgb(204, 204, 41);
+    cursor: pointer;
+}
 
+/* Couleur de fond au survol pour les cellules avec statut "0" */
 [data-statut="0"]:hover {
-        background-color: rgba(204, 204, 41, 0.5); /* Changez la couleur selon votre préférence */
-    }
+    background-color: rgba(204, 204, 41, 0.5); /* Changez la couleur selon votre préférence */
+}
 
+/* Couleur de fond pour les cellules avec statut "100" */
 [data-statut="100"] {
-        background-color:  rgb(41, 112, 44); /* Changez la couleur selon votre préférence */
-        cursor: pointer
-    }
+    background-color: rgb(41, 112, 44); /* Changez la couleur selon votre préférence */
+    cursor: pointer;
+}
 
+/* Couleur de fond au survol pour les cellules avec statut "100" */
 [data-statut="100"]:hover {
-        background-color: rgba(41, 112, 44, 0.5); /* Changez la couleur selon votre préférence */
-    }
+    background-color: rgba(41, 112, 44, 0.5); /* Changez la couleur selon votre préférence */
+}
 
+/* Bordure pour les cellules avec modification autorisée */
 [modif_autoris="oui"] {
-    border: 2px solid #d36d08;;
-    }
-    
+    border: 2px solid #d36d08;
+}
+
 /* Définition des styles pour la cellule sélectionnée */
 [selected="true"] {
     border: 5px solid red;
-    }
+}
 
-
-
-/* Ajout des styles pour la boîte Pied de page */
+/* Ajout des styles pour le pied de page */
 footer {
-        color: white;
-        padding: 5px;
-        background: #121212;
-        display: flex;
-        /* flex-direction: row; */
-        align-items: center;
-        flex-wrap: wrap; /* Permet de passer les éléments à la ligne si nécessaire */
-        gap: 10px; /* Espacement entre les éléments */
-    }
+    color: white;
+    padding: 5px;
+    background: #121212; /* Couleur de fond */
+    display: flex;
+    align-items: center; /* Alignement vertical */
+    flex-wrap: wrap; /* Permet de passer les éléments à la ligne si nécessaire */
+    gap: 10px; /* Espacement entre les éléments */
+}
 
+/* Style pour les informations opérationnelles dans le pied de page */
 .info_op {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex; /* Utilisation de flexbox */
-        align-items: center; /* Centrage vertical */
-        justify-content: center; /* Centrage horizontal */
-        gap: 20px; /* Espacement entre les éléments */
-    }
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    gap: 20px; /* Espacement entre les éléments */
+}
+
+/* Style pour les actions utilisateur dans le pied de page */
 .Action_user {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex; /* Utilisation de flexbox */
-        align-items: center; /* Centrage vertical */
-        justify-content: center; /* Centrage horizontal */
-        gap: 10px; /* Espacement entre les éléments */
-    }
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    gap: 10px; /* Espacement entre les éléments */
+}
 
-#op_select {
-        display: none; /* 'none' pour masquer 'flex' pour afficher */
-    }
+/* Styles pour les différents éléments de sélection dans le pied de page */
+#op_select,
+#Etape_select,
+#Paquet_select,
+#Profil_select,
+#Compte_select,
+#Statut_select {
+    display: none; /* 'none' pour masquer, 'flex' pour afficher */
+}
 
-#Etape_select {
-        display: none; /* 'none' pour masquer 'flex' pour afficher */
-        color: #3a8d19;
-    }
-
-#Paquet_select {
-        display: none; /* 'none' pour masquer 'flex' pour afficher */
-        color: #ee6262;
-    }
-
-#Profil_select {
-        display: none; /* 'none' pour masquer 'flex' pour afficher */
-        color: #d36d08;
-
-    }
-
+/* Style pour le texte de sélection dans le pied de page */
 #Texte_select {
-        min-height: 40px;
-        min-width: 450px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        background: whitesmoke;
-        color: black;
-        display: flex;
-        text-align: center;
-        border-radius: 5px;
+    min-height: 40px; /* Hauteur minimale */
+    min-width: 450px; /* Largeur minimale */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
 
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    flex-grow: 1; /* Occuper tout l'espace disponible */
+}
 
-        align-items: center; /* Centrage vertical */
-        justify-content: center; /* Centrage horizontal */
-        flex-grow: 1; /* Occuper tout l'espace disponible */
-
-      }
-
+/* Style pour le statut de sélection dans le pied de page */
 #Statut_select {
     background: whitesmoke;
     color: black;
@@ -271,27 +277,19 @@ footer {
     align-items: center; /* Centrage vertical */
     justify-content: center; /* Centrage horizontal */
 
-    display: flex; /* 'none' pour masquer 'flex' pour afficher */
-    }
+    display: flex; /* 'none' pour masquer, 'flex' pour afficher */
+}
 
-#Compte_select {
-        display: none; /* 'none' pour masquer 'flex' pour afficher */
-    }
-
-#Statut_select {
-        display: none; /* 'none' pour masquer 'flex' pour afficher */
-    }
-
+/* Style pour les boutons généraux */
 button {
-    min-width: 120px;
-    font-size: 20px;
+    min-width: 120px; /* Largeur minimale */
+    font-size: 20px; /* Taille de police */
     color: rgb(245, 245, 245);
-
-    height: 50px;
-    text-align: center;
-    cursor: pointer;
-    z-index: 4;
-    border-radius: 60px;
+    height: 50px; /* Hauteur */
+    text-align: center; /* Alignement du texte */
+    cursor: pointer; /* Curseur de type "pointer" */
+    z-index: 4; /* Niveau de superposition */
+    border-radius: 60px; /* Coins arrondis */
 
     display: flex; /* Utilisation de flexbox */
     align-items: center; /* Centrage vertical */
@@ -300,75 +298,83 @@ button {
     position: relative; /* Position relative */
 }
 
+/* Style pour les boutons de réglages */
 .bouton-reglages {
-    padding-bottom: 5px;
-    font-size: 30px;
+    padding-bottom: 5px; /* Padding en bas */
+    font-size: 30px; /* Taille de police */
     background: white;
-    cursor: pointer;
-    border-radius: 50%;
-    min-width: 50px;
-    height: 50px;
-    margin-left: 5px;
+    cursor: pointer; /* Curseur de type "pointer" */
+    border-radius: 50%; /* Coins arrondis */
+    min-width: 50px; /* Largeur minimale */
+    height: 50px; /* Hauteur */
+    margin-left: 5px; /* Marge à gauche */
     color: white;
 }
 
+/* Style pour les modales de réglages */
 .modale-reglages {
     color: darkslategray;
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 20px black;
+    display: none; /* Cache la modale par défaut */
+    position: fixed; /* Positionnement fixe */
+    top: 50%; /* Centrage vertical */
+    left: 50%; /* Centrage horizontal */
+    transform: translate(-50%, -50%); /* Centrage exact */
+    width: 450px; /* Largeur */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 20px; /* Padding interne */
+    box-shadow: 0 0 20px black; /* Ombre */
     background-color: white;
-    z-index: 1000;
-    text-align: center;
+    z-index: 1000; /* Niveau de superposition élevé */
+    text-align: center; /* Alignement du texte */
 }
 
+/* Style pour les boutons dans les modales de réglages */
 .modale-reglages button {
     color: darkslategray;
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 18px;
-    cursor: pointer;
+    display: block; /* Affichage en bloc */
+    width: 100%; /* Largeur complète */
+    margin: 10px 0; /* Marge verticale */
+    padding: 10px; /* Padding interne */
+    font-size: 18px; /* Taille de police */
+    cursor: pointer; /* Curseur de type "pointer" */
     background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px #aaa, -2px -2px 5px #fff;
-    transition: all 0.3s ease;
+    border: 1px solid #ccc; /* Bordure */
+    box-shadow: 2px 2px 5px #aaa, -2px -2px 5px #fff; /* Ombres */
+    transition: all 0.3s ease; /* Transition douce */
 }
 
-.modale-reglages button:active, .modale-reglages button.active {
+/* Style pour les boutons actifs dans les modales de réglages */
+.modale-reglages button:active,
+.modale-reglages button.active {
     background-color: #ddd;
     box-shadow: inset 2px 2px 5px #aaa, inset -2px -2px 5px #fff;
 }
 
+/* Style pour le bouton quitter les réglages */
 #bouton_quitter_reglages {
-    min-width: 50px;
-    max-width: 50px;
-    font-size: 30px;
-    padding-top: 7px;
+    min-width: 50px; /* Largeur minimale */
+    max-width: 50px; /* Largeur maximale */
+    font-size: 30px; /* Taille de police */
+    padding-top: 7px; /* Padding en haut */
     color: whitesmoke;
-    background: #ef3939;
+    background: #ef3939; /* Couleur de fond */
     display: inline-flex;
-    
 }
 
+/* Styles pour les boutons de statut dans le pied de page */
 #bouton_A_FAIRE {
-    background: rgb(204, 204, 41);
+    background: rgb(204, 204, 41); /* Couleur de fond */
 }
 
 #bouton_EN_COURS {
-    background: rgb(70, 120, 180);
-}
-#bouton_FAIT {
-    background: rgb(41, 112, 44);
+    background: rgb(70, 120, 180); /* Couleur de fond */
 }
 
-    li {
-        margin: 10px;
-    }
+#bouton_FAIT {
+    background: rgb(41, 112, 44); /* Couleur de fond */
+}
+
+/* Style pour les éléments de liste */
+li {
+    margin: 10px; /* Marge */
+}
