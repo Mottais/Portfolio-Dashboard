@@ -33,7 +33,7 @@ header {
     margin: 10px;
 }
 
-/* Ajout des styles pour le bouton 'PROJETS' */
+/* Ajout des styles pour la boîte 'PROJETS' */
 #dropdown {
     background: #ef3939; /* Couleur de fond */
     min-width: 350px; /* Largeur minimale */
@@ -245,6 +245,18 @@ footer {
 #Compte_select,
 #Statut_select {
     display: none; /* 'none' pour masquer, 'flex' pour afficher */
+}
+
+#Etape_select {
+    color: #3a8d19;
+}
+
+#Paquet_select {
+    color: #ee6262;
+}
+
+#Profil_select {
+    color: #d36d08;
 }
 
 /* Style pour le texte de sélection dans le pied de page */
