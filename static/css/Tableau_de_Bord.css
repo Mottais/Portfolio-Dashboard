@@ -288,8 +288,6 @@ footer {
     border-radius: 5px;
     align-items: center; /* Centrage vertical */
     justify-content: center; /* Centrage horizontal */
-
-    display: flex; /* 'none' pour masquer, 'flex' pour afficher */
 }
 
 /* Style pour les boutons généraux */
