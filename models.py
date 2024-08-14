@@ -13,8 +13,8 @@ class AccesBDD:
         self.connexion = MySQLdb.connect(
             host="localhost",
             port=3306,
-            user='DEV',
-            passwd='pw@DEV',
+            user='USER',
+            passwd='pw@USER',
             db=BDD)
 
     def get_compte_by_id(self, compte_id):
