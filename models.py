@@ -1,6 +1,10 @@
 # PORTFOLIO/models.py
 import MySQLdb
+from dotenv import load_dotenv
 import os
+
+# Charger les variables d'environnement depuis le fichier .env
+load_dotenv()
 
 class AccesBDD:
     def __init__(self, BDD=os.getenv('DB_NAME')):
@@ -9,7 +13,7 @@ class AccesBDD:
 
         :param BDD: Nom de la base de données,par défaut la variable d'env
         """
-        print('Connexion à la base de données')
+        print("Connexion à la base de données :", BDD)
         self.connexion = MySQLdb.connect(
             host=os.getenv('DB_HOST'),
             port=int(os.getenv('DB_PORT')),
