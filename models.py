@@ -1,20 +1,20 @@
 # PORTFOLIO/models.py
 import MySQLdb
-
+import os
 
 class AccesBDD:
-    def __init__(self, BDD='TABLEAU_DE_BORD_JARNOT_DEV'):
+    def __init__(self, BDD=os.getenv('DB_NAME')):
         """
         Initialise une connexion à la base de données MySQL.
 
-        :param BDD: Nom base de données,par défaut 'TABLEAU_DE_BORD_JARNOT_DEV'
+        :param BDD: Nom de la base de données,par défaut la variable d'env
         """
         print('Connexion à la base de données')
         self.connexion = MySQLdb.connect(
-            host="localhost",
-            port=3306,
-            user='USER',
-            passwd='pw@USER',
+            host=os.getenv('DB_HOST'),
+            port=int(os.getenv('DB_PORT')),
+            user=os.getenv('DB_USER'),
+            passwd=os.getenv('DB_PASSWORD'),
             db=BDD)
 
     def get_compte_by_id(self, compte_id):
